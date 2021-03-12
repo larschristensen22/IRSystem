@@ -5,16 +5,19 @@ import java.util.Scanner;
 
 public class Parser {
     
-    ArrayList<Document> docs;
+    static ArrayList<Document> docs;
 
-    public ArrayList<Document> trecParser() {
+    public static ArrayList<Document> trecParser(String directory) throws FileNotFoundException {
         docs = new ArrayList<Document>();
-        File directoryPath = new File("");
+        File directoryPath = new File(directory);
         File filesList[] = directoryPath.listFiles();
+        String line;
         for (File file: filesList){
+            System.out.println(file);
             Scanner sc = new Scanner(file); 
             String docID = "";
             String text = "";
+            
             while (sc.hasNextLine()) {
                 line = sc.nextLine();
                 if (!docID.equals("") && !text.equals("")) {
@@ -28,11 +31,14 @@ public class Parser {
                     docID += line.substring(line.indexOf(">"), line.indexOf("</"));
                 }
                 else if (line.contains("<TEXT>")) {
-                    while (!sc.nextLine().equals("</TEXT>"))
+                    while (!sc.nextLine().contains("<"))
                         text += " " + sc.nextLine();
                 }
             }
+            sc.close();
         }
+
+        return docs;
         
     }
 }
