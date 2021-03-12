@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Parser {
-    
+
     static ArrayList<Document> docs;
 
     public static ArrayList<Document> trecParser(String directory) throws FileNotFoundException {
@@ -17,10 +17,12 @@ public class Parser {
             Scanner sc = new Scanner(file); 
             String docID = "";
             String text = "";
-            
+            boolean textTag = false;
+
             while (sc.hasNextLine()) {
                 line = sc.nextLine();
-                if (!docID.equals("") && !text.equals("")) {
+
+                if (!docID.equals("") && !text.equals("") && !textTag) {
                     Document doc = new Document(docID, text);
                     docs.add(doc);
                     docID = "";
@@ -28,17 +30,23 @@ public class Parser {
                 }
 
                 else if (line.contains("<DOCNO>")){
-                    docID += line.substring(line.indexOf(">"), line.indexOf("</"));
+                    docID += line.substring(line.indexOf(">") + 1, line.indexOf("</"));
                 }
                 else if (line.contains("<TEXT>")) {
-                    while (!sc.nextLine().contains("<"))
-                        text += " " + sc.nextLine();
+                    textTag = true;
                 }
+                else if (line.contains("</TEXT>")) {
+                    textTag = false;
+                }
+                else if (textTag) {
+                    text += line + " ";
+                }
+                
             }
             sc.close();
         }
 
         return docs;
-        
+
     }
 }
