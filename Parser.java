@@ -7,8 +7,11 @@ public class Parser {
 
     static ArrayList<Document> docs;
 
-    public static ArrayList<Document> trecParser(String directory) throws FileNotFoundException {
+    public Parser() {
         docs = new ArrayList<Document>();
+    }
+
+    public ArrayList<Document> trecParser(String directory) throws FileNotFoundException {
         File directoryPath = new File(directory);
         File filesList[] = directoryPath.listFiles();
         String line;
