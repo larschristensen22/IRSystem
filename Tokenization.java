@@ -18,12 +18,6 @@ public class Tokenization
         this.tokens = new ArrayList<String>();
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
     public ArrayList<String> tokenize(ArrayList<Document> docs)
     {
 
@@ -32,10 +26,37 @@ public class Tokenization
             StringTokenizer tokenizer = new StringTokenizer(docs.get(i).getText());
             while (tokenizer.hasMoreTokens()) {
                 String token = tokenizer.nextToken();
+                token = removePunctuation(token);
+                token = token.trim();
                 tokens.add(token);
             }
         }
         return tokens;
 
+    }
+
+    public String removePunctuation(String token) {
+        token = token.toLowerCase();
+        String newToken = "";
+        
+        if(token.contains("'")) {
+            int apostropheIndex = token.indexOf("'");
+            if (token.substring(apostropheIndex+1).length() <= 1) {
+                token = token.substring(0, apostropheIndex);
+            }
+        }
+        for (int i = 0; i < token.length(); i++) {
+            char c = token.charAt(i);
+            
+            if(Character.isLetter(c)) {
+                newToken += c;
+            }
+            else if(Character.isDigit(c)) {
+                newToken += c;
+            }
+
+        }
+        
+        return newToken;
     }
 }
