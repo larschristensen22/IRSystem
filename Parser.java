@@ -16,7 +16,7 @@ public class Parser {
         File filesList[] = directoryPath.listFiles();
         String line;
         for (File file: filesList){
-            System.out.println(file);
+            //System.out.println(file);
             Scanner sc = new Scanner(file); 
             String docID = "";
             String text = "";
