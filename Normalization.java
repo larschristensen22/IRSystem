@@ -1,4 +1,7 @@
-
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
 /**
  * Write a description of class Normalization here.
  *
@@ -7,27 +10,30 @@
  */
 public class Normalization
 {
-    // instance variables - replace the example below with your own
-    private int x;
 
-    /**
-     * Constructor for objects of class Normalization
-     */
     public Normalization()
     {
-        // initialise instance variables
-        x = 0;
+        
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public ArrayList<String> removeStopWords(ArrayList<String> tokens) throws FileNotFoundException {
+        Scanner sc = new Scanner(new File("StopWords.txt"));
+        ArrayList<String> stopWords = new ArrayList<String>();
+        while (sc.hasNextLine()) {
+            String word = sc.nextLine();
+            stopWords.add(word);
+            System.out.println("STOP WORD: " + word);
+        }
+        sc.close();
+        
+
+        for (int i = 0; i < tokens.size(); i++) {
+            for (int j = 0; j < stopWords.size(); j++) {
+                if(tokens.get(i).equals(stopWords.get(j))) {
+                    tokens.set(i, "");
+                }
+            }
+        }
+        return tokens;
     }
 }
