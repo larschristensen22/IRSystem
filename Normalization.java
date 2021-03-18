@@ -2,6 +2,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.HashSet;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Iterator;
 /**
  * Write a description of class Normalization here.
  *
@@ -11,28 +16,33 @@ import java.util.Scanner;
 public class Normalization
 {
 
-    public Normalization()
+    private HashSet<String> stopWords;
+    public Normalization() throws FileNotFoundException, IOException
     {
-        
+
+        Path fileName = Path.of("StopWords.txt");
+
+        String actual = Files.readString(fileName);
+
+        String[] words = actual.split("\n");
+        stopWords = new HashSet<String>();
+
+        for (int i = 0; i < words.length; i++) {
+            //System.out.print("WORD: " + words[i]);
+            words[i] = words[i].trim();
+            stopWords.add(words[i]);
+        }
+
     }
 
-    public ArrayList<String> removeStopWords(ArrayList<String> tokens) throws FileNotFoundException {
-        Scanner sc = new Scanner(new File("StopWords.txt"));
-        ArrayList<String> stopWords = new ArrayList<String>();
-        while (sc.hasNextLine()) {
-            String word = sc.nextLine();
-            stopWords.add(word);
-            System.out.println("STOP WORD: " + word);
-        }
-        sc.close();
-        
+    public ArrayList<String> removeStopWords(ArrayList<String> tokens){
 
         for (int i = 0; i < tokens.size(); i++) {
-            for (int j = 0; j < stopWords.size(); j++) {
-                if(tokens.get(i).equals(stopWords.get(j))) {
-                    tokens.set(i, "");
-                }
+            if (stopWords.contains(tokens.get(i))){
+                tokens.remove(i);
+                i--;
             }
+
         }
         return tokens;
     }
