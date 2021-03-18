@@ -1,29 +1,32 @@
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.io.IOException;
+import java.io.File;
 
 public class IRSystem {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException, IOException {
         String directory = "TrainingData/";
+
         Parser parser = new Parser();
-        ArrayList<Document> docs = parser.trecParser(directory);
+        ArrayList<Document> docs = new ArrayList<Document>();
+        Document doc;
+
         Tokenization tokens = new Tokenization();
-        ArrayList<String> newTokens = tokens.tokenize(docs);
+        ArrayList<String> newTokens;
         Normalization normalize = new Normalization();
-        ArrayList<String> test = new ArrayList<String>();
-        for (int i = 0; i < 100; i++) {
-            test.add(newTokens.get(i));
+        File directoryPath = new File(directory);
+        File filesList[] = directoryPath.listFiles();
+
+        for (File file: filesList){
+            System.out.println("filename: "+ file.toString());
+            docs = parser.trecParser(file.toString());
+            for (int i = 0; i < docs.size(); i++) {
+                newTokens = tokens.tokenize(docs.get(i));
+                newTokens = normalize.removeStopWords(newTokens);
+            }
+
         }
-        // ArrayList<String> test = new ArrayList<String>();
-        // for (int i = 0; i < 20; i++) {
-        //     test.add("the");
-        // }
-        test = normalize.removeStopWords(test);
-        for (int i = 0; i < test.size(); i++) {
-            System.out.println(test.get(i));
-        }
-        //System.out.println("TEST WORD: " + tokens.removePunctuation("You're"));
-        //System.out.println(docs.get(0).getDocID());
-        //System.out.println(docs.get(0).getText());
+
 
     }
 }
