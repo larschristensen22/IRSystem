@@ -1,55 +1,56 @@
 import java.util.ArrayList;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
-
+import java.nio.file.Files;
+import java.nio.file.Path;
 public class Parser {
 
-    static ArrayList<Document> docs;
+    private Document doc;
+    private ArrayList<Document> docs;
 
     public Parser() {
         docs = new ArrayList<Document>();
     }
 
-    public ArrayList<Document> trecParser(String directory) throws FileNotFoundException {
+    public ArrayList<Document> trecParser(String directory) throws FileNotFoundException, IOException {
         File directoryPath = new File(directory);
         File filesList[] = directoryPath.listFiles();
-        String line;
-        for (File file: filesList){
-            //System.out.println(file);
-            Scanner sc = new Scanner(file); 
-            String docID = "";
-            String text = "";
-            boolean textTag = false;
 
-            while (sc.hasNextLine()) {
-                line = sc.nextLine();
+        Path fileName = Path.of(directory);
+        String actual = Files.readString(fileName);
 
-                if (!docID.equals("") && !text.equals("") && !textTag) {
-                    Document doc = new Document(docID, text);
-                    docs.add(doc);
-                    docID = "";
-                    text = "";
-                }
+        String[] words = actual.split("\n");
 
-                else if (line.contains("<DOCNO>")){
-                    docID += line.substring(line.indexOf(">") + 1, line.indexOf("</"));
-                }
-                else if (line.contains("<TEXT>")) {
-                    textTag = true;
-                }
-                else if (line.contains("</TEXT>")) {
-                    textTag = false;
-                }
-                else if (textTag) {
-                    text += line + " ";
-                }
-                
+        String docID = "";
+        String text = "";
+        boolean textTag = false;
+
+        for (int i = 0; i < words.length; i++) {
+
+            if (!docID.equals("") && !text.equals("") && !textTag) {
+                doc = new Document(docID, text);
+                docs.add(doc);
+                docID = "";
+                text = "";
             }
-            sc.close();
+
+            else if (words[i].contains("<DOCNO>")){
+                docID += words[i].substring(words[i].indexOf(">") + 1, words[i].indexOf("</"));
+            }
+            else if (words[i].contains("<TEXT>")) {
+                textTag = true;
+            }
+            else if (words[i].contains("</TEXT>")) {
+                textTag = false;
+            }
+            else if (textTag) {
+                text += words[i] + " ";
+            }
+
         }
 
         return docs;
-
     }
 }
