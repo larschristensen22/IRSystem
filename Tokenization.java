@@ -18,19 +18,17 @@ public class Tokenization
         this.tokens = new ArrayList<String>();
     }
 
-    public ArrayList<String> tokenize(ArrayList<Document> docs)
+    public ArrayList<String> tokenize(Document doc)
     {
 
-        for (int i = 0; i < docs.size(); i++) {
-
-            StringTokenizer tokenizer = new StringTokenizer(docs.get(i).getText());
-            while (tokenizer.hasMoreTokens()) {
-                String token = tokenizer.nextToken();
-                token = removePunctuation(token);
-                token = token.trim();
-                tokens.add(token);
-            }
+        StringTokenizer tokenizer = new StringTokenizer(doc.getText());
+        while (tokenizer.hasMoreTokens()) {
+            String token = tokenizer.nextToken();
+            token = removePunctuation(token);
+            token = token.trim();
+            tokens.add(token);
         }
+
         return tokens;
 
     }
@@ -38,7 +36,7 @@ public class Tokenization
     public String removePunctuation(String token) {
         token = token.toLowerCase();
         String newToken = "";
-        
+
         if(token.contains("'")) {
             int apostropheIndex = token.indexOf("'");
             if (token.substring(apostropheIndex+1).length() <= 1) {
@@ -47,7 +45,7 @@ public class Tokenization
         }
         for (int i = 0; i < token.length(); i++) {
             char c = token.charAt(i);
-            
+
             if(Character.isLetter(c)) {
                 newToken += c;
             }
@@ -56,7 +54,7 @@ public class Tokenization
             }
 
         }
-        
+
         return newToken;
     }
 }
