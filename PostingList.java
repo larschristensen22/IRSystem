@@ -20,4 +20,9 @@ public class PostingList
         this.posts.add(postAdded);
         this.frequency += 1;
     }
+
+    public String toString() {
+        String result = "FREQUENCY: " + this.frequency + " POSTS: " + posts.toString().toString();
+        return result;
+    }
 }
