@@ -1,10 +1,13 @@
-import java.util.ArrayList;
-
-public class Post extends ArrayList<String>{
+public class Post{
     
     private String docID;
     
     public Post (String docID) {
         this.docID = docID;
+    }
+
+    public String toString() {
+        String result = "DOC ID: " + this.docID;
+        return result; 
     }
 }
