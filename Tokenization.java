@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class Tokenization
 {
 
+    private Normalization normalize;
     private ArrayList<String> tokens;
     /**
      * Constructor for objects of class Tokenization
@@ -16,6 +17,7 @@ public class Tokenization
     public Tokenization()
     {
         this.tokens = new ArrayList<String>();
+        this.normalize = new Normalization();
     }
 
     public ArrayList<String> tokenize(Document doc)
@@ -26,7 +28,10 @@ public class Tokenization
             String token = tokenizer.nextToken();
             token = removePunctuation(token);
             token = token.trim();
-            tokens.add(token);
+            if (!normalize.removeStopWords(token)) {
+                tokens.add(token);
+            }
+            // tokens.add(token);
         }
 
         return tokens;
@@ -35,6 +40,7 @@ public class Tokenization
 
     public String removePunctuation(String token) {
         token = token.toLowerCase();
+
         String newToken = "";
 
         if(token.contains("'")) {

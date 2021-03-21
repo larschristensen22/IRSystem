@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=InvertedIndex
+comment1.params=
+comment1.target=InvertedIndex()
+comment2.params=tokens\ docNo
+comment2.target=InvertedIndex\ createIndex(java.util.ArrayList,\ java.lang.String)
+numComments=3

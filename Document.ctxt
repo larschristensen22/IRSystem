@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Document
+comment1.params=docID\ text
+comment1.target=Document(java.lang.String,\ java.lang.String)
+comment2.params=docID\ text\ author\ date\ publisher\ description
+comment2.target=Document(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getDocID()
+comment4.params=
+comment4.target=java.lang.String\ getText()
+numComments=5

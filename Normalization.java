@@ -17,6 +17,7 @@ public class Normalization
 {
 
     private HashSet<String> stopWords;
+
     public Normalization() throws FileNotFoundException, IOException
     {
 
@@ -35,15 +36,17 @@ public class Normalization
 
     }
 
-    public ArrayList<String> removeStopWords(ArrayList<String> tokens){
+    public boolean removeStopWords(String token){
 
-        for (int i = 0; i < tokens.size(); i++) {
-            if (stopWords.contains(tokens.get(i))){
-                tokens.remove(i);
-                i--;
+        // for (int i = 0; i < tokens.size(); i++) {
+            if (stopWords.contains(token)){
+                // tokens.remove(i);
+                // i--;
+                return true;
             }
 
-        }
-        return tokens;
+        // }
+        //return tokens;
+        return false;
     }
 }

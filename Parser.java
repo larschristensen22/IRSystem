@@ -15,6 +15,7 @@ public class Parser {
     }
 
     public ArrayList<Document> trecParser(String directory) throws FileNotFoundException, IOException {
+
         File directoryPath = new File(directory);
         File filesList[] = directoryPath.listFiles();
 
@@ -25,8 +26,15 @@ public class Parser {
 
         String docID = "";
         String text = "";
+        String title = "";
+        String publisher = "";
+        String description = "";
+        String date = "";
+        String author = "";
         boolean textTag = false;
+        boolean descTag = false;
 
+        //docs.clear();
         for (int i = 0; i < words.length; i++) {
 
             if (!docID.equals("") && !text.equals("") && !textTag) {
@@ -35,7 +43,24 @@ public class Parser {
                 docID = "";
                 text = "";
             }
-
+            else if (words[i].contains("<BYLINE>")) {
+                author +=  words[i + 1].trim();
+            }
+            else if (words[i].contains("<DATE>")) {
+                date +=  words[i].substring(words[i].indexOf(">") + 1);
+            } 
+            else if (words[i].contains("<PUB>")) {
+                publisher +=  words[i].substring(words[i].indexOf(">") + 1);
+            }
+            else if (words[i].contains("<HEADLINE>")) {
+                descTag = true;
+            }
+            else if (words[i].contains("</HEADLINE>")) {
+                descTag = false;
+            }
+            else if (descTag) {
+                description += words[i] + " ";
+            }
             else if (words[i].contains("<DOCNO>")){
                 docID += words[i].substring(words[i].indexOf(">") + 1, words[i].indexOf("</"));
             }

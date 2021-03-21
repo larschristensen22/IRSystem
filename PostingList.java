@@ -21,6 +21,10 @@ public class PostingList
         this.frequency += 1;
     }
 
+    public ArrayList<Post> getPost() {
+        return posts;
+    }
+    
     public String toString() {
         String result = "FREQUENCY: " + this.frequency + " POSTS: " + posts.toString().toString();
         return result;

@@ -12,26 +12,34 @@ public class IRSystem {
 
         Tokenization tokens = new Tokenization();
         ArrayList<String> newTokens = new ArrayList<String>();
-        Normalization normalize = new Normalization();
+        //Normalization normalize = new Normalization();
         File directoryPath = new File(directory);
         File filesList[] = directoryPath.listFiles();
         InvertedIndex index = new InvertedIndex();
 
-
+        int fileNum = 0;
         for (File file: filesList){
             System.out.println("filename: "+ file.toString());
             docs = parser.trecParser(file.toString());
-            for (int i = 0; i < 1; i++) {
-                newTokens = tokens.tokenize(docs.get(i));
-                newTokens = normalize.removeStopWords(newTokens);
-                index = index.createIndex(newTokens, docs.get(i).getDocID());
-            }
+            fileNum++;
+            System.out.println("File Num: " + fileNum);
+            // for (int i = 0; i < docs.size(); i++) {
+                // newTokens = tokens.tokenize(docs.get(i));
+                // newTokens = normalize.removeStopWords(newTokens);
+                // index = InvertedIndex.createIndex(newTokens, docs.get(i).getDocID());
+            // }
 
         }
 
-        // for (int i = 0; i < newTokens.size(); i++) {
-        //     System.out.println("TOKEN: " + newTokens.get(i));
-        // }
+        System.out.println("Number of Docs: " + docs.size());
+        for (int i = 0; i < docs.size(); i++) {
+            newTokens = tokens.tokenize(docs.get(i));
+            System.out.println("Tokenizing completed for docNo: + " + i);
+            //newTokens = normalize.removeStopWords(newTokens);
+            System.out.println("Normalization completed for docNo: + " + i);
+            index = InvertedIndex.createIndex(newTokens, docs.get(i).getDocID());
+            System.out.println("Index completed for docNo: + " + i);
+        }
 
         for (String name: index.keySet()){
             String key = name;
