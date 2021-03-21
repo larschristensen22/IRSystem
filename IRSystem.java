@@ -41,11 +41,11 @@ public class IRSystem {
             System.out.println("Index completed for docNo: + " + i);
         }
 
-        for (String name: index.keySet()){
-            String key = name;
-            String value = index.get(name).toString();  
-            System.out.println(key + " " + value.toString());      
-        } 
+        // for (String name: index.keySet()){
+        //     String key = name;
+        //     String value = index.get(name).toString();  
+        //     System.out.println(key + " " + value.toString());      
+        // } 
         System.out.println("HASH MAP SIZE: " + index.size());
 
     }

@@ -1,4 +1,6 @@
 import java.util.StringTokenizer;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 /**
  * Write a description of class Tokenization here.
@@ -13,8 +15,10 @@ public class Tokenization
     private ArrayList<String> tokens;
     /**
      * Constructor for objects of class Tokenization
+     * @throws IOException
+     * @throws FileNotFoundException
      */
-    public Tokenization()
+    public Tokenization() throws FileNotFoundException, IOException
     {
         this.tokens = new ArrayList<String>();
         this.normalize = new Normalization();
