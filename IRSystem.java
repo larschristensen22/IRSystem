@@ -23,6 +23,7 @@ public class IRSystem {
             docs = parser.trecParser(file.toString());
             fileNum++;
             System.out.println("File Num: " + fileNum);
+            
             // for (int i = 0; i < docs.size(); i++) {
                 // newTokens = tokens.tokenize(docs.get(i));
                 // newTokens = normalize.removeStopWords(newTokens);
@@ -32,7 +33,8 @@ public class IRSystem {
         }
 
         System.out.println("Number of Docs: " + docs.size());
-        for (int i = 0; i < docs.size(); i++) {
+        for (int i = 0; i < 100; i++) {
+            //System.out.println("text: " + docs.get(i).getText());
             newTokens = tokens.tokenize(docs.get(i));
             System.out.println("Tokenizing completed for docNo: + " + i);
             //newTokens = normalize.removeStopWords(newTokens);
@@ -41,11 +43,11 @@ public class IRSystem {
             System.out.println("Index completed for docNo: + " + i);
         }
 
-        // for (String name: index.keySet()){
-        //     String key = name;
-        //     String value = index.get(name).toString();  
-        //     System.out.println(key + " " + value.toString());      
-        // } 
+        for (String name: index.keySet()){
+            String key = name;
+            String value = index.get(name).toString();  
+            System.out.println(key + " " + value.toString());      
+        } 
         System.out.println("HASH MAP SIZE: " + index.size());
 
     }

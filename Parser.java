@@ -71,7 +71,7 @@ public class Parser {
                 textTag = false;
             }
             else if (textTag) {
-                text += words[i] + " ";
+                text += words[i].substring(0, words[i].length() - 1) + " ";
             }
 
         }
