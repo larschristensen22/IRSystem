@@ -1,7 +1,10 @@
 #BlueJ class context
 comment0.target=Parser
+comment0.text=\r\n\ This\ class\ is\ used\ to\ parse\ the\ input\ files\ into\ a\ specific\ format\r\n\ and\ create\ a\ Document\ list\ out\ of\ them.\r\n\r\n\ @author\ Cameron\ Costello\ and\ Lars\ Christensen\r\n\ @version\ March\ 22,\ 2021\r\n
 comment1.params=
 comment1.target=Parser()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Parser.\r\n
 comment2.params=directory
 comment2.target=java.util.ArrayList\ trecParser(java.lang.String)
+comment2.text=\r\n\ This\ method\ creates\ the\ format\ in\ which\ the\ files\ will\ be\ parsed\ into\r\n\ \r\n\ @return\ ArrayList<Document>\ a\ list\ of\ newly\ parsed\ documents\r\n\ @param\ String\ directory\ the\ directory\ to\ the\ file\ that\ will\ be\ parsed\r\n
 numComments=3

@@ -1,12 +1,16 @@
 #BlueJ class context
 comment0.target=PostingList
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ PostingList\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ This\ class\ keeps\ a\ list\ of\ all\ the\ file\ posts\ in\ an\ arraylist\ and\r\n\ keeps\ track\ of\ the\ frequency\ of\ posts.\r\n\r\n\ @author\ Cameron\ Costello\ and\ Lars\ Christensen\r\n\ @version\ March\ 22,\ 2021\r\n
 comment1.params=
 comment1.target=PostingList()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PostingList.\r\n
 comment2.params=postAdded
 comment2.target=void\ addPost(Post)
+comment2.text=\r\n\ Adds\ a\ post\ to\ the\ posting\ list.\r\n\ \r\n\ @param\ postAdded\ is\ the\ post\ that\ is\ added\ to\ the\ list\r\n
 comment3.params=
 comment3.target=java.util.ArrayList\ getPost()
+comment3.text=\r\n\ Returns\ the\ list\ of\ all\ the\ posts\r\n\ \r\n\ @return\ ArrayList<Post>\ the\ list\ containing\ all\ posts.\r\n
 comment4.params=
 comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ that\ converts\ the\ class\ into\ a\ String.\r\n\ \r\n\ @return\ String\ that\ is\ made\r\n
 numComments=5
