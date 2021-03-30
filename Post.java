@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 /**
  * This class creates Post objects
  *
@@ -8,6 +8,7 @@
 public class Post{
 
     private String docID;
+    private ArrayList<Integer> positions;
     private int docFrequency;
 
     /**
@@ -15,7 +16,8 @@ public class Post{
      */
     public Post (String docID) {
         this.docID = docID;
-        this.docFrequency = 1;
+        this.docFrequency = 0;
+        this.positions = new ArrayList<Integer>();
     }
 
     /**
@@ -24,7 +26,12 @@ public class Post{
      * @return String that is made
      */
     public String toString() {
-        String result = "DOC ID: " + this.docID;
+        String result = "Doc ID: " + this.docID + ", Position: " + positions.toString();
         return result; 
+    }
+    
+    public void addPosition(int position) {
+        this.positions.add(position);
+        this.docFrequency++;
     }
 }
