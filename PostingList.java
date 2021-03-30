@@ -6,12 +6,12 @@ import java.util.ArrayList;
  * @author Cameron Costello and Lars Christensen
  * @version March 22, 2021
  */
-public class PostingList
+public class PostingList 
 {
-    
+
     private int frequency;
     private ArrayList<Post> posts;
-    
+
     /**
      * Constructor for objects of class PostingList.
      */
@@ -19,7 +19,7 @@ public class PostingList
         this.frequency = 0;
         this.posts = new ArrayList<Post>();
     }
-    
+
     /**
      * Adds a post to the posting list.
      * 
@@ -31,14 +31,23 @@ public class PostingList
     }
 
     /**
-     * Returns the list of all the posts
-     * 
-     * @return ArrayList<Post> the list containing all posts.
-     */
+    * Returns the list of all the posts
+    * 
+    * @return ArrayList<Post> the list containing all posts.
+    */
     public ArrayList<Post> getPost() {
         return posts;
     }
     
+    /**
+    * Returns the list of all the posts
+    * 
+    * @return ArrayList<Post> the list containing all posts.
+    */
+    public Post getSinglePost() {
+        return posts.get(frequency - 1);
+    }
+
     /**
      * Method that converts the class into a String.
      * 
@@ -46,7 +55,7 @@ public class PostingList
      */
     @Override
     public String toString() {
-        String result = "FREQUENCY: " + this.frequency + " POSTS: " + posts.toString().toString();
+        String result = "Frequency: " + this.frequency + " Posts: " + this.posts.toString().toString();
         return result;
     }
 }
