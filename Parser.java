@@ -16,7 +16,7 @@ import java.nio.file.Path;
 public class Parser {
 
     private Document doc;
-    private ArrayList<Document> docs;
+    public static ArrayList<Document> docs;
 
     /**
      * Constructor for objects of class Parser.
@@ -31,7 +31,7 @@ public class Parser {
      * @return ArrayList<Document> a list of newly parsed documents
      * @param String directory the directory to the file that will be parsed
      */
-    public ArrayList<Document> trecParser(String directory) throws FileNotFoundException, IOException {
+    public void trecParser(String directory) throws FileNotFoundException, IOException {
 
         //create the filepath
         File directoryPath = new File(directory);
@@ -53,6 +53,7 @@ public class Parser {
         String author = "";
         boolean textTag = false;
         boolean descTag = false;
+    
 
         //loop through new lines to parse each line
         for (int i = 0; i < words.length; i++) {
@@ -98,6 +99,5 @@ public class Parser {
 
         }
 
-        return docs;
     }
 }

@@ -9,7 +9,8 @@ import java.util.ArrayList;
  */
 public class InvertedIndex extends HashMap<String, PostingList> {
     
-    private static InvertedIndex index = new InvertedIndex();
+    public static InvertedIndex index = new InvertedIndex();
+    
     
     /**
      * This method modifies the inverted index with new tokens from a new document
@@ -18,28 +19,32 @@ public class InvertedIndex extends HashMap<String, PostingList> {
      * @param ArrayList<String> tokens - the list of tokens to be added to the inverted index
      * @param String docNo - the document number
      */
-    public static InvertedIndex createIndex(ArrayList<String> tokens, String docNo) {
+    public static void createIndex(ArrayList<String> tokens, String docNo) {
         //Create a hashset to store the unique tokens from the document as there may be repeats
-        HashSet<String> uniqueTokens = new HashSet<String>();
+        // HashSet<String> newTokens = new HashSet<String>();
         Post post = new Post(docNo);
-        for (int i = 0; i < tokens.size(); i++) {
-            if (!uniqueTokens.contains(tokens.get(i))) {
-                uniqueTokens.add(tokens.get(i));
-            }
-        }
+        // for (int i = 0; i < tokens.size(); i++) {
+            // // if (!uniqueTokens.contains(tokens.get(i))) {
+                // // uniqueTokens.add(tokens.get(i));
+            // // }
+        // }
+        int position = 0;
         //Loop through the unique tokens to check if they are in index already
-        for (String word: uniqueTokens) {
+        for (String word: tokens) {
             //If not, add them to the index with a new posting list
             if (!index.containsKey(word)) {
                 PostingList postList = new PostingList();
                 index.put(word, postList);
                 index.get(word).addPost(post);
+                index.get(word).getSinglePost().addPosition(position);
             }
             //Else, add the docNo to the existing posting list
             else {
-                index.get(word).addPost(post);
+                //index.get(word).addPost(post);
+                index.get(word).getSinglePost().addPosition(position);
             }   
+            position++;
         }
-        return index;
+
     }
 }

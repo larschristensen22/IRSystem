@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=InvertedIndex
-comment1.params=
-comment1.target=InvertedIndex()
-comment2.params=tokens\ docNo
-comment2.target=InvertedIndex\ createIndex(java.util.ArrayList,\ java.lang.String)
-numComments=3
+comment0.text=\r\n\ InvertedIndex\ class\ to\ create\ the\ inverted\ index\ storing\ tokens\ and\ their\ posting\ lists.\r\n\r\n\ @author\ Lars\ and\ Cam\r\n\ @version\ 3/22/21\r\n
+comment1.params=tokens\ docNo
+comment1.target=void\ createIndex(java.util.ArrayList,\ java.lang.String)
+comment1.text=\r\n\ This\ method\ modifies\ the\ inverted\ index\ with\ new\ tokens\ from\ a\ new\ document\r\n\ \r\n\ @return\ InvertedIndex\ -\ a\ hash\ map\ containing\ tokens\ and\ posting\ lists\r\n\ @param\ ArrayList<String>\ tokens\ -\ the\ list\ of\ tokens\ to\ be\ added\ to\ the\ inverted\ index\r\n\ @param\ String\ docNo\ -\ the\ document\ number\r\n
+numComments=2

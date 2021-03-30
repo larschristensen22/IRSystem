@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=IRSystem
+comment0.text=\r\n\ IRSystem\ class\ to\ run\ methods\ of\ the\ projects.\ This\ is\ the\ main\ class.\r\n\r\n\ @author\ Lars\ and\ Cam\r\n\ @version\ 3/22/21\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

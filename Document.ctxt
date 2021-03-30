@@ -1,11 +1,16 @@
 #BlueJ class context
 comment0.target=Document
+comment0.text=\r\n\ Document\ class\ to\ store\ parsed\ data\ into\ objects.\r\n\r\n\ @author\ Lars\ and\ Cam\r\n\ @version\ 3/22/21\r\n
 comment1.params=docID\ text
 comment1.target=Document(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Document.\ Stores\ the\ docID\ and\ text\ of\ a\ document.\r\n
 comment2.params=docID\ text\ author\ date\ publisher\ description
 comment2.target=Document(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ Document.\ Stores\ all\ data\ of\ a\ document.\r\n
 comment3.params=
 comment3.target=java.lang.String\ getDocID()
+comment3.text=\r\n\ This\ method\ returns\ the\ docID\ of\ a\ document.\r\n\ \r\n\ @return\ String\ -\ the\ docID\ of\ a\ document\r\n
 comment4.params=
 comment4.target=java.lang.String\ getText()
+comment4.text=\r\n\ This\ method\ returns\ the\ text\ of\ a\ document.\r\n\ \r\n\ @return\ String\ -\ the\ text\ of\ a\ document\r\n
 numComments=5
