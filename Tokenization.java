@@ -35,15 +35,67 @@ public class Tokenization
 
         //intilialize tokenizer
         StringTokenizer tokenizer = new StringTokenizer(doc.getText());
+
         while (tokenizer.hasMoreTokens()) {
 
             //perform tasks on each token
             String token = tokenizer.nextToken();
+
+            token = token.toLowerCase();
             token = removePunctuation(token);
             token = token.trim();
             if (!normalize.removeStopWords(token)) {
                 tokens.add(token);
             }
+        }
+
+        return tokens;
+
+    }
+
+    /**
+     * Tokenize each word in a given Document.
+     * 
+     * @param The Document to tokenize.
+     * @return ArrayList<String> list that new tokens are added to.
+     */
+    public ArrayList<String> tokenizeQuery(String input)
+    {
+
+        //intilialize tokenizer
+        //StringTokenizer tokenizer = new StringTokenizer(input);
+
+        int firstQuote = input.indexOf("\"");
+        String subToken = "";
+        //String newToken = "";
+
+        if (firstQuote != -1) {
+            subToken = input.substring(firstQuote + 1);
+            int secondQuote = subToken.indexOf("\"");
+            if (secondQuote != -1) {
+                subToken = input.substring(firstQuote + 1, secondQuote + 1);
+                input = input.substring(0, firstQuote) + input.substring(secondQuote + 2);
+                tokens.add(subToken);
+            }
+        }
+
+        StringTokenizer tokenizer = new StringTokenizer(input);
+
+        while (tokenizer.hasMoreTokens()) {
+
+            //perform tasks on each token
+            String token = tokenizer.nextToken();
+            
+            token = removePunctuation(token);
+            token = token.trim();
+
+            System.out.println("Token: " + token);
+            if (token.equals("AND") || token.equals("OR") || token.equals("NOT")) {
+                tokens.add(token);
+            } else if (!normalize.removeStopWords(token)) {
+                tokens.add(token);
+            }
+
         }
 
         return tokens;
@@ -57,8 +109,6 @@ public class Tokenization
      * @return String of the new token with removed punctuation.
      */
     public String removePunctuation(String token) {
-        
-        token = token.toLowerCase();
 
         String newToken = "";
 
@@ -69,7 +119,7 @@ public class Tokenization
                 token = token.substring(0, apostropheIndex);
             }
         }
-        
+
         //create each new token
         for (int i = 0; i < token.length(); i++) {
             char c = token.charAt(i);
@@ -85,4 +135,5 @@ public class Tokenization
 
         return newToken;
     }
+
 }
