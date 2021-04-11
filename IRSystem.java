@@ -48,7 +48,7 @@ public class IRSystem {
         System.out.println("Number of Docs: " + docs.size());
         
         //Loop through the document objects to tokenize and add tokens to the inverted index
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1; i++) {
             newTokens = tokens.tokenize(docs.get(i));
             System.out.println("Tokenizing completed for docNo: + " + i);
             System.out.println("Normalization completed for docNo: + " + i);
@@ -56,13 +56,14 @@ public class IRSystem {
             System.out.println("Index completed for docNo: + " + i);
         }
         index = InvertedIndex.index;
+        index.writeIndexToFile();
         
         //Loop through the hash map to print its contents
-        for (String name: index.keySet()){
-            String key = name;
-            String value = index.get(name).toString();  
-            System.out.println(key + " " + value.toString());      
-        } 
-        System.out.println("HASH MAP SIZE: " + index.size());
+        // for (String name: index.keySet()){
+        //     String key = name;
+        //     String value = index.get(name).toString();  
+        //     System.out.println(key + " " + value.toString());      
+        // } 
+        // System.out.println("HASH MAP SIZE: " + index.size());
     }
 }

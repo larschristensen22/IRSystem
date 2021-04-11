@@ -34,4 +34,8 @@ public class Post{
         this.positions.add(position);
         this.docFrequency++;
     }
+
+    public String getDocID() {
+        return this.docID;
+    }
 }
