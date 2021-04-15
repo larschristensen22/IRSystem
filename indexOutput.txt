@@ -1,0 +1,3626 @@
+: Frequency: 16 Posts: [Doc ID: FT911-4017, Position: [622, 662, 665, 666, 703, 708], Doc ID: FT911-4019, Position: [68], Doc ID: FT911-4020, Position: [311, 462, 638, 659, 662, 703], Doc ID: FT911-4018, Position: [156, 161, 426]]
+
+ebullient: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [121]]
+
+half: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [508]]
+
+wellplaced: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [254]]
+
+pollution: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [445]]
+
+contributions: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [34]]
+
+sovereignty: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [259]]
+
+exporters: Frequency: 9 Posts: [Doc ID: FT911-4016, Position: [7, 53, 118], Doc ID: FT911-4017, Position: [12, 258, 273, 562, 635, 651]]
+
+energy: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [128, 627]]
+
+incomes: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [275, 331]]
+
+frames: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [286]]
+
+investment: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [482, 490]]
+
+reserves: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [530]]
+
+baker: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [555]]
+
+apparent: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [46]]
+
+2: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [341]]
+
+applies: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [318]]
+
+8pm: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [635]]
+
+left: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [229, 511]]
+
+evicting: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [208]]
+
+cellular: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [353, 388]]
+
+professors: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [474]]
+
+enlightened: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [22]]
+
+policymakers: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [223]]
+
+newspaper: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [173]]
+
+spends: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [472]]
+
+role: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [581], Doc ID: FT911-4019, Position: [414, 416], Doc ID: FT911-4020, Position: [123], Doc ID: FT911-4017, Position: [199]]
+
+nyheter: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [175]]
+
+talking: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [582]]
+
+example: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [208]]
+
+result: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [277]]
+
+leyland: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [312]]
+
+headline: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [2]]
+
+rational: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [408]]
+
+hand: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [451], Doc ID: FT911-4019, Position: [389, 390]]
+
+b: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [153]]
+
+union: Frequency: 7 Posts: [Doc ID: FT911-4016, Position: [545, 559, 573], Doc ID: FT911-4019, Position: [387, 393, 404, 443]]
+
+l: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [524]]
+
+soviet: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [544, 558, 572]]
+
+plentiful: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [445]]
+
+p: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [553]]
+
+americans: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [456]]
+
+photograph: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [285]]
+
+gunshots: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [24]]
+
+v: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [554]]
+
+unprecedented: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [518]]
+
+stature: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [430]]
+
+echoed: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [233]]
+
+obvious: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [417], Doc ID: FT911-4019, Position: [14]]
+
+days: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [603, 641]]
+
+subsidiaries: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [132]]
+
+information: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [256, 319, 325, 371]]
+
+securon: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [482]]
+
+imperial: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [41]]
+
+razed: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [419]]
+
+illegitimate: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [51]]
+
+good: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [443], Doc ID: FT911-4020, Position: [423]]
+
+dominate: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [45]]
+
+evicted: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [162]]
+
+institution: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [367], Doc ID: FT911-4018, Position: [104]]
+
+suffered: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [507]]
+
+speakers: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [228]]
+
+tim: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [193]]
+
+dapper: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [117]]
+
+export: Frequency: 16 Posts: [Doc ID: FT911-4016, Position: [28, 138, 318, 333, 392, 437, 580, 640, 665, 674], Doc ID: FT911-4017, Position: [55, 118, 125, 164, 221, 513]]
+
+organics: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [407]]
+
+delivering: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [307]]
+
+sectors: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [35]]
+
+making: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [492, 527, 567], Doc ID: FT911-4020, Position: [321]]
+
+piquancy: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [60]]
+
+european: Frequency: 7 Posts: [Doc ID: FT911-4017, Position: [50], Doc ID: FT911-4020, Position: [158, 417, 566, 621], Doc ID: FT911-4019, Position: [377, 423]]
+
+allmakes: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [584]]
+
+onefifth: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [342]]
+
+pay: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [274, 478], Doc ID: FT911-4020, Position: [407]]
+
+list: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [49]]
+
+gone: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [195], Doc ID: FT911-4017, Position: [271]]
+
+lack: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [500]]
+
+neglected: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [309]]
+
+spending: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [406]]
+
+success: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [69], Doc ID: FT911-4020, Position: [28]]
+
+treasury: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [130, 625]]
+
+soles: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [435]]
+
+authority: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [232]]
+
+claims: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [59]]
+
+supposed: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [115]]
+
+young: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [283]]
+
+provided: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [166, 278]]
+
+wellinformed: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [32]]
+
+germany: Frequency: 3 Posts: [Doc ID: FT911-4019, Position: [382], Doc ID: FT911-4020, Position: [578, 594]]
+
+instrument: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [103]]
+
+proactive: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [395]]
+
+producing: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [423]]
+
+arranged: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [570]]
+
+motive: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [357]]
+
+provider: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [372]]
+
+flows: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [483]]
+
+projection: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [324]]
+
+live: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [345, 411, 439]]
+
+responded: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [486]]
+
+victory: Frequency: 6 Posts: [Doc ID: FT911-4019, Position: [7, 38, 53, 112, 134, 219]]
+
+mobile: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [603]]
+
+negotiations: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [398]]
+
+concentrate: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [287]]
+
+better: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [497], Doc ID: FT911-4019, Position: [445], Doc ID: FT911-4018, Position: [186, 478]]
+
+hercules: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [584]]
+
+cumbria: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [209]]
+
+xerox: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [156]]
+
+invisible: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [52]]
+
+focus: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [234]]
+
+dagens: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [174]]
+
+changing: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [479], Doc ID: FT911-4020, Position: [47, 72], Doc ID: FT911-4019, Position: [372, 376]]
+
+approach: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [97, 182, 580]]
+
+bechtel: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [348]]
+
+thesis: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [249]]
+
+order: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [548], Doc ID: FT911-4019, Position: [51, 310, 320]]
+
+cooperation: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [528]]
+
+wage: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [397]]
+
+period: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [259, 330], Doc ID: FT911-4017, Position: [445]]
+
+africa: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [277]]
+
+went: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [257]]
+
+classroom: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [248]]
+
+slowly: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [203]]
+
+intelligence: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [270]]
+
+reform: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [327, 431]]
+
+harshly: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [44]]
+
+winner: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [69]]
+
+falkland: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [174]]
+
+install: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [536]]
+
+schools: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [444]]
+
+indication: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [275]]
+
+despair: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [27]]
+
+southeast: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [17]]
+
+women: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [262]]
+
+thats: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [289]]
+
+ceramic: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [670]]
+
+queen: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [0, 684], Doc ID: FT911-4017, Position: [65, 83, 643]]
+
+matter: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [355]]
+
+prematurely: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [340]]
+
+acquiring: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [455]]
+
+kohl: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [396]]
+
+neutrality: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [151, 225]]
+
+tempted: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [7], Doc ID: FT911-4020, Position: [645]]
+
+product: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [144], Doc ID: FT911-4018, Position: [153]]
+
+piecemeal: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [370]]
+
+laid: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [154, 282]]
+
+particularly: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [253]]
+
+question: Frequency: 3 Posts: [Doc ID: FT911-4020, Position: [33, 388, 494]]
+
+drugs: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [26]]
+
+devalue: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [419]]
+
+helmut: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [395]]
+
+frankfurt: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [586]]
+
+produce: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [141]]
+
+opportunities: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [222]]
+
+pacific: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [301]]
+
+garments: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [136]]
+
+661: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [686]]
+
+names: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [169]]
+
+regard: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [247]]
+
+communities: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [91]]
+
+tide: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [243]]
+
+fibreguide: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [643]]
+
+26bn: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [440]]
+
+arrows: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [5]]
+
+dunlopillo: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [511]]
+
+pehr: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [1]]
+
+biggest: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [620, 636], Doc ID: FT911-4020, Position: [153]]
+
+stewart: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [261]]
+
+academic: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [429]]
+
+supranationality: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [451]]
+
+quite: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [97]]
+
+sovietbuilt: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [592]]
+
+lax: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [154]]
+
+including: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [54, 233, 616]]
+
+executives: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [686]]
+
+law: Frequency: 3 Posts: [Doc ID: FT911-4019, Position: [161, 249], Doc ID: FT911-4020, Position: [442]]
+
+taboos: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [146]]
+
+markets: Frequency: 7 Posts: [Doc ID: FT911-4016, Position: [72, 162, 230], Doc ID: FT911-4017, Position: [81, 290, 405, 656]]
+
+200: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [199]]
+
+tempt: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [221]]
+
+condition: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [413]]
+
+improve: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [407]]
+
+zetterberg: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [85, 653]]
+
+try: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [204]]
+
+arms: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [658]]
+
+bombing: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [215]]
+
+october: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [75]]
+
+basic: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [179]]
+
+taxation: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [265]]
+
+university: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [79, 427], Doc ID: FT911-4020, Position: [673], Doc ID: FT911-4018, Position: [38, 138]]
+
+bush: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [43, 305]]
+
+childbirth: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [160]]
+
+policies: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [372]]
+
+cause: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [576]]
+
+units: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [645]]
+
+represents: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [393]]
+
+effective: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [131]]
+
+intended: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [334]]
+
+catastrophe: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [4, 239]]
+
+purveyors: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [125]]
+
+land: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [171]]
+
+department: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [128, 167]]
+
+says: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [533], Doc ID: FT911-4020, Position: [379, 467]]
+
+direction: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [208, 249]]
+
+burn: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [260]]
+
+nonoil: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [30]]
+
+silverplated: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [284]]
+
+chief: Frequency: 5 Posts: [Doc ID: FT911-4020, Position: [105, 668, 681, 692, 696]]
+
+aircraft: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [188, 532, 540]]
+
+interdicted: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [106]]
+
+entrepreneurial: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [27]]
+
+followed: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [130]]
+
+consecutive: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [658]]
+
+industrial: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [71, 104]]
+
+activities: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [25], Doc ID: FT911-4017, Position: [135, 628]]
+
+stable: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [433]]
+
+professorial: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [119]]
+
+respond: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [285]]
+
+wall: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [3]]
+
+cso: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [706]]
+
+walk: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [121], Doc ID: FT911-4020, Position: [657]]
+
+japan: Frequency: 6 Posts: [Doc ID: FT911-4016, Position: [68, 78, 133], Doc ID: FT911-4017, Position: [297, 421, 491]]
+
+clauses: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [544]]
+
+diplomats: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [347]]
+
+led: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [550]]
+
+pity: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [23]]
+
+lee: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [106]]
+
+supply: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [563], Doc ID: FT911-4019, Position: [433]]
+
+concern: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [331], Doc ID: FT911-4017, Position: [637]]
+
+defines: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [303]]
+
+wayfarers: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [207]]
+
+500km: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [201]]
+
+state: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [261]]
+
+adviser: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [619]]
+
+press: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [428]]
+
+thinks: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [292]]
+
+meeting: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [115]]
+
+defined: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [294]]
+
+began: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [431]]
+
+baring: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [55]]
+
+scrutinised: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [24]]
+
+opposite: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [128]]
+
+havens: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [347]]
+
+242: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [689]]
+
+europeans: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [375]]
+
+creating: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [259]]
+
+reality: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [495], Doc ID: FT911-4019, Position: [269], Doc ID: FT911-4018, Position: [64]]
+
+difference: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [167]]
+
+stereotype: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [63]]
+
+offend: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [235, 237]]
+
+thinly: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [427]]
+
+polite: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [204]]
+
+wasting: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [77]]
+
+defeatist: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [19]]
+
+probably: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [72]]
+
+marine: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [103]]
+
+moment: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [86], Doc ID: FT911-4020, Position: [221]]
+
+promote: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [338], Doc ID: FT911-4020, Position: [575]]
+
+worries: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [621]]
+
+scenario: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [127]]
+
+does: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [306], Doc ID: FT911-4020, Position: [521], Doc ID: FT911-4018, Position: [251, 476]]
+
+worried: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [523]]
+
+escape: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [408], Doc ID: FT911-4020, Position: [543]]
+
+prevented: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [84]]
+
+creation: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [160, 328], Doc ID: FT911-4020, Position: [295]]
+
+situation: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [270]]
+
+richlydeserved: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [641]]
+
+receive: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [647]]
+
+think: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [36, 312]]
+
+fraught: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [120]]
+
+synthetics: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [521]]
+
+manhattan: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [145]]
+
+highpowered: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [107]]
+
+services: Frequency: 8 Posts: [Doc ID: FT911-4016, Position: [47], Doc ID: FT911-4020, Position: [333], Doc ID: FT911-4017, Position: [165, 173, 178, 277, 332, 577]]
+
+24m: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [337]]
+
+marketing: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [131], Doc ID: FT911-4017, Position: [102]]
+
+implies: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [626]]
+
+feelings: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [263], Doc ID: FT911-4020, Position: [7]]
+
+insurance: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [686, 690]]
+
+principle: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [339], Doc ID: FT911-4020, Position: [464]]
+
+laminate: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [174]]
+
+goods: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [43, 139], Doc ID: FT911-4020, Position: [332], Doc ID: FT911-4017, Position: [670]]
+
+voting: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [458]]
+
+source: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [704]]
+
+smell: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [25]]
+
+domestic: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [345], Doc ID: FT911-4019, Position: [258, 359]]
+
+holidays: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [216]]
+
+school: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [48]]
+
+1935: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [663]]
+
+acquired: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [399]]
+
+offers: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [614]]
+
+actual: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [223], Doc ID: FT911-4020, Position: [78]]
+
+given: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [382], Doc ID: FT911-4020, Position: [50], Doc ID: FT911-4018, Position: [389]]
+
+eastern: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [542]]
+
+opinionated: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [138]]
+
+deficits: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [4]]
+
+preserves: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [127]]
+
+doubt: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [238]]
+
+uncomfortable: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [116], Doc ID: FT911-4020, Position: [643]]
+
+develop: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [570]]
+
+boeing: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [538]]
+
+casualties: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [171]]
+
+cornflakes: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [575]]
+
+measure: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [389]]
+
+dominated: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [101]]
+
+surrey: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [80]]
+
+overall: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [33]]
+
+employees: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [200, 223]]
+
+assume: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [8]]
+
+smouldered: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [253]]
+
+subcontracted: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [166]]
+
+away: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [122]]
+
+exports: Frequency: 12 Posts: [Doc ID: FT911-4016, Position: [224, 240, 288, 451, 697], Doc ID: FT911-4017, Position: [31, 93, 424, 443, 501, 671, 672]]
+
+scientist: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [101]]
+
+concept: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [247]]
+
+impossible: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [388]]
+
+effort: Frequency: 6 Posts: [Doc ID: FT911-4017, Position: [228, 337, 357, 387, 410, 613]]
+
+booming: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [240]]
+
+house: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [324]]
+
+disaster: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [19, 76]]
+
+bedding: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [513]]
+
+sugarcoated: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [574]]
+
+chilling: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [9]]
+
+courageous: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [313]]
+
+assembled: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [151]]
+
+1959: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [674]]
+
+vote: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [465]]
+
+early: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [108]]
+
+hours: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [625]]
+
+unjust: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [312]]
+
+disease: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [84]]
+
+start: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [509], Doc ID: FT911-4019, Position: [100]]
+
+stars: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [116]]
+
+19651970: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [688]]
+
+equal: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [406]]
+
+fund: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [318]]
+
+typical: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [95]]
+
+paid: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [605]]
+
+short: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [187, 606]]
+
+time: Frequency: 14 Posts: [Doc ID: FT911-4017, Position: [115, 462, 575, 611], Doc ID: FT911-4019, Position: [70], Doc ID: FT911-4020, Position: [127, 252, 409, 475, 516, 526, 599], Doc ID: FT911-4018, Position: [78, 87]]
+
+applications: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [11, 16]]
+
+1966: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [21, 680]]
+
+aroused: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [487]]
+
+limerick: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [524]]
+
+attitudes: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [161, 241]]
+
+selfcongratulation: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [603]]
+
+happy: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [369]]
+
+militarily: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [193]]
+
+swedes: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [9, 25]]
+
+assassination: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [62]]
+
+governments: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [284]]
+
+komatsu: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [370]]
+
+17th: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [433]]
+
+identified: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [388]]
+
+footdragging: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [440]]
+
+sweden: Frequency: 15 Posts: [Doc ID: FT911-4020, Position: [74, 133, 145, 171, 182, 222, 256, 283, 314, 349, 374, 394, 424, 447, 612]]
+
+carbon: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [115]]
+
+options: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [117]]
+
+payment: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [569]]
+
+controversial: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [169, 439]]
+
+sociologist: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [36, 137]]
+
+having: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [437], Doc ID: FT911-4019, Position: [368]]
+
+deputy: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [610]]
+
+1990: Frequency: 6 Posts: [Doc ID: FT911-4016, Position: [15, 347], Doc ID: FT911-4020, Position: [515, 699], Doc ID: FT911-4017, Position: [23, 700]]
+
+iraq: Frequency: 6 Posts: [Doc ID: FT911-4019, Position: [113, 173, 209, 225, 316, 329]]
+
+philosophy: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [180]]
+
+1987: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [691]]
+
+1986: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [414], Doc ID: FT911-4017, Position: [688]]
+
+1985: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [685]]
+
+arouses: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [4]]
+
+1984: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [682]]
+
+provide: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [255]]
+
+1983: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [679]]
+
+1982: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [676], Doc ID: FT911-4019, Position: [145, 185]]
+
+1981: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [673]]
+
+niche: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [526]]
+
+jencks: Frequency: 6 Posts: [Doc ID: FT911-4018, Position: [35, 61, 89, 112, 247, 368]]
+
+1989: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [561], Doc ID: FT911-4017, Position: [697]]
+
+1988: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [267, 397, 560], Doc ID: FT911-4017, Position: [694]]
+
+primary: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [217, 279]]
+
+doubled: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [317]]
+
+questioning: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [143]]
+
+confirmed: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [21], Doc ID: FT911-4020, Position: [609]]
+
+yachts: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [157]]
+
+ways: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [375]]
+
+suburban: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [422]]
+
+low: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [98], Doc ID: FT911-4020, Position: [353]]
+
+carlsson: Frequency: 3 Posts: [Doc ID: FT911-4020, Position: [186, 310, 319]]
+
+1991: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [12, 48], Doc ID: FT911-4019, Position: [142]]
+
+holdings: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [467]]
+
+grown: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [499], Doc ID: FT911-4018, Position: [328]]
+
+henceforth: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [172]]
+
+meant: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [226]]
+
+means: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [285], Doc ID: FT911-4020, Position: [337], Doc ID: FT911-4019, Position: [108]]
+
+editor: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [10]]
+
+chain: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [102]]
+
+efficient: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [128]]
+
+initial: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [356]]
+
+performed: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [382]]
+
+pipeline: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [534]]
+
+earnings: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [64, 82, 258, 319, 328]]
+
+fellow: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [144], Doc ID: FT911-4020, Position: [8]]
+
+motorola: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [351]]
+
+fittings: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [529]]
+
+chap: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [218]]
+
+choice: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [225]]
+
+interests: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [579]]
+
+small: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [196], Doc ID: FT911-4020, Position: [206], Doc ID: FT911-4017, Position: [593]]
+
+door: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [283]]
+
+quick: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [135]]
+
+unrepresentative: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [695]]
+
+defeated: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [192]]
+
+alliance: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [480, 504]]
+
+cucumber: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [299]]
+
+daf: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [313]]
+
+launched: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [20]]
+
+listen: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [214]]
+
+hit: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [218]]
+
+shows: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [282]]
+
+major: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [540], Doc ID: FT911-4019, Position: [337, 426]]
+
+invisibles: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [527]]
+
+zone: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [188]]
+
+employs: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [210]]
+
+bumpy: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [581]]
+
+worldwide: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [492]]
+
+trucks: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [316, 593]]
+
+consider: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [701]]
+
+migrated: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [183]]
+
+day: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [636], Doc ID: FT911-4017, Position: [610]]
+
+1980s: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [184]]
+
+group: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [145, 607, 679], Doc ID: FT911-4018, Position: [305]]
+
+imports: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [377]]
+
+kuwaitis: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [532]]
+
+island: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [163]]
+
+history: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [55]]
+
+formal: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [234]]
+
+kurdish: Frequency: 4 Posts: [Doc ID: FT911-4019, Position: [2, 66, 89, 238]]
+
+residents: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [420]]
+
+interference: Frequency: 3 Posts: [Doc ID: FT911-4019, Position: [252, 327, 351]]
+
+sustain: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [454]]
+
+tens: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [26]]
+
+reveals: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [18]]
+
+point: Frequency: 5 Posts: [Doc ID: FT911-4017, Position: [231], Doc ID: FT911-4020, Position: [142, 499], Doc ID: FT911-4019, Position: [96, 97]]
+
+banking: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [87]]
+
+general: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [252], Doc ID: FT911-4019, Position: [303], Doc ID: FT911-4020, Position: [362], Doc ID: FT911-4017, Position: [59, 212]]
+
+visits: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [297]]
+
+east: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [235, 275]]
+
+sounds: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [595]]
+
+pesticides: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [464]]
+
+embassies: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [262]]
+
+built: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [261]]
+
+stateowned: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [484]]
+
+clear: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [334]]
+
+concentration: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [399]]
+
+clean: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [440]]
+
+seeking: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [626]]
+
+emirate: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [544]]
+
+mean: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [307]]
+
+interfere: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [298]]
+
+trebled: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [256, 287]]
+
+areas: Frequency: 5 Posts: [Doc ID: FT911-4017, Position: [308, 312], Doc ID: FT911-4018, Position: [319, 425, 434]]
+
+stride: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [646]]
+
+shouted: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [292]]
+
+salons: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [610, 632]]
+
+appreciate: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [276]]
+
+mothers: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [265]]
+
+record: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [54], Doc ID: FT911-4020, Position: [352]]
+
+reflects: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [494]]
+
+chicago: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [139]]
+
+wellknown: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [168]]
+
+knowledge: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [260]]
+
+soft: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [202]]
+
+announcement: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [195]]
+
+prime: Frequency: 3 Posts: [Doc ID: FT911-4019, Position: [343], Doc ID: FT911-4020, Position: [63, 183]]
+
+going: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [245], Doc ID: FT911-4020, Position: [95, 524]]
+
+past: Frequency: 9 Posts: [Doc ID: FT911-4016, Position: [320, 332], Doc ID: FT911-4018, Position: [330], Doc ID: FT911-4020, Position: [60, 253, 316, 405, 510], Doc ID: FT911-4017, Position: [1]]
+
+profile: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [101, 595]]
+
+opportunity: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [420], Doc ID: FT911-4018, Position: [438]]
+
+active: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [640]]
+
+bede: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [648]]
+
+easy: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [0]]
+
+senior: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [298]]
+
+atlantic: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [180]]
+
+islands: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [175, 194]]
+
+attitude: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [20], Doc ID: FT911-4020, Position: [216]]
+
+stems: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [364]]
+
+sweetly: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [210]]
+
+comes: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [186], Doc ID: FT911-4019, Position: [321, 325]]
+
+journal: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [5, 9]]
+
+peter: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [557]]
+
+composition: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [386]]
+
+unlike: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [432]]
+
+wednesday: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [116, 608]]
+
+term: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [40]]
+
+override: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [257]]
+
+spare: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [587]]
+
+mind: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [472]]
+
+business: Frequency: 9 Posts: [Doc ID: FT911-4016, Position: [602, 604], Doc ID: FT911-4020, Position: [34, 564, 604], Doc ID: FT911-4017, Position: [124, 463, 548, 607]]
+
+democrats: Frequency: 5 Posts: [Doc ID: FT911-4020, Position: [198, 267, 300, 356, 376]]
+
+emotional: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [228]]
+
+staff: Frequency: 6 Posts: [Doc ID: FT911-4016, Position: [213, 299, 599, 618, 688], Doc ID: FT911-4017, Position: [343]]
+
+partly: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [150]]
+
+possible: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [40], Doc ID: FT911-4019, Position: [418]]
+
+right: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [657], Doc ID: FT911-4019, Position: [251, 295, 322]]
+
+regarded: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [53]]
+
+meet: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [427]]
+
+calls: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [285]]
+
+paul: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [97]]
+
+did: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [433], Doc ID: FT911-4020, Position: [213, 268, 301]]
+
+represent: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [447]]
+
+london: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [620], Doc ID: FT911-4020, Position: [625]]
+
+murray: Frequency: 7 Posts: [Doc ID: FT911-4018, Position: [142, 150, 192, 255, 271, 294, 358]]
+
+questions: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [602]]
+
+xray: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [652]]
+
+promise: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [54]]
+
+latex: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [512]]
+
+hold: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [611]]
+
+fears: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [20]]
+
+insulated: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [196]]
+
+later: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [193]]
+
+directorate: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [162, 333, 650]]
+
+qe2: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [617]]
+
+satellites: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [366]]
+
+static: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [18, 694]]
+
+remained: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [295]]
+
+agreements: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [545]]
+
+publicly: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [220]]
+
+stockbroking: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [57]]
+
+acceptance: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [158]]
+
+beneficial: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [457]]
+
+varies: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [404]]
+
+blame: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [75]]
+
+italianstyle: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [354]]
+
+occasions: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [233]]
+
+uncompetitive: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [304]]
+
+carrying: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [211]]
+
+occasion: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [82], Doc ID: FT911-4020, Position: [211]]
+
+auditorium: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [244]]
+
+beginning: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [546]]
+
+analytical: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [653]]
+
+importance: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [295]]
+
+additional: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [589]]
+
+primarily: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [170], Doc ID: FT911-4019, Position: [358]]
+
+sheets: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [175]]
+
+incentives: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [287]]
+
+732: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [701]]
+
+734: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [22]]
+
+ignore: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [59]]
+
+company: Frequency: 12 Posts: [Doc ID: FT911-4016, Position: [130, 293, 311, 369, 378, 420, 671], Doc ID: FT911-4020, Position: [18, 51, 124, 441, 485]]
+
+737: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [539]]
+
+passed: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [364]]
+
+formica: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [171]]
+
+nuclear: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [335]]
+
+just: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [211], Doc ID: FT911-4019, Position: [294], Doc ID: FT911-4017, Position: [567]]
+
+kuwait: Frequency: 7 Posts: [Doc ID: FT911-4017, Position: [506, 537, 563, 574], Doc ID: FT911-4019, Position: [169, 210, 317]]
+
+arrogant: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [38]]
+
+holy: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [148]]
+
+hairdressing: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [608]]
+
+asia: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [300]]
+
+grand: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [600]]
+
+tangible: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [97, 682], Doc ID: FT911-4018, Position: [230]]
+
+home: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [57], Doc ID: FT911-4020, Position: [219]]
+
+josiah: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [668]]
+
+owned: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [337, 360, 367, 376]]
+
+decades: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [331], Doc ID: FT911-4019, Position: [278]]
+
+president: Frequency: 4 Posts: [Doc ID: FT911-4019, Position: [41, 243], Doc ID: FT911-4020, Position: [667, 691]]
+
+hope: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [326]]
+
+america: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [454], Doc ID: FT911-4018, Position: [336, 467], Doc ID: FT911-4017, Position: [299, 314]]
+
+division: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [189, 552]]
+
+executive: Frequency: 8 Posts: [Doc ID: FT911-4020, Position: [82, 106, 125, 669, 682, 693, 697, 700]]
+
+datastream: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [705]]
+
+balance: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [36], Doc ID: FT911-4017, Position: [5]]
+
+handfinished: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [134]]
+
+iconoclast: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [140]]
+
+action: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [458], Doc ID: FT911-4018, Position: [362]]
+
+757: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [692]]
+
+latin: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [313]]
+
+pitch: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [519]]
+
+usually: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [208]]
+
+fired: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [13]]
+
+exceeded: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [32]]
+
+belt: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [484]]
+
+sense: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [340], Doc ID: FT911-4020, Position: [209]]
+
+palme: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [66]]
+
+agrochemical: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [409]]
+
+field: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [510]]
+
+centralised: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [396]]
+
+reached: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [517], Doc ID: FT911-4019, Position: [338]]
+
+singleminded: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [623]]
+
+biological: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [449]]
+
+machinery: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [564, 647]]
+
+trading: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [10]]
+
+suburbs: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [188]]
+
+don: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [246]]
+
+clients: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [76]]
+
+britain: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [74], Doc ID: FT911-4019, Position: [60, 408]]
+
+privatised: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [129]]
+
+marginality: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [315]]
+
+phenomenon: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [334]]
+
+products: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [96, 412, 439, 475]]
+
+mention: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [687], Doc ID: FT911-4017, Position: [45]]
+
+government: Frequency: 19 Posts: [Doc ID: FT911-4017, Position: [91, 96, 117, 157, 181, 198, 202, 216, 251, 315, 386, 393, 516, 542, 566, 586, 615], Doc ID: FT911-4020, Position: [320], Doc ID: FT911-4018, Position: [361]]
+
+file: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [661]]
+
+known: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [373]]
+
+buoyant: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [281]]
+
+advocated: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [250]]
+
+cofounded: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [572]]
+
+insular: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [160]]
+
+member: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [563]]
+
+coalition: Frequency: 3 Posts: [Doc ID: FT911-4019, Position: [16, 109, 293]]
+
+crime: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [374]]
+
+man: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [3]]
+
+stand: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [457]]
+
+knows: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [436]]
+
+hawks: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [192]]
+
+forward: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [292], Doc ID: FT911-4020, Position: [549], Doc ID: FT911-4019, Position: [245, 354]]
+
+ethical: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [253]]
+
+ingvar: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [185]]
+
+refugee: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [3]]
+
+able: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [256], Doc ID: FT911-4020, Position: [58]]
+
+return: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [56], Doc ID: FT911-4020, Position: [536]]
+
+fees: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [84]]
+
+krona: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [412]]
+
+concerned: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [468], Doc ID: FT911-4020, Position: [568]]
+
+use: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [105, 463, 517]]
+
+subject: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [121], Doc ID: FT911-4020, Position: [189]]
+
+feel: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [21], Doc ID: FT911-4020, Position: [642]]
+
+british: Frequency: 10 Posts: [Doc ID: FT911-4016, Position: [120, 185], Doc ID: FT911-4019, Position: [182, 342, 379, 455], Doc ID: FT911-4017, Position: [29, 144, 526, 598]]
+
+terribly: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [216]]
+
+iraqi: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [213, 301]]
+
+seats: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [531]]
+
+strip: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [108, 117]]
+
+geographic: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [333]]
+
+solution: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [415], Doc ID: FT911-4019, Position: [333]]
+
+concentrated: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [320]]
+
+diverge: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [378]]
+
+opponent: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [223], Doc ID: FT911-4020, Position: [446]]
+
+logo: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [6]]
+
+international: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [690], Doc ID: FT911-4019, Position: [160, 248, 366]]
+
+credit: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [138], Doc ID: FT911-4019, Position: [264]]
+
+insofar: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [89]]
+
+intensive: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [268]]
+
+terrible: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [22]]
+
+upward: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [178]]
+
+cities: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [185, 323]]
+
+derbyshire: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [443]]
+
+equipment: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [375, 447, 504, 654]]
+
+picking: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [404]]
+
+steps: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [207]]
+
+heart: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [236]]
+
+corporations: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [361]]
+
+entries: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [692]]
+
+convenient: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [124]]
+
+strengths: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [316]]
+
+background: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [86]]
+
+tactics: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [79]]
+
+valley: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [356]]
+
+position: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [539, 631]]
+
+present: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [401], Doc ID: FT911-4019, Position: [287]]
+
+harvard: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [99]]
+
+problems: Frequency: 5 Posts: [Doc ID: FT911-4018, Position: [67, 85, 365, 392, 401]]
+
+nexus: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [391]]
+
+derek: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [152, 235, 304]]
+
+best: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [579]]
+
+appears: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [416]]
+
+troubles: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [631]]
+
+diabolical: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [290]]
+
+mess: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [120, 137]]
+
+negotiating: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [562]]
+
+angola: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [594]]
+
+scandinavia: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [19]]
+
+ghettos: Frequency: 5 Posts: [Doc ID: FT911-4018, Position: [233, 259, 347, 366, 418]]
+
+dti: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [342]]
+
+magnitude: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [369]]
+
+insuring: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [136]]
+
+physical: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [42], Doc ID: FT911-4018, Position: [398]]
+
+make: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [77], Doc ID: FT911-4020, Position: [302], Doc ID: FT911-4018, Position: [298]]
+
+certainly: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [633], Doc ID: FT911-4020, Position: [605], Doc ID: FT911-4018, Position: [327]]
+
+designers: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [159]]
+
+processes: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [357]]
+
+weetabix: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [176]]
+
+bunting: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [448]]
+
+rapidly: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [487, 500], Doc ID: FT911-4020, Position: [294]]
+
+attraction: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [587]]
+
+coming: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [377]]
+
+psychological: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [154]]
+
+05: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [675]]
+
+intertwined: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [4]]
+
+blockbuster: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [81]]
+
+cure: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [82]]
+
+danger: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [599]]
+
+laissez: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [199]]
+
+cover: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [123]]
+
+firm: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [58]]
+
+reflect: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [33, 478]]
+
+competitors: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [251], Doc ID: FT911-4017, Position: [450]]
+
+character: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [432]]
+
+bank: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [614, 622]]
+
+contribution: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [326], Doc ID: FT911-4017, Position: [398]]
+
+drawing: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [218]]
+
+comprise: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [289]]
+
+10: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [565], Doc ID: FT911-4020, Position: [401]]
+
+resident: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [348]]
+
+based: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [208, 468], Doc ID: FT911-4020, Position: [263, 481]]
+
+august: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [165]]
+
+16: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [349]]
+
+received: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [664]]
+
+fluent: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [552]]
+
+decorative: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [173]]
+
+unruffled: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [296]]
+
+quality: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [123]]
+
+saddam: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [85, 330]]
+
+boost: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [460]]
+
+impulse: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [364]]
+
+receives: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [672]]
+
+sober: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [31]]
+
+ministry: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [363]]
+
+20: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [11, 254]]
+
+21: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [353]]
+
+23: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [341]]
+
+fact: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [310], Doc ID: FT911-4020, Position: [103]]
+
+25: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [681, 687]]
+
+27: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [346]]
+
+examine: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [87]]
+
+respectable: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [435]]
+
+global: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [480]]
+
+industry: Frequency: 12 Posts: [Doc ID: FT911-4017, Position: [56, 73, 119, 169, 220, 242, 413, 515, 560, 619], Doc ID: FT911-4020, Position: [270, 491]]
+
+believe: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [652], Doc ID: FT911-4020, Position: [91]]
+
+long: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [624], Doc ID: FT911-4020, Position: [102, 251], Doc ID: FT911-4019, Position: [153, 352]]
+
+shares: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [170], Doc ID: FT911-4020, Position: [459]]
+
+plants: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [568]]
+
+perspective: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [11]]
+
+operating: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [432]]
+
+relationship: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [116]]
+
+free: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [247, 272]]
+
+30: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [231, 613], Doc ID: FT911-4020, Position: [357], Doc ID: FT911-4017, Position: [678]]
+
+equality: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [30]]
+
+coedited: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [95]]
+
+middle: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [181, 423, 454]]
+
+reaction: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [103]]
+
+bewilderment: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [365]]
+
+people: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [250], Doc ID: FT911-4019, Position: [302], Doc ID: FT911-4020, Position: [274], Doc ID: FT911-4018, Position: [58]]
+
+stay: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [470]]
+
+actually: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [140]]
+
+controlled: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [104], Doc ID: FT911-4020, Position: [454]]
+
+face: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [115], Doc ID: FT911-4020, Position: [73]]
+
+celebrations: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [67]]
+
+collaboration: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [514]]
+
+operation: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [605], Doc ID: FT911-4019, Position: [64]]
+
+open: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [633], Doc ID: FT911-4019, Position: [202], Doc ID: FT911-4017, Position: [512]]
+
+45: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [690]]
+
+refugees: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [67, 242]]
+
+suffering: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [281], Doc ID: FT911-4020, Position: [284]]
+
+rapid: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [238], Doc ID: FT911-4019, Position: [55]]
+
+seven: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [212]]
+
+project: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [229]]
+
+mainly: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [452]]
+
+graveyard: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [13]]
+
+devoting: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [598]]
+
+whisky: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [272]]
+
+tread: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [237]]
+
+icl: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [142]]
+
+roughly: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [446]]
+
+50: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [702]]
+
+ballantyne: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [128]]
+
+55: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [693]]
+
+56: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [118]]
+
+57: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [204]]
+
+sufferings: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [241]]
+
+look: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [15, 374]]
+
+announced: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [159]]
+
+grounds: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [255]]
+
+fabrics: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [164]]
+
+owning: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [56]]
+
+forces: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [221]]
+
+campaign: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [422, 453]]
+
+60: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [517]]
+
+yawning: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [3]]
+
+67: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [201]]
+
+pinned: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [505]]
+
+rough: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [525]]
+
+distillery: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [419]]
+
+lord: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [523]]
+
+recording: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [513]]
+
+polls: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [360]]
+
+distillers: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [262]]
+
+common: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [496]]
+
+gulf: Frequency: 7 Posts: [Doc ID: FT911-4017, Position: [547], Doc ID: FT911-4019, Position: [8, 140, 204, 276, 291, 399]]
+
+70: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [66, 225], Doc ID: FT911-4017, Position: [699]]
+
+definition: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [317]]
+
+wonder: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [456]]
+
+illusory: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [83]]
+
+winning: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [476, 577]]
+
+apply: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [420]]
+
+recently: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [398, 533], Doc ID: FT911-4017, Position: [158]]
+
+separated: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [176]]
+
+antedates: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [275]]
+
+skelmersdale: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [469]]
+
+money: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [409], Doc ID: FT911-4018, Position: [50]]
+
+stakes: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [402]]
+
+80: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [684]]
+
+1608: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [425]]
+
+85: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [696]]
+
+mark: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [22, 531], Doc ID: FT911-4018, Position: [384]]
+
+ireland: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [422]]
+
+humanitarian: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [254]]
+
+ceasefire: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [546]]
+
+achievement: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [29], Doc ID: FT911-4020, Position: [32], Doc ID: FT911-4017, Position: [39]]
+
+erupted: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [288], Doc ID: FT911-4020, Position: [190]]
+
+fair: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [30]]
+
+admirers: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [39]]
+
+prick: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [30]]
+
+businessmen: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [522, 592]]
+
+loss: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [514]]
+
+relate: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [90]]
+
+skandinaviska: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [615]]
+
+lost: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [286]]
+
+dependent: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [565]]
+
+obstacle: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [155]]
+
+crest: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [2]]
+
+98: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [62]]
+
+passionately: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [360]]
+
+work: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [75, 623], Doc ID: FT911-4020, Position: [497, 542, 607]]
+
+linking: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [163]]
+
+exceptional: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [372]]
+
+constitute: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [634]]
+
+agree: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [398]]
+
+fail: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [426]]
+
+itself: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [369]]
+
+books: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [549], Doc ID: FT911-4019, Position: [250]]
+
+oversimplifying: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [147]]
+
+breakfast: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [177]]
+
+contractor: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [350]]
+
+distress: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [288]]
+
+steel: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [107, 116]]
+
+internal: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [528]]
+
+foreign: Frequency: 8 Posts: [Doc ID: FT911-4016, Position: [81, 307, 336, 490], Doc ID: FT911-4020, Position: [342], Doc ID: FT911-4017, Position: [170, 362, 554]]
+
+punch: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [224]]
+
+naturally: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [187]]
+
+flexibility: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [399]]
+
+believes: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [359], Doc ID: FT911-4020, Position: [282, 587]]
+
+decisively: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [246]]
+
+reduces: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [396]]
+
+hopes: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [504]]
+
+carroll: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [466]]
+
+collective: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [389]]
+
+demonstrated: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [410]]
+
+explains: Frequency: 3 Posts: [Doc ID: FT911-4020, Position: [205, 276, 531]]
+
+europe: Frequency: 13 Posts: [Doc ID: FT911-4016, Position: [77, 273, 363, 455, 505, 543], Doc ID: FT911-4019, Position: [371, 388], Doc ID: FT911-4020, Position: [136, 229, 561, 569], Doc ID: FT911-4017, Position: [296]]
+
+overshadowed: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [124]]
+
+multilingual: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [598]]
+
+harriers: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [191]]
+
+established: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [310]]
+
+finger: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [144]]
+
+tremendously: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [405]]
+
+upsets: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [24]]
+
+uniquely: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [564]]
+
+agenda: Frequency: 3 Posts: [Doc ID: FT911-4019, Position: [367, 374, 378]]
+
+degenerate: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [601]]
+
+opinion: Frequency: 3 Posts: [Doc ID: FT911-4020, Position: [244, 350, 383]]
+
+altogether: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [266]]
+
+reappraising: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [224]]
+
+joblessness: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [375]]
+
+voice: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [220, 242]]
+
+prefer: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [29]]
+
+clearly: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [588]]
+
+freedoms: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [347]]
+
+axis: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [584, 589]]
+
+space: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [448]]
+
+preferable: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [402]]
+
+spite: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [68]]
+
+arrange: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [214]]
+
+twotier: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [449]]
+
+publicity: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [616]]
+
+swedish: Frequency: 5 Posts: [Doc ID: FT911-4020, Position: [150, 200, 240, 411, 433]]
+
+discover: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [411]]
+
+commitment: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [92]]
+
+visitors: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [219]]
+
+autocratic: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [147]]
+
+fortress: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [453]]
+
+combustion: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [440]]
+
+holies: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [149]]
+
+publisher: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [430], Doc ID: FT911-4018, Position: [105]]
+
+invaded: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [149]]
+
+13fold: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [329]]
+
+abolition: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [341]]
+
+scientific: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [649]]
+
+frequent: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [296]]
+
+according: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [520]]
+
+membership: Frequency: 3 Posts: [Doc ID: FT911-4019, Position: [422], Doc ID: FT911-4020, Position: [202, 421]]
+
+platform: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [434]]
+
+cosmetics: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [472]]
+
+despotism: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [23]]
+
+christina: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [677]]
+
+operations: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [184]]
+
+public: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [157], Doc ID: FT911-4020, Position: [57, 261]]
+
+walking: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [215]]
+
+talks: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [211]]
+
+spend: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [12]]
+
+1990s: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [571]]
+
+forerunner: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [353]]
+
+value: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [397]]
+
+monetary: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [51], Doc ID: FT911-4020, Position: [418], Doc ID: FT911-4019, Position: [392, 442]]
+
+spent: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [556]]
+
+charging: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [268]]
+
+resources: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [284], Doc ID: FT911-4018, Position: [269]]
+
+instead: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [76], Doc ID: FT911-4019, Position: [59]]
+
+command: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [82]]
+
+compulsory: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [495]]
+
+performance: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [250]]
+
+trade: Frequency: 17 Posts: [Doc ID: FT911-4016, Position: [303], Doc ID: FT911-4017, Position: [36, 146, 168, 177, 183, 195, 207, 215, 331, 355, 381, 461, 470, 485, 534, 559]]
+
+round: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [210], Doc ID: FT911-4019, Position: [189]]
+
+insisted: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [385]]
+
+growth: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [239], Doc ID: FT911-4020, Position: [291], Doc ID: FT911-4017, Position: [34]]
+
+mediumsized: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [197]]
+
+nationalise: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [269, 273]]
+
+hands: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [361]]
+
+fairs: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [304]]
+
+year: Frequency: 17 Posts: [Doc ID: FT911-4016, Position: [26, 206, 340, 642, 661, 676, 693, 704, 705], Doc ID: FT911-4020, Position: [119, 511], Doc ID: FT911-4017, Position: [25, 41, 64, 112, 441, 639]]
+
+sufficiently: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [383]]
+
+desperate: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [240]]
+
+leading: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [172]]
+
+faire: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [200]]
+
+politically: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [139]]
+
+resolution: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [125]]
+
+building: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [190], Doc ID: FT911-4020, Position: [15]]
+
+properly: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [75], Doc ID: FT911-4018, Position: [267]]
+
+favoured: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [199]]
+
+poor: Frequency: 7 Posts: [Doc ID: FT911-4018, Position: [169, 339, 343, 351, 355, 405, 436]]
+
+moving: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [374], Doc ID: FT911-4020, Position: [245, 293, 384, 580]]
+
+victims: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [172]]
+
+ran: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [13]]
+
+agreement: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [213]]
+
+younger: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [81]]
+
+fairly: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [17]]
+
+economy: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [280], Doc ID: FT911-4020, Position: [298]]
+
+insects: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [458]]
+
+community: Frequency: 4 Posts: [Doc ID: FT911-4019, Position: [424, 431, 448], Doc ID: FT911-4020, Position: [159]]
+
+charismatic: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [92]]
+
+contains: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [50]]
+
+enskilda: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [616]]
+
+institute: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [146]]
+
+charged: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [85]]
+
+appropriate: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [85]]
+
+olof: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [65]]
+
+southern: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [224]]
+
+brookings: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [103]]
+
+resignation: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [104]]
+
+sleep: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [621]]
+
+underclass: Frequency: 11 Posts: [Doc ID: FT911-4018, Position: [0, 41, 93, 130, 152, 250, 304, 326, 387, 396, 469]]
+
+refuse: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [437]]
+
+aspect: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [535]]
+
+computers: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [149]]
+
+supporters: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [399], Doc ID: FT911-4020, Position: [368]]
+
+linked: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [290], Doc ID: FT911-4020, Position: [413]]
+
+stagnant: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [289]]
+
+winners: Frequency: 7 Posts: [Doc ID: FT911-4016, Position: [31, 95, 236, 335, 436, 662], Doc ID: FT911-4017, Position: [645]]
+
+cultivated: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [201]]
+
+massacres: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [88]]
+
+pushing: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [551]]
+
+fast: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [274]]
+
+invasion: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [216]]
+
+cabletime: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [496]]
+
+missions: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [549]]
+
+loosely: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [68]]
+
+severe: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [73]]
+
+aerospace: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [186]]
+
+volvo: Frequency: 13 Posts: [Doc ID: FT911-4020, Position: [14, 44, 80, 112, 132, 400, 477, 505, 512, 649, 683, 698, 702]]
+
+longterm: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [137], Doc ID: FT911-4018, Position: [70, 414]]
+
+screening: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [411]]
+
+couple: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [265]]
+
+organised: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [76]]
+
+controls: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [344]]
+
+generates: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [61]]
+
+evidence: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [402]]
+
+agricultural: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [461]]
+
+shortage: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [283]]
+
+helped: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [279], Doc ID: FT911-4020, Position: [232]]
+
+add: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [428]]
+
+minister: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [196], Doc ID: FT911-4020, Position: [64, 184], Doc ID: FT911-4019, Position: [344]]
+
+need: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [481], Doc ID: FT911-4020, Position: [430]]
+
+vexed: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [387]]
+
+article: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [29], Doc ID: FT911-4020, Position: [170]]
+
+volume: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [244], Doc ID: FT911-4017, Position: [27, 663]]
+
+materials: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [519]]
+
+plymouth: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [222]]
+
+exchange: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [47], Doc ID: FT911-4020, Position: [343, 414]]
+
+washington: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [18]]
+
+discriminating: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [54]]
+
+849: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [10]]
+
+joining: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [157]]
+
+private: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [322], Doc ID: FT911-4020, Position: [17]]
+
+campaigned: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [392]]
+
+production: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [165, 292]]
+
+searching: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [79]]
+
+morals: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [155]]
+
+ride: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [582]]
+
+capitalise: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [119]]
+
+precisely: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [311]]
+
+stretch: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [179]]
+
+purveyor: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [324]]
+
+previously: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [663]]
+
+responsible: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [571]]
+
+scope: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [71]]
+
+end: Frequency: 6 Posts: [Doc ID: FT911-4016, Position: [415], Doc ID: FT911-4019, Position: [73, 235], Doc ID: FT911-4020, Position: [378], Doc ID: FT911-4017, Position: [487, 609]]
+
+morale: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [689]]
+
+bargaining: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [390]]
+
+chiefly: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [452]]
+
+recorded: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [444, 448]]
+
+praise: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [307]]
+
+special: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [550]]
+
+environment: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [312, 409]]
+
+kuwaiti: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [569, 612]]
+
+864: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [683]]
+
+moves: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [558]]
+
+achieved: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [454]]
+
+age: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [402]]
+
+slightly: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [339]]
+
+ago: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [267], Doc ID: FT911-4020, Position: [403]]
+
+years: Frequency: 16 Posts: [Doc ID: FT911-4016, Position: [248, 321, 394, 659, 667], Doc ID: FT911-4020, Position: [12, 61, 255, 317, 391, 402, 518, 535], Doc ID: FT911-4017, Position: [2, 266, 432]]
+
+moral: Frequency: 4 Posts: [Doc ID: FT911-4018, Position: [231], Doc ID: FT911-4019, Position: [262, 296, 420]]
+
+number: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [51], Doc ID: FT911-4020, Position: [457]]
+
+gradually: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [74]]
+
+backseat: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [654]]
+
+rim: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [302]]
+
+decline: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [174]]
+
+narrow: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [92]]
+
+rebut: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [360]]
+
+businesses: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [255, 381]]
+
+tornados: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [193]]
+
+similar: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [412], Doc ID: FT911-4019, Position: [340]]
+
+tackled: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [86, 394]]
+
+forth: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [377]]
+
+thousands: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [27]]
+
+driver: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [655]]
+
+distributes: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [147, 155]]
+
+silver: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [283]]
+
+tone: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [212]]
+
+confident: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [110]]
+
+accusations: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [361]]
+
+doubling: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [429]]
+
+air: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [576], Doc ID: FT911-4019, Position: [83]]
+
+manufactures: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [364]]
+
+local: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [596], Doc ID: FT911-4019, Position: [229]]
+
+manufacturer: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [179, 282, 352, 485]]
+
+asked: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [681]]
+
+holders: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [344, 699]]
+
+bubble: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [31]]
+
+share: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [450, 466]]
+
+belts: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [494]]
+
+saddled: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [226]]
+
+polar: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [127]]
+
+honestly: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [245]]
+
+television: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [503]]
+
+chairman: Frequency: 5 Posts: [Doc ID: FT911-4017, Position: [149, 154], Doc ID: FT911-4020, Position: [126, 611, 701]]
+
+filled: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [243]]
+
+satisfaction: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [642]]
+
+workstations: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [143]]
+
+concessions: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [612]]
+
+future: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [134]]
+
+uruguay: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [209]]
+
+royal: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [107]]
+
+cent: Frequency: 9 Posts: [Doc ID: FT911-4016, Position: [63, 67, 202, 205, 226], Doc ID: FT911-4020, Position: [358], Doc ID: FT911-4018, Position: [342, 350, 354]]
+
+assertive: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [78]]
+
+points: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [294], Doc ID: FT911-4020, Position: [324]]
+
+twoway: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [380]]
+
+whites: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [344]]
+
+439: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [695]]
+
+links: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [590]]
+
+ultramodern: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [650]]
+
+unfashionably: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [305]]
+
+cable: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [502]]
+
+new: Frequency: 17 Posts: [Doc ID: FT911-4016, Position: [264, 488], Doc ID: FT911-4019, Position: [10, 49, 63, 246, 308, 318], Doc ID: FT911-4020, Position: [122, 135, 468, 478, 532, 633], Doc ID: FT911-4017, Position: [148, 329, 649]]
+
+articulate: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [137]]
+
+positions: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [346], Doc ID: FT911-4018, Position: [129]]
+
+real: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [43]]
+
+expense: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [46]]
+
+gunnar: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [679]]
+
+schweppes: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [181]]
+
+shattered: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [40]]
+
+badly: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [74]]
+
+financial: Frequency: 3 Posts: [Doc ID: FT911-4020, Position: [346, 427, 508]]
+
+overgenerous: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [162]]
+
+technophone: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [387]]
+
+exchangers: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [99, 102]]
+
+comdev: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [362]]
+
+contracts: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [92, 308]]
+
+favour: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [463]]
+
+running: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [26], Doc ID: FT911-4020, Position: [43, 79]]
+
+weakness: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [363]]
+
+eva: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [676]]
+
+ecgd: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [134, 629, 632, 653]]
+
+credits: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [126]]
+
+dictate: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [214]]
+
+construction: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [476]]
+
+douglas: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [552]]
+
+saying: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [213]]
+
+onoil: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [669]]
+
+reinforces: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [313]]
+
+overdominant: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [260]]
+
+bushmills: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [418]]
+
+abroad: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [246, 386], Doc ID: FT911-4017, Position: [350]]
+
+undermine: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [627]]
+
+frontier: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [172]]
+
+stepped: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [76]]
+
+wellfounded: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [95]]
+
+radical: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [437]]
+
+looked: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [324], Doc ID: FT911-4019, Position: [34]]
+
+constance: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [465]]
+
+rates: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [44], Doc ID: FT911-4018, Position: [278]]
+
+cruisers: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [158]]
+
+bakewell: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [442]]
+
+transport: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [585]]
+
+employment: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [177]]
+
+specific: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [61]]
+
+sheffield: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [109, 279]]
+
+suggested: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [256]]
+
+caring: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [266]]
+
+analogy: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [165]]
+
+filth: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [22]]
+
+turkeys: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [359]]
+
+risky: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [140]]
+
+territory: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [152, 214]]
+
+reason: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [238]]
+
+developments: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [441]]
+
+foods: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [124]]
+
+thought: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [271]]
+
+unbacked: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [15]]
+
+ship: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [631]]
+
+securities: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [56]]
+
+oxford: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [426]]
+
+companies: Frequency: 12 Posts: [Doc ID: FT911-4016, Position: [23, 40, 137, 198, 403, 477, 578, 637], Doc ID: FT911-4020, Position: [453, 495], Doc ID: FT911-4017, Position: [104, 230]]
+
+pounds: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [430, 439]]
+
+gyllenhammar: Frequency: 11 Posts: [Doc ID: FT911-4020, Position: [2, 68, 94, 231, 281, 381, 444, 471, 520, 556, 597]]
+
+builds: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [100]]
+
+shia: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [90]]
+
+annual: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [113]]
+
+english: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [553]]
+
+poverty: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [321]]
+
+models: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [533]]
+
+margin: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [38]]
+
+ensuing: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [119]]
+
+remain: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [70], Doc ID: FT911-4018, Position: [450]]
+
+countries: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [232, 491], Doc ID: FT911-4019, Position: [417], Doc ID: FT911-4017, Position: [142]]
+
+monitoring: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [446]]
+
+demand: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [481]]
+
+argues: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [242, 404]]
+
+himself: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [557]]
+
+recipients: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [170]]
+
+196164: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [684]]
+
+supplying: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [501]]
+
+mobility: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [179]]
+
+increased: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [325]]
+
+argued: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [39]]
+
+maybe: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [444]]
+
+students: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [88]]
+
+guarantee: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [127]]
+
+handed: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [77]]
+
+worth: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [702], Doc ID: FT911-4017, Position: [473]]
+
+exaggeratedly: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [203]]
+
+helicopter: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [87]]
+
+taken: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [360, 459], Doc ID: FT911-4019, Position: [24]]
+
+skandia: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [670, 689]]
+
+broader: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [492]]
+
+mechanism: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [49], Doc ID: FT911-4020, Position: [416]]
+
+takes: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [435]]
+
+kids: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [257]]
+
+ghetto: Frequency: 4 Posts: [Doc ID: FT911-4018, Position: [168, 275, 338, 435]]
+
+black: Frequency: 6 Posts: [Doc ID: FT911-4018, Position: [136, 180, 261, 340, 458], Doc ID: FT911-4019, Position: [449]]
+
+wilson: Frequency: 5 Posts: [Doc ID: FT911-4018, Position: [135, 166, 227, 302, 381]]
+
+crates: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [44]]
+
+ownership: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [265], Doc ID: FT911-4020, Position: [451]]
+
+outofwedlock: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [159]]
+
+embarking: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [62]]
+
+administration: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [189]]
+
+officer: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [694]]
+
+offices: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [597]]
+
+developing: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [582], Doc ID: FT911-4017, Position: [141]]
+
+organisation: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [573]]
+
+run: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [462]]
+
+remains: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [139]]
+
+19th: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [197]]
+
+loudspeakers: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [221]]
+
+research: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [73]]
+
+debate: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [131], Doc ID: FT911-4020, Position: [188]]
+
+view: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [232, 493], Doc ID: FT911-4020, Position: [131, 438]]
+
+white: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [453]]
+
+chopped: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [659]]
+
+inarticulate: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [222]]
+
+helpful: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [473]]
+
+unbalanced: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [279]]
+
+results: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [390]]
+
+termination: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [81]]
+
+courses: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [94]]
+
+postcold: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [227]]
+
+unmarried: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [260]]
+
+engineering: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [349]]
+
+significant: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [227]]
+
+rein: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [133]]
+
+improving: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [75]]
+
+diatribe: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [177]]
+
+designs: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [146, 161]]
+
+whiskey: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [424]]
+
+furnishing: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [163]]
+
+benefits: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [683], Doc ID: FT911-4018, Position: [164]]
+
+occupy: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [344]]
+
+distance: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [436]]
+
+prospects: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [404]]
+
+attract: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [384]]
+
+nearly: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [507], Doc ID: FT911-4020, Position: [10]]
+
+book: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [94, 110]]
+
+disappear: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [96]]
+
+054: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [680]]
+
+shot: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [12]]
+
+conclusion: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [341]]
+
+hornby: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [153, 236]]
+
+central: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [502]]
+
+street: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [4]]
+
+supporting: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [591]]
+
+outrageous: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [209]]
+
+noninterventionist: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [185]]
+
+green: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [438]]
+
+election: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [363]]
+
+breaks: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [166]]
+
+elsenham: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [122]]
+
+war: Frequency: 12 Posts: [Doc ID: FT911-4019, Position: [80, 98, 129, 141, 144, 205, 212, 236, 277, 292, 314], Doc ID: FT911-4020, Position: [228]]
+
+mitterrand: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [244, 384]]
+
+seating: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [514]]
+
+way: Frequency: 8 Posts: [Doc ID: FT911-4017, Position: [79, 624], Doc ID: FT911-4019, Position: [207, 353], Doc ID: FT911-4020, Position: [386, 548, 658], Doc ID: FT911-4018, Position: [325]]
+
+target: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [428]]
+
+grey: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [118]]
+
+urban: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [92, 175, 346]]
+
+disciplines: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [428]]
+
+restricted: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [187]]
+
+duty: Frequency: 3 Posts: [Doc ID: FT911-4019, Position: [297, 326, 350]]
+
+risk: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [463]]
+
+rise: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [279]]
+
+play: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [217], Doc ID: FT911-4019, Position: [412]]
+
+peters: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [154]]
+
+charles: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [141]]
+
+071: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [677]]
+
+sainsbury: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [194]]
+
+modest: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [267]]
+
+cast: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [237]]
+
+anxious: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [132]]
+
+priorities: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [282]]
+
+instruments: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [650]]
+
+gothenburg: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [665, 687]]
+
+bamph: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [98]]
+
+far: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [234], Doc ID: FT911-4020, Position: [258], Doc ID: FT911-4018, Position: [465]]
+
+officials: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [351, 570]]
+
+plan: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [293], Doc ID: FT911-4019, Position: [345]]
+
+greater: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [335, 479], Doc ID: FT911-4020, Position: [345]]
+
+citadel: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [450]]
+
+promising: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [289]]
+
+nokia: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [400]]
+
+julius: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [134]]
+
+lives: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [310]]
+
+double: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [369]]
+
+unification: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [381]]
+
+lofty: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [630]]
+
+stainless: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [114]]
+
+chickens: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [358]]
+
+lavatories: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [537]]
+
+phone: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [389], Doc ID: FT911-4018, Position: [8]]
+
+comfortable: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [466]]
+
+mites: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [459]]
+
+prizes: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [438]]
+
+recentlyended: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [418]]
+
+style: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [206], Doc ID: FT911-4020, Position: [21, 42]]
+
+completely: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [467]]
+
+chocolate: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [183]]
+
+participation: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [301], Doc ID: FT911-4018, Position: [277]]
+
+enabler: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [200, 243]]
+
+damage: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [462]]
+
+purely: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [121]]
+
+hussein: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [86, 331]]
+
+districts: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [461]]
+
+exercise: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [600]]
+
+labour: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [276, 308]]
+
+receiving: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [414]]
+
+acumen: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [35]]
+
+botb: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [280, 286, 648]]
+
+unabashed: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [193]]
+
+unpopularity: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [354]]
+
+realisation: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [550]]
+
+protect: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [65]]
+
+enables: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [452]]
+
+stress: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [579]]
+
+shareholders: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [114]]
+
+born: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [664]]
+
+roundtable: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [565]]
+
+great: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [407, 503], Doc ID: FT911-4020, Position: [473], Doc ID: FT911-4019, Position: [406]]
+
+happened: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [457]]
+
+wrong: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [412, 416], Doc ID: FT911-4018, Position: [460]]
+
+aggravate: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [364]]
+
+proceeded: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [272]]
+
+board: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [630], Doc ID: FT911-4017, Position: [147]]
+
+economic: Frequency: 5 Posts: [Doc ID: FT911-4018, Position: [286, 314], Doc ID: FT911-4020, Position: [290], Doc ID: FT911-4019, Position: [391, 441]]
+
+statistics: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [17]]
+
+pharmaceutical: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [410]]
+
+used: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [522]]
+
+retirement: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [109]]
+
+homegrown: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [379]]
+
+nave: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [32]]
+
+ecus: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [571]]
+
+described: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [197]]
+
+marketplace: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [496]]
+
+crisis: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [400]]
+
+stresses: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [305]]
+
+kind: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [219]]
+
+timing: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [210]]
+
+opened: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [595]]
+
+inner: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [184]]
+
+produced: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [576]]
+
+unauthorised: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [313]]
+
+market: Frequency: 8 Posts: [Doc ID: FT911-4016, Position: [253, 510], Doc ID: FT911-4020, Position: [248, 297], Doc ID: FT911-4017, Position: [226, 269, 383, 472]]
+
+britons: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [7]]
+
+keen: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [45]]
+
+transfer: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [91]]
+
+cereal: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [178, 566]]
+
+outside: Frequency: 3 Posts: [Doc ID: FT911-4019, Position: [105], Doc ID: FT911-4020, Position: [70, 429]]
+
+effect: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [370]]
+
+produces: Frequency: 6 Posts: [Doc ID: FT911-4016, Position: [113, 172, 408, 444, 471, 651]]
+
+cruise: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [614]]
+
+producer: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [390, 515]]
+
+topic: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [297]]
+
+screamed: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [1]]
+
+automotive: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [586]]
+
+job: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [201, 248], Doc ID: FT911-4020, Position: [469, 634]]
+
+paralysed: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [315]]
+
+daughter: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [678]]
+
+3bn: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [431]]
+
+largest: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [280], Doc ID: FT911-4020, Position: [16, 613]]
+
+politics: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [446]]
+
+acute: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [212]]
+
+relocated: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [421]]
+
+telephones: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [354]]
+
+hurd: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [553]]
+
+postgraduate: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [93]]
+
+structural: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [173]]
+
+win: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [59, 306], Doc ID: FT911-4017, Position: [105]]
+
+designed: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [574]]
+
+adds: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [58]]
+
+rest: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [89], Doc ID: FT911-4019, Position: [223]]
+
+handful: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [435]]
+
+saw: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [423]]
+
+say: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [106, 352, 392]]
+
+increase: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [243], Doc ID: FT911-4017, Position: [28, 442]]
+
+argentines: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [191]]
+
+spread: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [428]]
+
+jpw: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [220]]
+
+critics: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [391]]
+
+educated: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [671]]
+
+barriers: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [206, 471]]
+
+attention: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [219, 480, 604], Doc ID: FT911-4020, Position: [236]]
+
+decisionmaking: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [224]]
+
+visit: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [536, 543]]
+
+simply: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [499], Doc ID: FT911-4018, Position: [263]]
+
+customer: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [48]]
+
+projects: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [551]]
+
+bad: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [264]]
+
+christer: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [84]]
+
+reflected: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [547]]
+
+equity: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [461]]
+
+fit: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [62]]
+
+diplomatic: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [320]]
+
+suffer: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [258]]
+
+neighbourhood: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [442]]
+
+manufacturing: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [39], Doc ID: FT911-4018, Position: [176]]
+
+rank: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [155]]
+
+deaths: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [25]]
+
+doubts: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [72, 88], Doc ID: FT911-4020, Position: [488]]
+
+promoting: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [376, 488]]
+
+employers: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [434]]
+
+sure: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [234]]
+
+rigours: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [628]]
+
+textile: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [646]]
+
+personal: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [148], Doc ID: FT911-4020, Position: [20, 660]]
+
+synon: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [322, 655]]
+
+angry: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [241]]
+
+accurately: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [32]]
+
+lancashire: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [470]]
+
+astonishing: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [194]]
+
+thirds: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [335]]
+
+plans: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [48]]
+
+peace: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [132]]
+
+921: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [698]]
+
+dormitories: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [622]]
+
+simultaneously: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [395]]
+
+competitive: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [538]]
+
+formed: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [413], Doc ID: FT911-4018, Position: [397]]
+
+drive: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [315]]
+
+loyalist: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [367]]
+
+deal: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [408], Doc ID: FT911-4020, Position: [474]]
+
+strong: Frequency: 3 Posts: [Doc ID: FT911-4020, Position: [5, 445, 529]]
+
+prove: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [475]]
+
+wellpublicised: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [630]]
+
+sea: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [203]]
+
+reluctance: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [394]]
+
+proved: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [117], Doc ID: FT911-4019, Position: [133, 401]]
+
+communications: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [498]]
+
+inward: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [489]]
+
+rumbold: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [525]]
+
+responsibility: Frequency: 5 Posts: [Doc ID: FT911-4019, Position: [118, 197, 228, 232, 280]]
+
+national: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [260], Doc ID: FT911-4020, Position: [235]]
+
+compared: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [203, 249, 345], Doc ID: FT911-4019, Position: [139], Doc ID: FT911-4018, Position: [348]]
+
+set: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [268]]
+
+founder: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [562]]
+
+jobs: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [446]]
+
+founded: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [111]]
+
+words: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [217, 306]]
+
+galleys: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [530]]
+
+somewhat: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [507], Doc ID: FT911-4018, Position: [148, 379]]
+
+courting: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [17]]
+
+interview: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [191]]
+
+observers: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [493]]
+
+jobless: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [28, 46, 406]]
+
+vent: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [167]]
+
+11th: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [677]]
+
+beauty: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [609]]
+
+admits: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [547, 637]]
+
+developed: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [91]]
+
+nearest: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [383]]
+
+counterbalanced: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [588]]
+
+japanese: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [377], Doc ID: FT911-4017, Position: [469]]
+
+won: Frequency: 7 Posts: [Doc ID: FT911-4016, Position: [391, 534, 638, 656], Doc ID: FT911-4019, Position: [220, 439], Doc ID: FT911-4017, Position: [608]]
+
+surgical: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [36, 332]]
+
+france: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [61, 409]]
+
+criticism: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [94, 311]]
+
+ec: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [201, 422]]
+
+needs: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [427]]
+
+image: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [53]]
+
+decaying: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [16]]
+
+typically: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [597]]
+
+carrs: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [278]]
+
+parts: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [365, 588]]
+
+helps: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [109]]
+
+western: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [295], Doc ID: FT911-4020, Position: [560]]
+
+969: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [14]]
+
+resumed: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [578]]
+
+party: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [366]]
+
+little: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [455], Doc ID: FT911-4020, Position: [460]]
+
+theatrical: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [122]]
+
+confined: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [186]]
+
+trained: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [619]]
+
+kurds: Frequency: 4 Posts: [Doc ID: FT911-4019, Position: [28, 274, 286, 348]]
+
+lund: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [672]]
+
+burden: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [330]]
+
+getting: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [573]]
+
+appalling: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [0]]
+
+rate: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [48], Doc ID: FT911-4020, Position: [415]]
+
+captured: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [150]]
+
+sir: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [151, 234, 303]]
+
+class: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [182, 424, 455]]
+
+contrary: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [110, 656]]
+
+views: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [168]]
+
+living: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [14]]
+
+historic: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [272]]
+
+false: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [468]]
+
+obviously: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [700]]
+
+gatt: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [707]]
+
+milanlondon: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [583]]
+
+quasiautonomous: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [366]]
+
+form: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [150], Doc ID: FT911-4018, Position: [189, 196]]
+
+management: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [266]]
+
+wedgwood: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [669, 678]]
+
+significantly: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [475], Doc ID: FT911-4018, Position: [329]]
+
+comprehensive: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [138]]
+
+forestry: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [88]]
+
+promotion: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [143, 356]]
+
+elaborate: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [448]]
+
+big: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [322], Doc ID: FT911-4020, Position: [635]]
+
+practice: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [316]]
+
+corridor: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [647]]
+
+canadian: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [368]]
+
+welfare: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [15, 56]]
+
+blacks: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [284, 356]]
+
+relationships: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [241]]
+
+convinced: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [382, 410]]
+
+william: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [133]]
+
+peterson: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [98, 114]]
+
+context: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [419]]
+
+easily: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [98, 559]]
+
+animals: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [474]]
+
+french: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [483, 554]]
+
+reduce: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [460]]
+
+likely: Frequency: 5 Posts: [Doc ID: FT911-4018, Position: [42, 363], Doc ID: FT911-4019, Position: [99, 114, 126]]
+
+large: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [167, 309, 589], Doc ID: FT911-4020, Position: [456], Doc ID: FT911-4019, Position: [178]]
+
+issue: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [440]]
+
+vain: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [37]]
+
+dismissed: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [245]]
+
+resulting: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [288]]
+
+crafts: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [121]]
+
+traditional: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [38], Doc ID: FT911-4020, Position: [239]]
+
+engellau: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [680]]
+
+distraction: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [617]]
+
+contrast: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [520]]
+
+armtwist: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [249]]
+
+gave: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [166]]
+
+rears: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [456]]
+
+john: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [539], Doc ID: FT911-4019, Position: [336]]
+
+christopher: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [34]]
+
+tackling: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [474]]
+
+wider: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [129]]
+
+brought: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [178]]
+
+proportion: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [338]]
+
+payments: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [37], Doc ID: FT911-4017, Position: [6]]
+
+facilitator: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [244]]
+
+world: Frequency: 12 Posts: [Doc ID: FT911-4016, Position: [583], Doc ID: FT911-4019, Position: [50, 309, 319, 413, 415], Doc ID: FT911-4020, Position: [71], Doc ID: FT911-4017, Position: [35, 80, 464, 655, 668]]
+
+dependence: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [57]]
+
+reactors: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [338]]
+
+liberalising: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [370]]
+
+programme: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [270], Doc ID: FT911-4018, Position: [449]]
+
+finland: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [401]]
+
+creditors: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [385]]
+
+shias: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [29]]
+
+break: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [205], Doc ID: FT911-4020, Position: [393]]
+
+mentality: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [164]]
+
+change: Frequency: 6 Posts: [Doc ID: FT911-4017, Position: [122, 264, 664], Doc ID: FT911-4020, Position: [215, 636], Doc ID: FT911-4018, Position: [20]]
+
+suggestion: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [291]]
+
+willingness: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [272]]
+
+century: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [434], Doc ID: FT911-4018, Position: [198]]
+
+corporate: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [99]]
+
+powers: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [407]]
+
+married: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [675]]
+
+personified: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [69]]
+
+auto: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [490]]
+
+domination: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [373]]
+
+vans: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [315]]
+
+mislead: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [43]]
+
+political: Frequency: 12 Posts: [Doc ID: FT911-4017, Position: [594], Doc ID: FT911-4019, Position: [18, 101, 198, 230, 362, 373, 386, 403, 437], Doc ID: FT911-4018, Position: [100, 390]]
+
+office: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [171], Doc ID: FT911-4020, Position: [648]]
+
+northern: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [421]]
+
+posts: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [349]]
+
+second: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [24, 476]]
+
+suggests: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [452], Doc ID: FT911-4018, Position: [403]]
+
+high: Frequency: 7 Posts: [Doc ID: FT911-4017, Position: [42, 54, 100, 596], Doc ID: FT911-4020, Position: [264, 629], Doc ID: FT911-4018, Position: [47]]
+
+ruling: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [196]]
+
+son: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [666]]
+
+swiftness: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [1]]
+
+claim: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [155]]
+
+signalled: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [107]]
+
+criticisms: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [489]]
+
+different: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [65]]
+
+directly: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [289]]
+
+months: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [557], Doc ID: FT911-4020, Position: [192, 361], Doc ID: FT911-4018, Position: [13]]
+
+level: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [52, 606], Doc ID: FT911-4020, Position: [628]]
+
+mr: Frequency: 43 Posts: [Doc ID: FT911-4017, Position: [192, 538, 551, 556], Doc ID: FT911-4019, Position: [304, 335, 383, 425], Doc ID: FT911-4020, Position: [0, 67, 83, 93, 230, 280, 309, 318, 380, 443, 470, 519, 555, 596, 652], Doc ID: FT911-4018, Position: [33, 60, 88, 96, 111, 113, 132, 140, 149, 165, 191, 226, 246, 254, 270, 293, 301, 357, 367, 380]]
+
+longstanding: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [147]]
+
+diagnosis: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [382]]
+
+industrialists: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [567]]
+
+entry: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [46]]
+
+headquarters: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [651]]
+
+hifi: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [227]]
+
+dream: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [451]]
+
+reviled: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [308]]
+
+attached: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [307]]
+
+errors: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [78]]
+
+heat: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [101]]
+
+favourable: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [52]]
+
+falklands: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [143, 190]]
+
+tastes: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [49]]
+
+passionate: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [176]]
+
+shortterm: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [123]]
+
+careful: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [238]]
+
+mixed: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [6]]
+
+decent: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [217]]
+
+setbacks: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [509]]
+
+head: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [525, 541]]
+
+hispanics: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [352]]
+
+total: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [291], Doc ID: FT911-4019, Position: [136], Doc ID: FT911-4017, Position: [500]]
+
+favourably: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [385]]
+
+countrymen: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [162]]
+
+hear: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [23]]
+
+highly: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [436, 537]]
+
+sports: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [156]]
+
+determine: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [281]]
+
+sells: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [585]]
+
+social: Frequency: 12 Posts: [Doc ID: FT911-4018, Position: [66, 163, 311, 371, 400, 431], Doc ID: FT911-4020, Position: [197, 266, 296, 299, 355, 375]]
+
+control: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [450], Doc ID: FT911-4020, Position: [503]]
+
+families: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [459]]
+
+occupies: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [632]]
+
+amphion: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [685]]
+
+awards: Frequency: 11 Posts: [Doc ID: FT911-4016, Position: [13, 19, 194, 241, 393, 641, 657], Doc ID: FT911-4017, Position: [66, 84, 94, 113]]
+
+earth: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [373]]
+
+reconstruction: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [572], Doc ID: FT911-4020, Position: [623]]
+
+increasingly: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [8], Doc ID: FT911-4017, Position: [131]]
+
+cashmere: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [129, 135]]
+
+strategic: Frequency: 3 Posts: [Doc ID: FT911-4020, Position: [130, 479, 601]]
+
+nation: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [11]]
+
+fighting: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [654]]
+
+nordic: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [591]]
+
+behalf: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [299, 300]]
+
+scene: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [100]]
+
+guild: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [160]]
+
+speaking: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [205]]
+
+unduly: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [522]]
+
+geography: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [168]]
+
+118: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [27]]
+
+shifts: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [328]]
+
+recent: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [16, 190], Doc ID: FT911-4020, Position: [326]]
+
+brand: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [175]]
+
+trends: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [254]]
+
+breaking: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [159]]
+
+proposal: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [265]]
+
+orgy: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [602]]
+
+closely: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [498]]
+
+old: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [417], Doc ID: FT911-4020, Position: [120]]
+
+pleasure: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [638]]
+
+brilliance: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [5]]
+
+accept: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [425]]
+
+seat: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [483, 493]]
+
+carlton: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [497]]
+
+northwestern: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [37]]
+
+madrid: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [585]]
+
+chronically: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [45]]
+
+conservative: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [188], Doc ID: FT911-4018, Position: [143]]
+
+sun: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [355]]
+
+current: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [291], Doc ID: FT911-4020, Position: [351]]
+
+secretary: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [555, 561]]
+
+londonbased: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [70]]
+
+disturb: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [430]]
+
+george: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [42]]
+
+key: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [406]]
+
+surprised: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [89]]
+
+8am: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [634]]
+
+necessary: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [323, 426]]
+
+selfsatisfaction: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [33]]
+
+makes: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [314, 372, 644], Doc ID: FT911-4017, Position: [530]]
+
+maker: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [184]]
+
+launch: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [109]]
+
+neighbours: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [410]]
+
+store: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [259]]
+
+closer: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [14]]
+
+single: Frequency: 4 Posts: [Doc ID: FT911-4017, Position: [339], Doc ID: FT911-4020, Position: [152, 501], Doc ID: FT911-4018, Position: [80]]
+
+connected: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [69]]
+
+145: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [674]]
+
+cogs: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [3]]
+
+closed: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [339]]
+
+illegitimacy: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [376]]
+
+fourth: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [673]]
+
+undergraduate: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [87]]
+
+contacts: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [568]]
+
+country: Frequency: 6 Posts: [Doc ID: FT911-4017, Position: [425], Doc ID: FT911-4020, Position: [156, 204, 278, 303, 325]]
+
+commercial: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [358]]
+
+exporting: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [41], Doc ID: FT911-4017, Position: [618]]
+
+joint: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [300], Doc ID: FT911-4017, Position: [161]]
+
+separate: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [365]]
+
+reasonable: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [211]]
+
+dislike: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [26]]
+
+gleaming: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [452]]
+
+advocate: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [194]]
+
+quest: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [9]]
+
+fallout: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [199, 231]]
+
+uk: Frequency: 12 Posts: [Doc ID: FT911-4016, Position: [217, 281, 371, 380, 509, 696], Doc ID: FT911-4019, Position: [195], Doc ID: FT911-4017, Position: [385, 449, 486, 502, 667]]
+
+capturing: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [506]]
+
+military: Frequency: 11 Posts: [Doc ID: FT911-4016, Position: [187], Doc ID: FT911-4019, Position: [6, 37, 52, 77, 107, 111, 163, 183, 218], Doc ID: FT911-4017, Position: [583]]
+
+conjures: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [44]]
+
+generate: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [601]]
+
+sector: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [323], Doc ID: FT911-4020, Position: [262]]
+
+cadbury: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [180]]
+
+extreme: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [195]]
+
+ensure: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [626]]
+
+invading: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [157]]
+
+greatness: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [456]]
+
+remarkable: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [57, 529]]
+
+chancellor: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [394]]
+
+ocean: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [181]]
+
+especially: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [527]]
+
+sees: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [167]]
+
+forge: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [110]]
+
+failure: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [274], Doc ID: FT911-4019, Position: [47]]
+
+headlines: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [19]]
+
+demonstrate: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [237], Doc ID: FT911-4020, Position: [111]]
+
+region: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [285], Doc ID: FT911-4020, Position: [592]]
+
+onethird: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [290]]
+
+support: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [257, 415], Doc ID: FT911-4020, Position: [359]]
+
+insists: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [540, 644]]
+
+changed: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [365]]
+
+drop: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [49]]
+
+figures: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [125]]
+
+idea: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [403]]
+
+changes: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [541], Doc ID: FT911-4020, Position: [322, 371]]
+
+renault: Frequency: 3 Posts: [Doc ID: FT911-4020, Position: [486, 506, 546]]
+
+openended: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [69]]
+
+life: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [629], Doc ID: FT911-4018, Position: [187]]
+
+graphs: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [373]]
+
+backing: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [421]]
+
+crossownership: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [482]]
+
+types: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [120]]
+
+criticised: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [45, 306]]
+
+cases: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [146, 156]]
+
+previous: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [247]]
+
+wide: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [21, 37]]
+
+regime: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [148]]
+
+argue: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [400], Doc ID: FT911-4018, Position: [273]]
+
+technology: Frequency: 3 Posts: [Doc ID: FT911-4016, Position: [90, 395, 639]]
+
+reapplying: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [703]]
+
+newlyformed: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [620]]
+
+location: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [385]]
+
+famed: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [395]]
+
+legislations: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [489]]
+
+compromise: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [334]]
+
+software: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [323]]
+
+tested: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [473]]
+
+seminar: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [108, 190]]
+
+hesitant: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [508]]
+
+troops: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [58]]
+
+awash: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [465]]
+
+inches: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [429]]
+
+problem: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [384], Doc ID: FT911-4019, Position: [328]]
+
+children: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [52, 268]]
+
+terms: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [123], Doc ID: FT911-4019, Position: [93]]
+
+sight: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [471]]
+
+presence: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [321]]
+
+dealmaker: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [370]]
+
+surrounding: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [63]]
+
+phase: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [419, 477]]
+
+banken: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [617]]
+
+glasgow: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [263]]
+
+ethnic: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [332]]
+
+natural: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [518]]
+
+contract: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [535, 590]]
+
+come: Frequency: 5 Posts: [Doc ID: FT911-4016, Position: [83], Doc ID: FT911-4019, Position: [222], Doc ID: FT911-4020, Position: [348], Doc ID: FT911-4017, Position: [114, 434]]
+
+exist: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [252, 477]]
+
+following: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [545]]
+
+unemployment: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [71]]
+
+force: Frequency: 3 Posts: [Doc ID: FT911-4018, Position: [309], Doc ID: FT911-4019, Position: [164, 323]]
+
+sensitivity: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [46]]
+
+neighbouring: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [151]]
+
+19711990: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [695]]
+
+sympathetic: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [180]]
+
+south: Frequency: 2 Posts: [Doc ID: FT911-4016, Position: [276], Doc ID: FT911-4020, Position: [581]]
+
+north: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [453], Doc ID: FT911-4020, Position: [577, 593], Doc ID: FT911-4017, Position: [298]]
+
+nervously: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [639]]
+
+overseas: Frequency: 15 Posts: [Doc ID: FT911-4016, Position: [65, 86, 152, 182, 218, 229, 257, 269, 302, 327], Doc ID: FT911-4017, Position: [111, 145, 176, 263, 330]]
+
+cope: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [627]]
+
+course: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [429]]
+
+place: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [417], Doc ID: FT911-4019, Position: [432]]
+
+power: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [158], Doc ID: FT911-4020, Position: [336]]
+
+sensible: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [206]]
+
+occupying: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [126]]
+
+marketed: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [174]]
+
+sell: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [271]]
+
+refurbish: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [591]]
+
+deepseated: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [71]]
+
+suggest: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [11]]
+
+marmalades: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [126]]
+
+1888: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [112]]
+
+puts: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [661]]
+
+help: Frequency: 4 Posts: [Doc ID: FT911-4016, Position: [305, 600], Doc ID: FT911-4017, Position: [378, 646]]
+
+razzamatazz: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [62]]
+
+highlights: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [516]]
+
+liners: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [615]]
+
+lilley: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [558]]
+
+ended: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [438], Doc ID: FT911-4020, Position: [191], Doc ID: FT911-4019, Position: [233]]
+
+imprimatur: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [108]]
+
+argument: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [90, 207]]
+
+theoretical: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [405]]
+
+sandwiches: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [300]]
+
+dozen: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [660]]
+
+hosted: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [106]]
+
+firebombed: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [464]]
+
+sales: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [110, 227]]
+
+impetus: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [336]]
+
+growing: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [72]]
+
+successes: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [640]]
+
+argentina: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [177, 200]]
+
+surprisingly: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [179]]
+
+create: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [379]]
+
+criminal: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [53]]
+
+tariffs: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [214]]
+
+development: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [624]]
+
+proud: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [9]]
+
+individual: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [31]]
+
+like: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [35], Doc ID: FT911-4020, Position: [40]]
+
+steiner: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [606]]
+
+tax: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [329]]
+
+judged: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [242]]
+
+illusions: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [39]]
+
+prestige: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [691]]
+
+regards: Frequency: 2 Posts: [Doc ID: FT911-4017, Position: [368], Doc ID: FT911-4018, Position: [151]]
+
+efforts: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [288]]
+
+safe: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [441], Doc ID: FT911-4019, Position: [346]]
+
+ground: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [271]]
+
+week: Frequency: 4 Posts: [Doc ID: FT911-4018, Position: [6, 102, 239], Doc ID: FT911-4020, Position: [618]]
+
+purpose: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [341]]
+
+line: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [239, 447, 498]]
+
+weakly: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [306]]
+
+scale: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [416]]
+
+seasoned: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [521]]
+
+award: Frequency: 11 Posts: [Doc ID: FT911-4016, Position: [1, 30, 60, 334, 343, 396, 666, 675, 685, 698], Doc ID: FT911-4017, Position: [644]]
+
+car: Frequency: 2 Posts: [Doc ID: FT911-4020, Position: [55, 528]]
+
+ready: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [397], Doc ID: FT911-4020, Position: [141]]
+
+marriage: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [541]]
+
+said: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [203, 240, 252]]
+
+greatest: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [317]]
+
+affairs: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [359]]
+
+nose: Frequency: 1 Posts: [Doc ID: FT911-4018, Position: [225]]
+
+carried: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [349]]
+
+cost: Frequency: 3 Posts: [Doc ID: FT911-4017, Position: [99, 590], Doc ID: FT911-4018, Position: [447]]
+
+stories: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [466]]
+
+manufacturers: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [523]]
+
+plight: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [273]]
+
+follow: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [484]]
+
+succinctly: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [660]]
+
+really: Frequency: 2 Posts: [Doc ID: FT911-4018, Position: [215], Doc ID: FT911-4020, Position: [90]]
+
+carries: Frequency: 1 Posts: [Doc ID: FT911-4016, Position: [74]]
+
+response: Frequency: 2 Posts: [Doc ID: FT911-4019, Position: [237, 380]]
+
+dynamism: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [287]]
+
+rival: Frequency: 1 Posts: [Doc ID: FT911-4017, Position: [327]]
+
+intend: Frequency: 1 Posts: [Doc ID: FT911-4019, Position: [411]]
+
+riposte: Frequency: 1 Posts: [Doc ID: FT911-4020, Position: [181]]
+

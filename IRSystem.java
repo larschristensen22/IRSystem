@@ -25,7 +25,8 @@ public class IRSystem {
         Tokenization tokens = new Tokenization();
         ArrayList<String> newTokens = new ArrayList<String>();
         InvertedIndex index = new InvertedIndex();
-        
+        ArrayList<String> docIDs = new ArrayList<String>();
+    
         // String testString = "\"to be or not to be\" and colors";
         // ArrayList<String> testTokens =  tokens.tokenizeQuery(testString);
         // for (int i = 0; i < testTokens.size(); i++) {
@@ -48,15 +49,17 @@ public class IRSystem {
         System.out.println("Number of Docs: " + docs.size());
         
         //Loop through the document objects to tokenize and add tokens to the inverted index
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < docs.size(); i++) {
             newTokens = tokens.tokenize(docs.get(i));
-            System.out.println("Tokenizing completed for docNo: + " + i);
-            System.out.println("Normalization completed for docNo: + " + i);
+            //System.out.println("Doc: " + docs.get(i).getText());
+            //System.out.println("Tokenizing completed for docNo: + " + i);
+            //System.out.println("Normalization completed for docNo: + " + i);
             InvertedIndex.createIndex(newTokens, docs.get(i).getDocID());
-            System.out.println("Index completed for docNo: + " + i);
+            //System.out.println("Index completed for docNo: + " + i);
         }
         index = InvertedIndex.index;
         index.writeIndexToFile();
+        index = InvertedIndex.readIndexFromFile("");
         
         //Loop through the hash map to print its contents
         // for (String name: index.keySet()){

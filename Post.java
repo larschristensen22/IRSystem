@@ -9,14 +9,14 @@ public class Post{
 
     private String docID;
     private ArrayList<Integer> positions;
-    private int docFrequency;
+    private int termFrequency;
 
     /**
      * Constructor for objects of class Post.
      */
     public Post (String docID) {
         this.docID = docID;
-        this.docFrequency = 0;
+        this.termFrequency = 0;
         this.positions = new ArrayList<Integer>();
     }
 
@@ -32,7 +32,7 @@ public class Post{
     
     public void addPosition(int position) {
         this.positions.add(position);
-        this.docFrequency++;
+        this.termFrequency++;
     }
 
     public String getDocID() {

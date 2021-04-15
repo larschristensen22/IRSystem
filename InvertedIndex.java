@@ -12,10 +12,10 @@ import java.util.ArrayList;
  * @version 3/22/21
  */
 public class InvertedIndex extends HashMap<String, PostingList> {
-    
+
     public static InvertedIndex index = new InvertedIndex();
-    
-    
+    public static ArrayList<String> docIDs = new ArrayList<String>();
+
     /**
      * This method modifies the inverted index with new tokens from a new document
      * 
@@ -27,37 +27,46 @@ public class InvertedIndex extends HashMap<String, PostingList> {
     public static void createIndex(ArrayList<String> tokens, String docNo) throws IOException {
         //Create a hashset to store the unique tokens from the document as there may be repeats
         // HashSet<String> newTokens = new HashSet<String>();
-        
+
         // for (int i = 0; i < tokens.size(); i++) {
-            // // if (!uniqueTokens.contains(tokens.get(i))) {
-                // // uniqueTokens.add(tokens.get(i));
-            // // }
+        // // if (!uniqueTokens.contains(tokens.get(i))) {
+        // // uniqueTokens.add(tokens.get(i));
+        // // }
         // }
         int position = 0;
         //Loop through the unique tokens to check if they are in index already
         for (String word: tokens) {
             //If not, add them to the index with a new posting list
-            Post post = new Post(docNo);
+            Post post = null;
+
+            //new Post(docNo);
             if (!index.containsKey(word)) {
                 PostingList postList = new PostingList();
+                //post = new Post(docNo);
                 index.put(word, postList);
-                index.get(word).addPost(post);
-                
+                post = index.get(word).addPost(docNo);
+
             }
             else {
-                if (!index.get(word).getSinglePost().getDocID().equals(docNo)) {
-                    index.get(word).addPost(post);
-                }
+                //if (!index.get(word).getSinglePost().getDocID().equals(docNo)) {
+                post = index.get(word).addPost(docNo); // return post being added - instead of adding //pass doc Num into addPast
+
+                //add position to post
+                //binary search to get post
+                //}
+
                 
             }
-            index.get(word).getSinglePost().addPosition(position);
             
+            post.addPosition(position);
+            System.out.println("POST: " + post.toString());
+            //index.get(word).getSinglePost().addPosition(position);
+
             System.out.println("WORD: " + word + " AT POSITION: " + position);
-            System.out.println("INDEX ARRAYLIST: " + index.get(word).getSinglePost().toString());
+            //System.out.println("INDEX ARRAYLIST: " + index.get(word).getSinglePost().toString());
             position++;
         }
 
-        
 
     }
 
@@ -76,7 +85,8 @@ public class InvertedIndex extends HashMap<String, PostingList> {
         bf.close();
     }
 
-    public void readIndexFromFile(String path) {
+    public static InvertedIndex readIndexFromFile(String path) {
 
+        return index;
     }
 }

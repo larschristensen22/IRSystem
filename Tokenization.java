@@ -33,6 +33,8 @@ public class Tokenization
     public ArrayList<String> tokenize(Document doc)
     {
 
+        tokens.clear();
+        
         //intilialize tokenizer
         StringTokenizer tokenizer = new StringTokenizer(doc.getText());
 
@@ -61,10 +63,6 @@ public class Tokenization
      */
     public ArrayList<String> tokenizeQuery(String input)
     {
-
-        //intilialize tokenizer
-        //StringTokenizer tokenizer = new StringTokenizer(input);
-
         int firstQuote = input.indexOf("\"");
         String subToken = "";
         //String newToken = "";
