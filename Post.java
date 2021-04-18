@@ -1,3 +1,4 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 /**
  * This class creates Post objects
@@ -5,7 +6,7 @@ import java.util.ArrayList;
  * @author Cameron Costello and Lars Christensen
  * @version March 22, 2021
  */
-public class Post{
+public class Post implements Serializable{
 
     private String docID;
     private ArrayList<Integer> positions;

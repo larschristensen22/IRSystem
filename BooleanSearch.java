@@ -36,42 +36,54 @@ public class BooleanSearch
      */
     public void booleanSearch(ArrayList<String> query, InvertedIndex indexIn)
     {
+        int booleanOp = 0;
+        ArrayList<PostingList> postings1 = new ArrayList<PostingList>();
+        ArrayList<PostingList> postings2 = new ArrayList<PostingList>();
+        ArrayList<String> docId1 = new ArrayList<String>();
+        ArrayList<String> docId2 = new ArrayList<String>();
 
-        ArrayList<PostingList> postings = new ArrayList<PostingList>();
-        HashMap<String, ArrayList<String>> docId = new HashMap<String, ArrayList<String>>();
-
-        for (int i = 0; i < query.size(); i++) {
-            postings.add(indexIn.get(query.get(i)));
-            docId.put(query.get(i), new ArrayList<String>());
+        if (query.contains("AND")) {
+            postings1.add(indexIn.get(query.get(0)));
+            postings2.add(indexIn.get(query.get(2)));
+            booleanOp = 0;
+        }
+        else if (query.contains("OR")) {
+            postings1.add(indexIn.get(query.get(0)));
+            postings2.add(indexIn.get(query.get(2)));
+            booleanOp = 1;
+        }
+        else if (query.contains("NOT")) {
+            postings1.add(indexIn.get(query.get(1)));
+            booleanOp = 2;
         }
 
-        for (int i = 0; i < postings.size(); i++) {
-
-            for (int x = 0; x < postings.get(i).getPost().size(); x++) {
-                docId.get(i).add(postings.get(i).getPost().get(x).getDocID());
+        if (!query.contains("NOT")) {
+            for (int i = 0; i < postings1.size(); i++) {
+                for (int j = 0; j < postings1.get(i).getPost().size(); j++) {
+                    docId1.add(postings1.get(i).getPost().get(j).getDocID());
+                }
             }
-
-        }
-
-        String wordOne = "";
-        String wordTwo = "";
-
-        int j = 0;
-        int k = 0;
-        while(j < query.size()) {
-            if (query.get(j).equals("AND")) {
-              //  intersect(postings.get(j), , 0);
-            }
-            else if( query.get(j).equals("NOT")) {
-
-            } else if (query.get(j).equals("OR")) {
-            } else {
+            for (int i = 0; i < postings2.size(); i++) {
+                for (int j = 0; j < postings2.get(i).getPost().size(); j++) {
+                    docId2.add(postings2.get(i).getPost().get(j).getDocID());
+                }
             }
         }
-
+        else {
+            for (int i = 0; i < postings1.size(); i++) {
+                for (int j = 0; j < postings1.get(i).getPost().size(); j++) {
+                    docId1.add(postings1.get(i).getPost().get(j).getDocID());
+                }
+            }
+        }
+        ArrayList<String> result = BooleanSearch.intersect(docId1, docId2, booleanOp);
+        for (int i = 0; i < result.size(); i++) {
+            System.out.println("0 1 " + result.get(i) + " " + (i+1) + " 1.0 " + "LarsAndCam");
+        }
+        
     }
 
-    public ArrayList<String> intersect(PostingList listOne, PostingList listTwo, int booleanOp) {
+    public static ArrayList<String> intersect(ArrayList<String> listOne, ArrayList<String> listTwo, int booleanOp) {
         ArrayList<String> intersection = new ArrayList<String>();
         int countOne = 0;
         int countTwo = 0;

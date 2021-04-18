@@ -1,9 +1,12 @@
 import java.util.HashMap;
-import java.util.HashSet;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 /**
  * InvertedIndex class to create the inverted index storing tokens and their posting lists.
@@ -59,10 +62,10 @@ public class InvertedIndex extends HashMap<String, PostingList> {
             }
             
             post.addPosition(position);
-            System.out.println("POST: " + post.toString());
+            //System.out.println("POST: " + post.toString());
             //index.get(word).getSinglePost().addPosition(position);
 
-            System.out.println("WORD: " + word + " AT POSITION: " + position);
+            //System.out.println("WORD: " + word + " AT POSITION: " + position);
             //System.out.println("INDEX ARRAYLIST: " + index.get(word).getSinglePost().toString());
             position++;
         }
@@ -85,8 +88,34 @@ public class InvertedIndex extends HashMap<String, PostingList> {
         bf.close();
     }
 
-    public static InvertedIndex readIndexFromFile(String path) {
+    public void serializeIndex(String path) {
+        try {
+            FileOutputStream fout=new FileOutputStream(path + ".txt");  
+            ObjectOutputStream out=new ObjectOutputStream(fout);  
+            out.writeObject(index);  
+            out.flush();  
+            //closing the stream  
+            out.close();  
+            System.out.println("Wrote index successfully!");  
+        } catch(Exception e) {
+            System.out.println(e);
+        }  
+    }
 
-        return index;
+    public static InvertedIndex deserializeIndex(String path) {
+        InvertedIndex newIndex;
+        try{  
+            //Creating stream to read the object  
+            ObjectInputStream in=new ObjectInputStream(new FileInputStream(path + ".txt"));  
+            newIndex = (InvertedIndex)in.readObject();  
+            //printing the data of the serialized object  
+            System.out.println("Read index successfully!");  
+            //closing the stream  
+            in.close();  
+            } catch(Exception e) {
+                System.out.println(e);
+                newIndex = null;
+            }  
+        return newIndex;
     }
 }

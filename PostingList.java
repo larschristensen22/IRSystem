@@ -1,4 +1,6 @@
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.io.Serializable;
 /**
  * This class keeps a list of all the file posts in an arraylist and
  * keeps track of the frequency of posts.
@@ -6,7 +8,7 @@ import java.util.ArrayList;
  * @author Cameron Costello and Lars Christensen
  * @version March 22, 2021
  */
-public class PostingList 
+public class PostingList implements Serializable
 {
 
     private int frequency;
@@ -37,7 +39,7 @@ public class PostingList
         //System.out.println("LEFT: " + left + " MID: " + midPoint + " RIGHT: " + right);
         if (size == 0) {
             this.posts.add(postAdded);
-            System.out.println("INITIAL POST ADDED");
+            //System.out.println("INITIAL POST ADDED");
             return postAdded;
         }
         if (size == 1) {
@@ -47,48 +49,61 @@ public class PostingList
             }
             if (postAdded.getDocID().compareTo(this.posts.get(midPoint).getDocID()) > 0) {
                 this.posts.add(postAdded);
-                System.out.println("POST ADDED WITH SIZE 1");
+                //System.out.println("POST ADDED WITH SIZE 1");
             }
             else {
                 this.posts.add(0, postAdded);
-                System.out.println("POST ADDED WITH SIZE 1");
+                //System.out.println("POST ADDED WITH SIZE 1");
             }
             return postAdded;
         }
 
         boolean isAdded = false;
         while (left <= right && !isAdded) {
-            System.out.println("LEFT: " + left + " MID: " + midPoint + " RIGHT: " + right);
+            //System.out.println("LEFT: " + left + " MID: " + midPoint + " RIGHT: " + right);
 
             if (right == left) {
-                if(posts.get(right).getDocID().compareTo(docNo) != 0) {
+                if(posts.get(right).getDocID().compareTo(docNo) > 0) {
                     this.posts.add(left, postAdded);
                     return postAdded;
+                } else if (posts.get(right).getDocID().compareTo(docNo) < 0) {
+                    this.posts.add(left+1, postAdded);
+                    return postAdded;
                 } else {
-                    return posts.get(right);
+                    return this.posts.get(right);
                 }
-                // isAdded = true;
+                //isAdded = true;
                 // System.out.println("POST ADDED BY BINARY SEARCH");
 
             }
             else if (docNo.compareTo(this.posts.get(midPoint).getDocID()) > 0) {
                 left = midPoint + 1;
+                if (left > right) {
+                    left = right;
+                }
                 //midPoint = (left + right) / 2;
 
-                System.out.println("POST GREATER THAN MIDPOINT");
-                System.out.println("NEW POST: " + postAdded.getDocID() + " VS: " + this.posts.get(midPoint).getDocID());
+                //System.out.println("POST GREATER THAN MIDPOINT");
+                //System.out.println("NEW POST: " + postAdded.getDocID() + " VS: " + this.posts.get(midPoint).getDocID());
             } else if ((docNo.compareTo(this.posts.get(midPoint).getDocID()) == 0)) {
                     return this.posts.get(midPoint);
             }
             else {
+                
                 right = midPoint - 1;
+                if (right < left) {
+                    right = left;
+                }
                 //midPoint = (left + midPoint) / 2;
 
-                System.out.println("POST LESS THAN MIDPOINT");
-                System.out.println("NEW POST: " + postAdded.getDocID() + " VS: " + this.posts.get(midPoint).getDocID());
+                //System.out.println("POST LESS THAN MIDPOINT");
+                //System.out.println("NEW POST: " + postAdded.getDocID() + " VS: " + this.posts.get(midPoint).getDocID());
             }
+            //System.out.println("MIDPOINT: "+ midPoint);
             midPoint = (left + right) / 2;
+
         }
+        System.out.println("LEFT: " + left + " RIGHT: " + right + " MIDPOINT: " + midPoint);
         return null;
     }
 
