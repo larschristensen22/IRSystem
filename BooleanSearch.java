@@ -8,12 +8,13 @@ import java.util.HashMap;
  */
 public class BooleanSearch
 {
-
+    ArrayList<String> allDocs;
     /**
      * Constructor for objects of class BooleanSearch
      */
-    public BooleanSearch()
+    public BooleanSearch(ArrayList<String> allDocs)
     {
+        this.allDocs = allDocs;
     }
 
     /**
@@ -24,7 +25,7 @@ public class BooleanSearch
      */
     public void phraseSearch(ArrayList<String> query)
     {
-        // put your code here
+        
 
     }
 
@@ -75,6 +76,7 @@ public class BooleanSearch
                     docId1.add(postings1.get(i).getPost().get(j).getDocID());
                 }
             }
+            docId2 = allDocs;
         }
         ArrayList<String> result = BooleanSearch.intersect(docId1, docId2, booleanOp);
         for (int i = 0; i < result.size(); i++) {
@@ -88,33 +90,32 @@ public class BooleanSearch
         int countOne = 0;
         int countTwo = 0;
 
-        while (countOne < listOne.getPost().size() && countTwo < listTwo.getPost().size()) {
+        while (countOne < listOne.size() && countTwo < listTwo.size()) {
 
             if (booleanOp == 0) {//AND
-                if (listOne.getPost().get(countOne).getDocID().equals(listTwo.getPost().get(countTwo).getDocID())) {
-                    intersection.add(listOne.getPost().get(countOne).getDocID());
+                if (listOne.get(countOne).equals(listTwo.get(countTwo))) {
+                    intersection.add(listOne.get(countOne));
                     countTwo++;
                     countOne++;
-                } else if (listOne.getPost().get(countOne).getDocID().compareTo(listTwo.getPost().get(countTwo).getDocID()) > 0) {
+                } else if (listOne.get(countOne).compareTo(listTwo.get(countTwo)) > 0) {
                     countTwo++;
                 } else {
                     countOne++;    
                 }
             } else if (booleanOp == 1) {//OR
-                if (!intersection.contains(listOne.getPost().get(countOne).getDocID())) {
-                    intersection.add(listOne.getPost().get(countOne).getDocID());
+                if (!intersection.contains(listOne.get(countOne))) {
+                    intersection.add(listOne.get(countOne));
 
                 } 
-                if (!intersection.contains(listTwo.getPost().get(countTwo).getDocID())) {
-                    intersection.add(listTwo.getPost().get(countTwo).getDocID());
+                if (!intersection.contains(listTwo.get(countTwo))) {
+                    intersection.add(listTwo.get(countTwo));
 
                 } 
                 countOne++;
                 countTwo++;
             } else if (booleanOp == 2) {//NOT
-                if (!listTwo.getPost().get(countTwo).getDocID().contains(listOne.getPost().get(countOne).getDocID())) {
-                    intersection.add(listTwo.getPost().get(countTwo).getDocID());
-                    countOne++;
+                if (!listOne.contains(listTwo.get(countTwo))) {
+                    intersection.add(listTwo.get(countTwo));
                     countTwo++;
                 }
             }
