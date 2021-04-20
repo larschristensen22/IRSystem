@@ -165,4 +165,14 @@ public class PostingList implements Serializable
         String result = " Frequency: " + this.frequency + " Posts: " + this.posts.toString();
         return result;
     }
+
+    public Post findPostByDocId(String docId) {
+        Post returnPost = null;
+        for (int i = 0; i < this.posts.size(); i++) {
+            if (docId.equals(this.posts.get(i).getDocID())) {
+                returnPost = this.posts.get(i);
+            }
+        }
+        return returnPost;
+    }
 }

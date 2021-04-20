@@ -39,4 +39,8 @@ public class Post implements Serializable{
     public String getDocID() {
         return this.docID;
     }
+
+    public ArrayList<Integer> getPositions() {
+        return this.positions;
+    }
 }

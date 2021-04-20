@@ -18,28 +18,27 @@ public class IRSystem {
         Parser parser = new Parser();
         ArrayList<Document> docs = new ArrayList<Document>();
         Tokenization tokens = new Tokenization();
-        // ArrayList<String> newTokens = new ArrayList<String>();
+        ArrayList<String> newTokens = new ArrayList<String>();
         InvertedIndex index = new InvertedIndex();
         // ArrayList<String> docIDs = new ArrayList<String>();
     
-        String testString = "money AND thing";
+        String testString = "\"young army captain\"";
         ArrayList<String> testTokens =  tokens.tokenizeQuery(testString);
-        // for (int i = 0; i < testTokens.size(); i++) {
-        //     System.out.println(testTokens.get(i));
-        // }
+        
         //Obtains a list of the files in the training data folder
         File directoryPath = new File(directory);
         File filesList[] = directoryPath.listFiles();
-        int fileNum = 0;
+        // int fileNum = 0;
         
         //Loop through the list of files to parse their contents and create Document objects
         for (File file: filesList){
-            System.out.println("filename: "+ file.toString());
+            //System.out.println("filename: "+ file.toString());
             parser.trecParser(file.toString());
-            fileNum++;
-            System.out.println("File Num: " + fileNum);
+            //fileNum++;
+            //System.out.println("File Num: " + fileNum);
         }
         docs = Parser.docs;
+        System.out.println("NUMBER OF DOCUMENTS: " + docs.size());
         ArrayList<String> allDocs = new ArrayList<String>();
         for (int i = 0; i < docs.size(); i++) {
             allDocs.add(docs.get(i).getDocID());
@@ -56,11 +55,11 @@ public class IRSystem {
         //     InvertedIndex.createIndex(newTokens, docs.get(i).getDocID());
         // }
         // index = InvertedIndex.index;
-        // index.serializeIndex("IndexRemoveStopWords");
+        // index.serializeIndex("IndexWithStopWords");
         index = InvertedIndex.deserializeIndex("IndexRemoveStopWords");
         
         BooleanSearch bs = new BooleanSearch(allDocs);
-        bs.booleanSearch(testTokens, index);
+        bs.phraseSearch(testTokens, index);
         
     }
 }

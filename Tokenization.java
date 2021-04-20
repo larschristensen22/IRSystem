@@ -46,9 +46,10 @@ public class Tokenization
             token = token.toLowerCase();
             token = removePunctuation(token);
             token = token.trim();
-            if (!normalize.removeStopWords(token)) {
-                tokens.add(token);
-            }
+            // if (!normalize.removeStopWords(token)) {
+            //     tokens.add(token);
+            // }
+            tokens.add(token);
         }
 
         return tokens;
@@ -74,6 +75,7 @@ public class Tokenization
                 subToken = input.substring(firstQuote + 1, secondQuote + 1);
                 input = input.substring(0, firstQuote) + input.substring(secondQuote + 2);
                 tokens.add(subToken);
+                System.out.println(subToken);
             }
         }
 
