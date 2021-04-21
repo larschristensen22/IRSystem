@@ -56,20 +56,23 @@ public class BooleanSearch {
 
         // ArrayList<String> intersection = docId.get(0);
         ArrayList<String> intersection = new ArrayList<String>();
-        System.out.println("INTERSECTION SIZE: " + intersection.size());
+
         for (int i = 1; i < docId.size(); i++) {
             // System.out.println();
             int docCount1 = 0;
             int docCount2 = 0;
-            while (docCount1 < docId.get(i - 1).size() && docCount2 < docId.get(i).size()) {
-                if (i == 1) {
+
+            if (i == 1) {
+                while (docCount1 < docId.get(i - 1).size() && docCount2 < docId.get(i).size()) {
                     if (docId.get(i - 1).get(docCount1).equals(docId.get(i).get(docCount2))) {
                         Post post1 = postings.get(i - 1).findPostByDocId(docId.get(i - 1).get(docCount1));
                         Post post2 = postings.get(i).findPostByDocId(docId.get(i).get(docCount2));
                         for (int j = 0; j < post1.getPositions().size(); j++) {
                             for (int k = 0; k < post2.getPositions().size(); k++) {
                                 if (post1.getPositions().get(j) == (post2.getPositions().get(k) - 1)) {
-                                    intersection.add(docId.get(i).get(docCount2));
+                                    if (!intersection.contains(docId.get(i - 1).get(docCount1))) {
+                                        intersection.add(docId.get(i - 1).get(docCount1));
+                                    }
                                 }
                             }
                         }
@@ -80,79 +83,87 @@ public class BooleanSearch {
                     } else {
                         docCount2++;
                     }
-                } else if (intersection.size() > 0){
+                }
+            } else if (i > 1 && intersection.size() > 0) {
+                while (docCount1 < docId.get(i - 1).size() && docCount2 < docId.get(i).size()) {
+                    boolean isConsecutive = false;
                     if (docId.get(i - 1).get(docCount1).equals(docId.get(i).get(docCount2))) {
                         Post post1 = postings.get(i - 1).findPostByDocId(docId.get(i - 1).get(docCount1));
                         Post post2 = postings.get(i).findPostByDocId(docId.get(i).get(docCount2));
                         for (int j = 0; j < post1.getPositions().size(); j++) {
                             for (int k = 0; k < post2.getPositions().size(); k++) {
-                                if (post1.getPositions().get(j) != (post2.getPositions().get(k) - 1)) {
-                                    intersection.remove(docId.get(i).get(docCount2));
+                                if (post1.getPositions().get(j) == (post2.getPositions().get(k) - 1)) {
+                                    isConsecutive = true;
                                 }
                             }
                         }
+                        if (!isConsecutive) {
+                            intersection.remove(docId.get(i).get(docCount2));
+                        }
+                        
                         docCount1++;
                         docCount2++;
 
-                    } else if (intersection.get(docCount1).compareTo(docId.get(i).get(docCount2)) < 0) {
-                        intersection.remove(docCount1);
+                    } else if (docId.get(i - 1).get(docCount1).compareTo(docId.get(i).get(docCount2)) < 0) {
+                        intersection.remove(docId.get(i - 1).get(docCount1));
                         docCount1++;
                     } else {
                         docCount2++;
                     }
-
                 }
+
             }
             System.out.println("INTERSECTION SIZE: " + intersection.size());
-            // System.out.println(intersection.toString());
         }
-
-        // while (docCount1 < docId.get(0).size() && docCount2 < docId.get(1).size()) {
-        // if (docId.get(0).get(docCount1).equals(docId.get(1).get(docCount2))) {
-        // intersection.add(docId.get(0).get(docCount1));
-        // docCount1++;
-        // docCount2++;
-        // } else if (docId.get(0).get(docCount1).compareTo(docId.get(1).get(docCount2))
-        // > 0) {
-        // docCount2++;
-        // } else {
-        // docCount1++;
-        // }
-        // }
-
-        // int count = 2;
-        // docCount1 = 0;
-        // docCount2 = 0;
-        // ArrayList<String> finalIntersection = new ArrayList<String>();
-        // while (count < docId.size()) {
-        // for (int i = 0; i < intersection.size(); i++) {
-        // for (int )
-        // }
-
-        // if (docId.get(count).get(docCount1).equals(intersection.get(docCount2))) {
-        // finalIntersection.add(intersection.get(docCount2));
-        // docCount1++;
-        // docCount2++;
-        // } else if
-        // (docId.get(count).get(docCount1).compareTo(intersection.get(docCount2)) > 0)
-        // {
-        // docCount2++;
-        // } else {
-        // docCount1++;
-        // }
-        // }
-
-        // for (int i = 0; i+1 < docId.size(); i++) {
-        // intersection = BooleanSearch.intersect(docId.get(i), docId.get(i+1), 0);
-        // }
-        // int i = 1;
-        // intersection = BooleanSearch.intersect(docId.get(0), docId.get(1), 0);
-        // ArrayList<String> finalIntersection;
-        // while (i < docId.size()) {
-        // finalIntersection = BooleanSearch.intersect(intersection, docId.get(i+1), 0);
-        // }
-
+        for (int i = 0; i < intersection.size(); i++) {
+            System.out.println("0 1 " + intersection.get(i) + " " + (i + 1) + " 1.0 " + "LarsAndCam");
+        }
     }
+
+    // while (docCount1 < docId.get(0).size() && docCount2 < docId.get(1).size()) {
+    // if (docId.get(0).get(docCount1).equals(docId.get(1).get(docCount2))) {
+    // intersection.add(docId.get(0).get(docCount1));
+    // docCount1++;
+    // docCount2++;
+    // } else if (docId.get(0).get(docCount1).compareTo(docId.get(1).get(docCount2))
+    // > 0) {
+    // docCount2++;
+    // } else {
+    // docCount1++;
+    // }
+    // }
+
+    // int count = 2;
+    // docCount1 = 0;
+    // docCount2 = 0;
+    // ArrayList<String> finalIntersection = new ArrayList<String>();
+    // while (count < docId.size()) {
+    // for (int i = 0; i < intersection.size(); i++) {
+    // for (int )
+    // }
+
+    // if (docId.get(count).get(docCount1).equals(intersection.get(docCount2))) {
+    // finalIntersection.add(intersection.get(docCount2));
+    // docCount1++;
+    // docCount2++;
+    // } else if
+    // (docId.get(count).get(docCount1).compareTo(intersection.get(docCount2)) > 0)
+    // {
+    // docCount2++;
+    // } else {
+    // docCount1++;
+    // }
+    // }
+
+    // for (int i = 0; i+1 < docId.size(); i++) {
+    // intersection = BooleanSearch.intersect(docId.get(i), docId.get(i+1), 0);
+    // }
+    // int i = 1;
+    // intersection = BooleanSearch.intersect(docId.get(0), docId.get(1), 0);
+    // ArrayList<String> finalIntersection;
+    // while (i < docId.size()) {
+    // finalIntersection = BooleanSearch.intersect(intersection, docId.get(i+1), 0);
+    // }
 
     /**
      * An example of a method - replace this comment with your own

@@ -22,7 +22,7 @@ public class IRSystem {
         InvertedIndex index = new InvertedIndex();
         // ArrayList<String> docIDs = new ArrayList<String>();
     
-        String testString = "\"young army captain\"";
+        String testString = "\"public expenditure watchdog\"";
         ArrayList<String> testTokens =  tokens.tokenizeQuery(testString);
         
         //Obtains a list of the files in the training data folder
