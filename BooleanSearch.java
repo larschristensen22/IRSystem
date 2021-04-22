@@ -1,14 +1,15 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.StringTokenizer;
-
+import java.io.FileNotFoundException;
 /**
- * Write a description of class BooleanSearch here.
+ * BooleanSearch class to run boolean search operations and phrase searches.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Lars and Cam
+ * @version IR HW2
  */
 public class BooleanSearch {
+    
+    //Storing a list of all document IDs
     ArrayList<String> allDocs;
 
     /**
@@ -19,20 +20,25 @@ public class BooleanSearch {
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Find the documents that contain a given phrase
      *
-     * @param y a sample parameter for a method
-     * @return the sum of x and y
+     * @param query the query
+     * @param indexIn the inverted index
      */
-    public void phraseSearch(ArrayList<String> query, InvertedIndex indexIn) {
+    public void phraseSearch(ArrayList<String> query, InvertedIndex indexIn) throws FileNotFoundException {
+        //Read the phrase from the query input parameter
         String phrase = query.get(0);
+        phrase = phrase.toLowerCase();
+        //Remove quotes from phrase search
         phrase = phrase.replaceAll("\"", "");
+        //Tokenize the phrase
         StringTokenizer tokenizer = new StringTokenizer(query.get(0), " ");
         ArrayList<PostingList> postings = new ArrayList<PostingList>();
         ArrayList<ArrayList<String>> docId = new ArrayList<ArrayList<String>>();
-
+        //While there are more tokens, retrieve the posting list and a list of documents for each
         while (tokenizer.hasMoreTokens()) {
             String nextToken = tokenizer.nextToken();
+            nextToken = nextToken.toLowerCase();
             System.out.println("TOKEN: " + nextToken);
             PostingList newPosting = indexIn.get(nextToken);
             // System.out.println(newPosting.toString());
@@ -43,25 +49,13 @@ public class BooleanSearch {
             docId.add(newDocId);
             postings.add(newPosting);
         }
-        // ArrayList<String> intersection = new ArrayList<String>();
-
-        // if (docId.size() >= 3) {
-        // intersection = BooleanSearch.recursiveIntersect(docId);
-        // }
-
-        // for (int i = 0; i < intersection.size(); i++) {
-        // System.out.println("0 1 " + intersection.get(i) + " " + (i+1) + " 1.0 " +
-        // "LarsAndCam");
-        // }
-
-        // ArrayList<String> intersection = docId.get(0);
+        //For each word in the phrase, intersect the document lists to find documents that contain the whole phrase
         ArrayList<String> intersection = new ArrayList<String>();
-
         for (int i = 1; i < docId.size(); i++) {
-            // System.out.println();
             int docCount1 = 0;
             int docCount2 = 0;
-
+            //If we are dealing with the first two words, add to the intersection list if they are in the same 
+            //document ID and are in consecutive positions
             if (i == 1) {
                 while (docCount1 < docId.get(i - 1).size() && docCount2 < docId.get(i).size()) {
                     if (docId.get(i - 1).get(docCount1).equals(docId.get(i).get(docCount2))) {
@@ -84,7 +78,10 @@ public class BooleanSearch {
                         docCount2++;
                     }
                 }
-            } else if (i > 1 && intersection.size() > 0) {
+            }
+            //For words after the first two, remove from the intersection list if they are not in the same document ID
+            //or are not in consecutive positions of the same document 
+            else if (i > 1 && intersection.size() > 0) {
                 while (docCount1 < docId.get(i - 1).size() && docCount2 < docId.get(i).size()) {
                     boolean isConsecutive = false;
                     if (docId.get(i - 1).get(docCount1).equals(docId.get(i).get(docCount2))) {
@@ -100,7 +97,7 @@ public class BooleanSearch {
                         if (!isConsecutive) {
                             intersection.remove(docId.get(i).get(docCount2));
                         }
-                        
+
                         docCount1++;
                         docCount2++;
 
@@ -111,90 +108,48 @@ public class BooleanSearch {
                         docCount2++;
                     }
                 }
-
             }
-            System.out.println("INTERSECTION SIZE: " + intersection.size());
         }
+        //Printing the output for the resulting list of documents
         for (int i = 0; i < intersection.size(); i++) {
             System.out.println("0 1 " + intersection.get(i) + " " + (i + 1) + " 1.0 " + "LarsAndCam");
         }
     }
 
-    // while (docCount1 < docId.get(0).size() && docCount2 < docId.get(1).size()) {
-    // if (docId.get(0).get(docCount1).equals(docId.get(1).get(docCount2))) {
-    // intersection.add(docId.get(0).get(docCount1));
-    // docCount1++;
-    // docCount2++;
-    // } else if (docId.get(0).get(docCount1).compareTo(docId.get(1).get(docCount2))
-    // > 0) {
-    // docCount2++;
-    // } else {
-    // docCount1++;
-    // }
-    // }
-
-    // int count = 2;
-    // docCount1 = 0;
-    // docCount2 = 0;
-    // ArrayList<String> finalIntersection = new ArrayList<String>();
-    // while (count < docId.size()) {
-    // for (int i = 0; i < intersection.size(); i++) {
-    // for (int )
-    // }
-
-    // if (docId.get(count).get(docCount1).equals(intersection.get(docCount2))) {
-    // finalIntersection.add(intersection.get(docCount2));
-    // docCount1++;
-    // docCount2++;
-    // } else if
-    // (docId.get(count).get(docCount1).compareTo(intersection.get(docCount2)) > 0)
-    // {
-    // docCount2++;
-    // } else {
-    // docCount1++;
-    // }
-    // }
-
-    // for (int i = 0; i+1 < docId.size(); i++) {
-    // intersection = BooleanSearch.intersect(docId.get(i), docId.get(i+1), 0);
-    // }
-    // int i = 1;
-    // intersection = BooleanSearch.intersect(docId.get(0), docId.get(1), 0);
-    // ArrayList<String> finalIntersection;
-    // while (i < docId.size()) {
-    // finalIntersection = BooleanSearch.intersect(intersection, docId.get(i+1), 0);
-    // }
-
     /**
-     * An example of a method - replace this comment with your own
+     * Search a query based on boolean operators in the query
      *
-     * @param y a sample parameter for a method
-     * @return the sum of x and y
+     * @param query the query entered
+     * @param index the index that contains query information
      */
     public void booleanSearch(ArrayList<String> query, InvertedIndex indexIn) {
         int booleanOp = 0;
+        
+        //lists that will be intersected
         ArrayList<PostingList> postings1 = new ArrayList<PostingList>();
         ArrayList<PostingList> postings2 = new ArrayList<PostingList>();
         ArrayList<String> docId1 = new ArrayList<String>();
         ArrayList<String> docId2 = new ArrayList<String>();
 
+        //check the query to see which boolean operator is used
         if (query.contains("AND")) {
-            postings1.add(indexIn.get(query.get(0)));
-            postings2.add(indexIn.get(query.get(2)));
+            postings1.add(indexIn.get(query.get(0).toLowerCase()));
+            postings2.add(indexIn.get(query.get(2).toLowerCase()));
             booleanOp = 0;
         } else if (query.contains("OR")) {
-            postings1.add(indexIn.get(query.get(0)));
-            postings2.add(indexIn.get(query.get(2)));
+            postings1.add(indexIn.get(query.get(0).toLowerCase()));
+            postings2.add(indexIn.get(query.get(2).toLowerCase()));
             booleanOp = 1;
         } else if (query.contains("NOT")) {
-            postings1.add(indexIn.get(query.get(1)));
+            postings1.add(indexIn.get(query.get(1).toLowerCase()));
             booleanOp = 2;
         } else {
             booleanOp = 1;
-            postings1.add(indexIn.get(query.get(0)));
-            postings2.add(indexIn.get(query.get(1)));
+            postings1.add(indexIn.get(query.get(0).toLowerCase()));
+            postings2.add(indexIn.get(query.get(1).toLowerCase()));
         }
 
+        //determine whether or not the query has NOT operator in it
         if (!query.contains("NOT")) {
             for (int i = 0; i < postings1.size(); i++) {
                 for (int j = 0; j < postings1.get(i).getPost().size(); j++) {
@@ -214,21 +169,34 @@ public class BooleanSearch {
             }
             docId2 = allDocs;
         }
+        
+        //intersect the lists based on the operators
         ArrayList<String> result = BooleanSearch.intersect(docId1, docId2, booleanOp);
         for (int i = 0; i < result.size(); i++) {
+            //print out results of the intersection
             System.out.println("0 1 " + result.get(i) + " " + (i + 1) + " 1.0 " + "LarsAndCam");
         }
 
     }
 
+    /**
+     * Interests the postings lists of two words based on certain criteria
+     *
+     * @param listOne list to intersect
+     * @param listTwo list to intersect
+     * @param booleanOp indicates how to intersect the lists
+     * @return the intersection of the two lists
+     */
     public static ArrayList<String> intersect(ArrayList<String> listOne, ArrayList<String> listTwo, int booleanOp) {
         ArrayList<String> intersection = new ArrayList<String>();
         int countOne = 0;
         int countTwo = 0;
 
+        //while not gone off the end of the list
         while (countOne < listOne.size() && countTwo < listTwo.size()) {
 
             if (booleanOp == 0) {// AND
+                //intersect the two lists using AND operator
                 if (listOne.get(countOne).equals(listTwo.get(countTwo))) {
                     intersection.add(listOne.get(countOne));
                     countTwo++;
@@ -239,6 +207,7 @@ public class BooleanSearch {
                     countOne++;
                 }
             } else if (booleanOp == 1) {// OR
+                //intersect the two lists using OR operator
                 if (!intersection.contains(listOne.get(countOne))) {
                     intersection.add(listOne.get(countOne));
 
@@ -250,6 +219,7 @@ public class BooleanSearch {
                 countOne++;
                 countTwo++;
             } else if (booleanOp == 2) {// NOT
+                //intersect the two lists using NOT operator
                 if (!listOne.contains(listTwo.get(countTwo))) {
                     intersection.add(listTwo.get(countTwo));
                     countTwo++;
@@ -258,18 +228,5 @@ public class BooleanSearch {
 
         }
         return intersection;
-    }
-
-    public static ArrayList<String> recursiveIntersect(ArrayList<ArrayList<String>> docs) {
-        // ArrayList<String> returnList = new ArrayList<String>();
-        int i = 0;
-        while (i + 2 < docs.size()) {
-            return BooleanSearch.intersect(BooleanSearch.intersect(docs.get(i), docs.get(i + 1), 0), docs.get(i + 2),
-                    0);
-        }
-
-        return null;
-
-        // return returnList;
     }
 }

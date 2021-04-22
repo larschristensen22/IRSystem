@@ -27,14 +27,14 @@ public class Tokenization
     /**
      * Tokenize each word in a given Document.
      * 
-     * @param The Document to tokenize.
+     * @param doc the document to tokenize.
      * @return ArrayList<String> list that new tokens are added to.
      */
     public ArrayList<String> tokenize(Document doc)
     {
 
         tokens.clear();
-        
+
         //intilialize tokenizer
         StringTokenizer tokenizer = new StringTokenizer(doc.getText());
 
@@ -46,9 +46,39 @@ public class Tokenization
             token = token.toLowerCase();
             token = removePunctuation(token);
             token = token.trim();
-            // if (!normalize.removeStopWords(token)) {
-            //     tokens.add(token);
-            // }
+
+            if (!normalize.removeStopWords(token)) {
+                tokens.add(token);
+            }
+
+        }
+
+        return tokens;
+
+    }
+
+    /**
+     * Tokenize each word in a given Document with stopwords.
+     * 
+     * @param doc the document to tokenize.
+     * @return ArrayList<String> list that new tokens are added to.
+     */
+    public ArrayList<String> tokenizeWithStop(Document doc)
+    {
+
+        tokens.clear();
+
+        //intilialize tokenizer
+        StringTokenizer tokenizer = new StringTokenizer(doc.getText());
+
+        while (tokenizer.hasMoreTokens()) {
+
+            //perform tasks on each token
+            String token = tokenizer.nextToken();
+
+            token = token.toLowerCase();
+            token = removePunctuation(token);
+            token = token.trim();
             tokens.add(token);
         }
 
@@ -59,14 +89,13 @@ public class Tokenization
     /**
      * Tokenize each word in a given Document.
      * 
-     * @param The Document to tokenize.
+     * @param input the document to tokenize.
      * @return ArrayList<String> list that new tokens are added to.
      */
     public ArrayList<String> tokenizeQuery(String input)
     {
         int firstQuote = input.indexOf("\"");
         String subToken = "";
-        //String newToken = "";
 
         if (firstQuote != -1) {
             subToken = input.substring(firstQuote + 1);
@@ -75,7 +104,6 @@ public class Tokenization
                 subToken = input.substring(firstQuote + 1, secondQuote + 1);
                 input = input.substring(0, firstQuote) + input.substring(secondQuote + 2);
                 tokens.add(subToken);
-                System.out.println(subToken);
             }
         }
 
@@ -85,11 +113,10 @@ public class Tokenization
 
             //perform tasks on each token
             String token = tokenizer.nextToken();
-            
+
             token = removePunctuation(token);
             token = token.trim();
-
-            System.out.println("Token: " + token);
+            
             if (token.equals("AND") || token.equals("OR") || token.equals("NOT")) {
                 tokens.add(token);
             } else if (!normalize.removeStopWords(token)) {
@@ -105,7 +132,7 @@ public class Tokenization
     /**
      * Remove the punctuation from each document.
      * 
-     * @param The token to remove punctuation from.
+     * @param token the token to remove punctuation from.
      * @return String of the new token with removed punctuation.
      */
     public String removePunctuation(String token) {

@@ -28,94 +28,95 @@ public class InvertedIndex extends HashMap<String, PostingList> {
      * @throws IOException
      */
     public static void createIndex(ArrayList<String> tokens, String docNo) throws IOException {
-        //Create a hashset to store the unique tokens from the document as there may be repeats
-        // HashSet<String> newTokens = new HashSet<String>();
 
-        // for (int i = 0; i < tokens.size(); i++) {
-        // // if (!uniqueTokens.contains(tokens.get(i))) {
-        // // uniqueTokens.add(tokens.get(i));
-        // // }
-        // }
         int position = 0;
+
         //Loop through the unique tokens to check if they are in index already
         for (String word: tokens) {
             //If not, add them to the index with a new posting list
             Post post = null;
-
-            //new Post(docNo);
+            //if word is not in index, add it
             if (!index.containsKey(word)) {
                 PostingList postList = new PostingList();
-                //post = new Post(docNo);
                 index.put(word, postList);
+                //initialize the post
                 post = index.get(word).addPost(docNo);
 
             }
             else {
-                //if (!index.get(word).getSinglePost().getDocID().equals(docNo)) {
-                post = index.get(word).addPost(docNo); // return post being added - instead of adding //pass doc Num into addPast
-
-                //add position to post
-                //binary search to get post
-                //}
-
-                
+                //otherwise get the post
+                post = index.get(word).addPost(docNo); 
             }
-            
-            post.addPosition(position);
-            //System.out.println("POST: " + post.toString());
-            //index.get(word).getSinglePost().addPosition(position);
 
-            //System.out.println("WORD: " + word + " AT POSITION: " + position);
-            //System.out.println("INDEX ARRAYLIST: " + index.get(word).getSinglePost().toString());
+            //add position to the post based on the word
+            post.addPosition(position);
             position++;
         }
 
-
     }
-
+    
+    /**
+     * Write the index to an output file
+     * 
+     * @throws IOException
+     */
     public void writeIndexToFile() throws IOException {
+        
+        //name of the index file
         String outputFileName = "indexOutput.txt";
         File file = new File(outputFileName);
         BufferedWriter bf = new BufferedWriter(new FileWriter(file));
 
+        //write the index to the index output file
         for (String name: index.keySet()){
             String key = name;
             String value = index.get(name).toString();  
-            bf.write(key + ":" + value + "\n\n");
-            //System.out.println(key + " " + value.toString());      
+            bf.write(key + ":" + value + "\n\n"); 
         } 
 
         bf.close();
     }
 
+    /**
+     * Serialize the index given in the path
+     * 
+     * @param path will serialize the index at this filepath
+     */
     public void serializeIndex(String path) {
         try {
-            FileOutputStream fout=new FileOutputStream(path + ".txt");  
+            FileOutputStream fout=new FileOutputStream(path);  
             ObjectOutputStream out=new ObjectOutputStream(fout);  
             out.writeObject(index);  
             out.flush();  
             //closing the stream  
             out.close();  
+            //prints when the index is successfully written to output
             System.out.println("Wrote index successfully!");  
         } catch(Exception e) {
             System.out.println(e);
         }  
     }
 
+    /**
+     * Deserialize the index given in the path
+     * 
+     * @param path the path of the index that will be deserialized
+     * @return return the index that was deserialized
+     */
     public static InvertedIndex deserializeIndex(String path) {
         InvertedIndex newIndex;
         try{  
             //Creating stream to read the object  
-            ObjectInputStream in=new ObjectInputStream(new FileInputStream(path + ".txt"));  
+            ObjectInputStream in=new ObjectInputStream(new FileInputStream(path));  
             newIndex = (InvertedIndex)in.readObject();  
             //printing the data of the serialized object  
             System.out.println("Read index successfully!");  
             //closing the stream  
             in.close();  
-            } catch(Exception e) {
-                System.out.println(e);
-                newIndex = null;
-            }  
+        } catch(Exception e) {
+            System.out.println(e);
+            newIndex = null;
+        }  
         return newIndex;
     }
 }

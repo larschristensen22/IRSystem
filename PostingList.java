@@ -1,6 +1,5 @@
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.io.Serializable;
 /**
  * This class keeps a list of all the file posts in an arraylist and
  * keeps track of the frequency of posts.
@@ -23,25 +22,27 @@ public class PostingList implements Serializable
     }
 
     /**
-     * Adds a post to the posting list.
+     * Adds a post to the posting list in a sorted order.
      * 
      * @param postAdded is the post that is added to the list
+     * @return Post that is added to the list
      */
     public Post addPost(String docNo) {
-        //this.posts.add(postAdded);
+
         int size = this.posts.size();
-        //int midPoint = (size / 2) - 1;
         int left = 0;
         int right = size - 1; 
         int midPoint = (left + right) / 2;
         Post postAdded = new Post(docNo);
         this.frequency += 1;
-        //System.out.println("LEFT: " + left + " MID: " + midPoint + " RIGHT: " + right);
+
+        //add post anywhere if size is 0
         if (size == 0) {
             this.posts.add(postAdded);
-            //System.out.println("INITIAL POST ADDED");
             return postAdded;
         }
+
+        //compare this post docID to the current post and then add it in correct position
         if (size == 1) {
 
             if(docNo.compareTo(this.posts.get(midPoint).getDocID()) == 0) {
@@ -49,20 +50,21 @@ public class PostingList implements Serializable
             }
             if (postAdded.getDocID().compareTo(this.posts.get(midPoint).getDocID()) > 0) {
                 this.posts.add(postAdded);
-                //System.out.println("POST ADDED WITH SIZE 1");
             }
             else {
                 this.posts.add(0, postAdded);
-                //System.out.println("POST ADDED WITH SIZE 1");
             }
             return postAdded;
         }
 
+        //loop through all posts
         boolean isAdded = false;
         while (left <= right && !isAdded) {
-            //System.out.println("LEFT: " + left + " MID: " + midPoint + " RIGHT: " + right);
 
+            //add post if left is equal to right
             if (right == left) {
+
+                //determine where to add the post
                 if(posts.get(right).getDocID().compareTo(docNo) > 0) {
                     this.posts.add(left, postAdded);
                     return postAdded;
@@ -72,70 +74,34 @@ public class PostingList implements Serializable
                 } else {
                     return this.posts.get(right);
                 }
-                //isAdded = true;
-                // System.out.println("POST ADDED BY BINARY SEARCH");
 
             }
             else if (docNo.compareTo(this.posts.get(midPoint).getDocID()) > 0) {
+                //move midpoint to the right if the docNo is larger than the docID
                 left = midPoint + 1;
                 if (left > right) {
                     left = right;
                 }
-                //midPoint = (left + right) / 2;
 
-                //System.out.println("POST GREATER THAN MIDPOINT");
-                //System.out.println("NEW POST: " + postAdded.getDocID() + " VS: " + this.posts.get(midPoint).getDocID());
             } else if ((docNo.compareTo(this.posts.get(midPoint).getDocID()) == 0)) {
-                    return this.posts.get(midPoint);
+                return this.posts.get(midPoint);
             }
             else {
-                
+                //move midpoint to the left if the docNo is smaller than the docID
                 right = midPoint - 1;
                 if (right < left) {
                     right = left;
                 }
-                //midPoint = (left + midPoint) / 2;
 
-                //System.out.println("POST LESS THAN MIDPOINT");
-                //System.out.println("NEW POST: " + postAdded.getDocID() + " VS: " + this.posts.get(midPoint).getDocID());
             }
-            //System.out.println("MIDPOINT: "+ midPoint);
+            
+            //change midpoint
             midPoint = (left + right) / 2;
 
         }
         System.out.println("LEFT: " + left + " RIGHT: " + right + " MIDPOINT: " + midPoint);
         return null;
     }
-
-    // public int binarySearch() {
-        // int position = 0;
-
-        // while (left <= right && !isAdded) {
-            // System.out.println("LEFT: " + left + " MID: " + midPoint + " RIGHT: " + right);
-
-            // if (right == left) {
-                // this.posts.add(left, postAdded);
-                // isAdded = true;
-                // System.out.println("POST ADDED BY BINARY SEARCH");
-
-            // }
-            // else if (postAdded.getDocID().compareTo(this.posts.get(midPoint).getDocID()) > 0) {
-                // left = midPoint + 1;
-                // //midPoint = (left + right) / 2;
-
-                // System.out.println("POST GREATER THAN MIDPOINT");
-                // System.out.println("NEW POST: " + postAdded.getDocID() + " VS: " + this.posts.get(midPoint).getDocID());
-            // }
-            // else {
-                // right = midPoint - 1;
-                // //midPoint = (left + midPoint) / 2;
-
-                // System.out.println("POST LESS THAN MIDPOINT");
-                // System.out.println("NEW POST: " + postAdded.getDocID() + " VS: " + this.posts.get(midPoint).getDocID());
-            // }
-            // midPoint = (left + right) / 2;
-        // }  
-    // }
 
     /**
      * Returns the list of all the posts
@@ -166,13 +132,22 @@ public class PostingList implements Serializable
         return result;
     }
 
+    /**
+     * Finds a post by its docID
+     * 
+     * @return Post that was found
+     * @param docId that searches for a post
+     */
     public Post findPostByDocId(String docId) {
         Post returnPost = null;
+
+        //loop through posts to find a post matching docId
         for (int i = 0; i < this.posts.size(); i++) {
             if (docId.equals(this.posts.get(i).getDocID())) {
                 returnPost = this.posts.get(i);
             }
         }
+
         return returnPost;
     }
 }
