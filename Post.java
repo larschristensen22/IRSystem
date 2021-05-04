@@ -40,6 +40,10 @@ public class Post implements Serializable{
         return this.docID;
     }
 
+    public void setDocID(String value) {
+        this.docID = value;
+    }
+
     public ArrayList<Integer> getPositions() {
         return this.positions;
     }

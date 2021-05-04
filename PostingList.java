@@ -1,5 +1,6 @@
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.lang.Math;
 /**
  * This class keeps a list of all the file posts in an arraylist and
  * keeps track of the frequency of posts.
@@ -11,7 +12,9 @@ public class PostingList implements Serializable
 {
 
     private int frequency;
+    private double idf;
     private ArrayList<Post> posts;
+    private static final int NUMBER_OF_DOCS = 19936;
 
     /**
      * Constructor for objects of class PostingList.
@@ -19,6 +22,7 @@ public class PostingList implements Serializable
     public PostingList() {
         this.frequency = 0;
         this.posts = new ArrayList<Post>();
+        this.idf = 0;
     }
 
     /**
@@ -100,7 +104,9 @@ public class PostingList implements Serializable
 
         }
         System.out.println("LEFT: " + left + " RIGHT: " + right + " MIDPOINT: " + midPoint);
+        calculateIdf();
         return null;
+        
     }
 
     /**
@@ -149,5 +155,16 @@ public class PostingList implements Serializable
         }
 
         return returnPost;
+    }
+
+    /**
+     * Calculates idf for each posting list
+     * 
+     * @return 
+     * @param 
+     */
+    public void calculateIdf() {
+        int length = this.posts.size();
+        this.idf = Math.log(NUMBER_OF_DOCS / length);
     }
 }

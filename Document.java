@@ -1,3 +1,6 @@
+import java.lang.Math;
+import java.util.ArrayList;
+import java.util.HashMap;
 /**
  * Document class to store parsed data into objects.
  *
@@ -12,12 +15,14 @@ public class Document {
     private String publisher;
     private String description;
     private String date;
+    private PostingList postingList;
     /**
      * Constructor for objects of class Document. Stores the docID and text of a document.
      */
     public Document (String docID, String text) {
         this.docID = docID;
         this.text = text;
+        this.postingList = new PostingList();
     }
     /**
      * Constructor for objects of class Document. Stores all data of a document.
@@ -29,6 +34,7 @@ public class Document {
         this.date = date;
         this.publisher = publisher;
         this.description = description;
+        
     }
     /**
      * This method returns the docID of a document.
@@ -46,4 +52,25 @@ public class Document {
     public String getText() {
         return this.text;
     }
+
+    public PostingList getPostingList() {
+        return this.postingList;
+    }
+
+    public static void createDocPostingList(InvertedIndex index, ArrayList<Document> docs) {
+        for (String token: index.keySet()) {
+            PostingList postList = index.get(token);
+            for (int i = 0; i < postList.getPost().size(); i++) {
+                for (int j = 0; j < docs.size(); j++) {
+                    if (postList.getPost().get(i).getDocID().equals(docs.get(j).getDocID())) {
+                        Post postToAdd = postList.getPost().get(i);
+                        postToAdd.setDocID(token);
+                        docs.get(j).postingList.getPost().add(postToAdd);
+                    }
+                }
+            }
+        } 
+    }
+
+    
 }
