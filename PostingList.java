@@ -25,6 +25,29 @@ public class PostingList implements Serializable
         this.idf = 0;
     }
 
+    //new method for addPost - input parameter will be a post
+    //check whether this post exist, if yes, dont add, otherwise add at end of postinglist
+
+    public void addPost(Post postToAdd, int position) {
+
+        boolean exists = false;
+
+        for (int i = 0; i < this.posts.size(); i++) {
+            if (this.posts.get(i).getDocID().equals(postToAdd.getDocID())) {
+                //System.out.println("adding");
+                exists = true;
+                this.posts.get(i).addPosition(position);
+            } 
+        }
+        
+        if (!exists) {
+            postToAdd.addPosition(position);
+            this.posts.add(postToAdd);
+
+        }
+
+    }
+
     /**
      * Adds a post to the posting list in a sorted order.
      * 
@@ -58,6 +81,7 @@ public class PostingList implements Serializable
             else {
                 this.posts.add(0, postAdded);
             }
+            //add this post to doc
             return postAdded;
         }
 
@@ -98,7 +122,7 @@ public class PostingList implements Serializable
                 }
 
             }
-            
+
             //change midpoint
             midPoint = (left + right) / 2;
 
@@ -106,7 +130,7 @@ public class PostingList implements Serializable
         System.out.println("LEFT: " + left + " RIGHT: " + right + " MIDPOINT: " + midPoint);
         calculateIdf();
         return null;
-        
+
     }
 
     /**

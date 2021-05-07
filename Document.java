@@ -36,6 +36,7 @@ public class Document {
         this.description = description;
         
     }
+    
     /**
      * This method returns the docID of a document.
      * 
@@ -44,6 +45,7 @@ public class Document {
     public String getDocID() {
         return this.docID;
     }
+    
 /**
      * This method returns the text of a document.
      * 
@@ -71,6 +73,18 @@ public class Document {
             }
         } 
     }
-
+    //create method add post
+    //pass post in as parameter
+    public void addPost(Post postToAdd, int position) {
+            this.postingList.addPost(postToAdd, position);
+    }
     
+    public String toString() {
+        String retString = "DocID: " + this.docID + ", ";    
+        System.out.println("PostingList size: " + postingList.getPost().size());
+        for (int i = 0; i < postingList.getPost().size(); i++) {
+                retString += postingList.getPost().get(i).toString() + " ";
+        }
+        return retString;
+    }
 }

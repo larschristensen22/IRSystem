@@ -43,7 +43,7 @@ public class IRSystem {
         ArrayList<String> allDocs = new ArrayList<String>();
         for (int i = 0; i < docs.size(); i++) {
             allDocs.add(docs.get(i).getDocID());
-            
+
         }
         System.out.println("SIZE: " + allDocs.size());
 
@@ -73,7 +73,11 @@ public class IRSystem {
                 } else {
                     newTokens = tokens.tokenizeWithStop(docs.get(i));
                 }
-                InvertedIndex.createIndex(newTokens, docs.get(i).getDocID());
+                InvertedIndex.createIndex(newTokens, docs.get(i).getDocID(), docs.get(i));
+
+            }
+            for (int j = 0; j < 5; j++) {
+                System.out.println("Document: " + docs.get(j).toString());
             }
             index = InvertedIndex.index;
             System.out.println("Serializing...");
@@ -90,9 +94,7 @@ public class IRSystem {
             System.out.println("Deserializing index with stop words");
             index = InvertedIndex.deserializeIndex(createFile.toString()); 
         }
-        //Create posting lists for each document
-        Document.createDocPostingList(index, docs); 
-        System.out.println("TESTING DOC POSTING LIST" + docs.get(0).getPostingList().toString());
+
         //Run phrase search if there are quotes and boolean search if not
         BooleanSearch bs = new BooleanSearch(allDocs);
         if (query.charAt(0) == '"' && query.charAt(query.length() - 1) == '"') {

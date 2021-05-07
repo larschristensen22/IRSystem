@@ -27,7 +27,7 @@ public class InvertedIndex extends HashMap<String, PostingList> {
      * @param String docNo - the document number
      * @throws IOException
      */
-    public static void createIndex(ArrayList<String> tokens, String docNo) throws IOException {
+    public static void createIndex(ArrayList<String> tokens, String docNo, Document doc) throws IOException {
 
         int position = 0;
 
@@ -48,20 +48,24 @@ public class InvertedIndex extends HashMap<String, PostingList> {
                 post = index.get(word).addPost(docNo); 
             }
 
+            Post newPost = new Post(word);
+            doc.addPost(newPost, position);
+
             //add position to the post based on the word
             post.addPosition(position);
+            //newPost.addPosition(position);
             position++;
         }
 
     }
-    
+
     /**
      * Write the index to an output file
      * 
      * @throws IOException
      */
     public void writeIndexToFile() throws IOException {
-        
+
         //name of the index file
         String outputFileName = "indexOutput.txt";
         File file = new File(outputFileName);
