@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Formulas {
     
@@ -19,15 +21,44 @@ public class Formulas {
         return (weightedTf / l2Norm);
     }
 
-    public static double normalizedWeightQuery(int termCount, ArrayList<Double> weightedTf) {
-        return (weightedTermFrequencyQuery(termCount) / l2Norm(weightedTf));
-    }
-
-    public static double cosineSimilarity(ArrayList<String> query, int termCount, ArrayList<Double> weightedTf) {
-        double sum = 0.0;
-        for (int i = 0; i < query.size(); i++) {
-            sum += normalizedWeightQuery(termCount, weightedTf) * weightedTermFrequencyQuery(termCount);
+    public static void cosineSimilarity(ArrayList<Document> docs, ArrayList<Double> tokenWeightedTf, ArrayList<String> tokens) {
+        double sum;
+        HashMap<String, Double> cosineScores = new HashMap<String, Double>();
+        for (int i = 0; i < docs.size(); i++) {
+            sum = 0.0;
+            for (int j = 0; j < tokens.size(); j++) {
+                String token = tokens.get(j);
+                Post post = docs.get(i).getPostingList().findPostByDocId(token);
+                if (post != null) {
+                    System.out.println("TOKEN: " + tokens.get(j) + " NW: " + post.getNormalizedWeight());
+                    sum += (tokenWeightedTf.get(j) * post.getNormalizedWeight());
+                }
+            }
+            //System.out.println("SUM: " + sum);
+            cosineScores.put(docs.get(i).getDocID(), sum);
         }
-        return sum;
+        int rank = 1;
+        String maxDoc;
+        double max;
+        int count = 0;
+        while(cosineScores.size() > 0 && count < 1000) {
+            max = 0.0;
+            maxDoc = "";
+            for (Map.Entry mapElement : cosineScores.entrySet()) {
+                
+                //System.out.println("IN LOOP");
+                String key = (String)mapElement.getKey();
+                double value = (double)mapElement.getValue();
+                if (value > max) {
+                    max = value;
+                    maxDoc = key;
+                }
+            }
+            
+            System.out.println("0 1 " + " " + maxDoc + " " + rank + " " + max + " LarsAndCam");
+            rank++;
+            cosineScores.remove(maxDoc);
+            count++;
+        }
     }
 }

@@ -67,4 +67,8 @@ public class Post implements Serializable{
     public void setNormalizedWeight(double normalizedWeight) {
         this.normalizedWeight = normalizedWeight;
     }
+
+    public double getNormalizedWeight() {
+        return this.normalizedWeight;
+    }
 }

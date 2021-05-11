@@ -1,3 +1,4 @@
+import java.io.Serializable;
 import java.lang.Math;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +8,7 @@ import java.util.HashMap;
  * @author Lars and Cam
  * @version 3/22/21
  */
-public class Document {
+public class Document implements Serializable {
     //Instance variables of data to be stored
     private String docID;
     private String text;
@@ -86,7 +87,7 @@ public class Document {
     //create method add post
     //pass post in as parameter
     public void addPost(Post postToAdd, int position, double idf) {
-            this.postingList.addPost(postToAdd, position, idf, getl2Norm());
+            this.postingList.addPost(postToAdd, position, idf);
             this.l2Norm = Formulas.l2Norm(this.postingList.getSumWeightedTf());
     }
     
