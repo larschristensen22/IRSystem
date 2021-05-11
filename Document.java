@@ -16,6 +16,7 @@ public class Document {
     private String description;
     private String date;
     private PostingList postingList;
+    private double l2Norm;
     /**
      * Constructor for objects of class Document. Stores the docID and text of a document.
      */
@@ -23,6 +24,7 @@ public class Document {
         this.docID = docID;
         this.text = text;
         this.postingList = new PostingList();
+        this.l2Norm = 0.0;
     }
     /**
      * Constructor for objects of class Document. Stores all data of a document.
@@ -34,7 +36,7 @@ public class Document {
         this.date = date;
         this.publisher = publisher;
         this.description = description;
-        
+        this.l2Norm = 0.0;
     }
     
     /**
@@ -44,6 +46,14 @@ public class Document {
      */
     public String getDocID() {
         return this.docID;
+    }
+    
+    public void setl2Norm(double l2Norm) {
+        this.l2Norm = l2Norm;    
+    }
+    
+    public double getl2Norm() {
+        return this.l2Norm; 
     }
     
 /**
@@ -75,8 +85,9 @@ public class Document {
     }
     //create method add post
     //pass post in as parameter
-    public void addPost(Post postToAdd, int position) {
-            this.postingList.addPost(postToAdd, position);
+    public void addPost(Post postToAdd, int position, double idf) {
+            this.postingList.addPost(postToAdd, position, idf, getl2Norm());
+            this.l2Norm = Formulas.l2Norm(this.postingList.getSumWeightedTf());
     }
     
     public String toString() {

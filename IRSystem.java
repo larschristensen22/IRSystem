@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.io.IOException;
 import java.io.File;
 import java.util.Scanner;
+import java.util.Collections;
 /**
  * IRSystem class to run methods of the projects. This is the main class. Includes a scanner to read 
  * in queries and runs inverted index when necessary.
@@ -21,6 +22,9 @@ public class IRSystem {
         System.out.println("Please enter your query");
         String query = sc.nextLine();
         sc.close();
+        
+        
+
         //Creating objects for use in the IR System
         Parser parser = new Parser();
         ArrayList<Document> docs = new ArrayList<Document>();
@@ -29,6 +33,13 @@ public class IRSystem {
         InvertedIndex index = new InvertedIndex();
         ArrayList<String> testTokens =  tokens.tokenizeQuery(query);
 
+        ArrayList<Double> tokenWeightTf = new ArrayList<Double>();
+        
+        for (int x = 0; x < testTokens.size(); x++) {
+                int tf = Collections.frequency(testTokens, testTokens.get(x));
+                tokenWeightTf.add(Formulas.weightedTermFrequencyQuery(tf));
+        }
+        
         //Obtains a list of the files in the training data folder
         File directoryPath = new File(directory);
         File filesList[] = directoryPath.listFiles();
@@ -43,7 +54,6 @@ public class IRSystem {
         ArrayList<String> allDocs = new ArrayList<String>();
         for (int i = 0; i < docs.size(); i++) {
             allDocs.add(docs.get(i).getDocID());
-
         }
         System.out.println("SIZE: " + allDocs.size());
 
@@ -86,6 +96,11 @@ public class IRSystem {
         } else {
             System.out.println("File already exists");
         }
+
+        // for (int i = 0; i < docs.size(); i++) {
+            // ArrayList<Double> weightedTf = new ArrayList<Double>();
+        // }
+        
         //If the user did not want stop words, deserialize without stop words. If they wanted stop words, use that.
         if (answer.equalsIgnoreCase("no")) {
             System.out.println("Deserializing index without stop words");

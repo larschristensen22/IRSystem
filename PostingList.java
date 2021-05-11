@@ -13,6 +13,7 @@ public class PostingList implements Serializable
 
     private int frequency;
     private double idf;
+    private double sumWeightedTf;
     private ArrayList<Post> posts;
     private static final int NUMBER_OF_DOCS = 19936;
 
@@ -23,29 +24,52 @@ public class PostingList implements Serializable
         this.frequency = 0;
         this.posts = new ArrayList<Post>();
         this.idf = 0;
+        this.sumWeightedTf = 0.0;
     }
 
     //new method for addPost - input parameter will be a post
     //check whether this post exist, if yes, dont add, otherwise add at end of postinglist
 
-    public void addPost(Post postToAdd, int position) {
+    public void addPost(Post postToAdd, int position, double idf, double l2Norm) {
 
         boolean exists = false;
 
         for (int i = 0; i < this.posts.size(); i++) {
             if (this.posts.get(i).getDocID().equals(postToAdd.getDocID())) {
-                //System.out.println("adding");
+
+                double oldWeightedTf = this.posts.get(i).getWeightedTf();
+                this.sumWeightedTf -= oldWeightedTf;
+
                 exists = true;
+
                 this.posts.get(i).addPosition(position);
+                double weightedTf = Formulas.weightedTermFrequency(this.posts.get(i).getTermFreq(), idf);
+                this.posts.get(i).setWeightedTf(weightedTf);
+                this.sumWeightedTf += weightedTf;
+                this.posts.get(i).setNormalizedWeight(Formulas.normalizedWeight(weightedTf, l2Norm));
+
             } 
         }
-        
+
         if (!exists) {
+
             postToAdd.addPosition(position);
+            double weightedTf = Formulas.weightedTermFrequency(postToAdd.getTermFreq(), idf);
+            postToAdd.setWeightedTf(weightedTf);
+            this.sumWeightedTf += weightedTf;
+            postToAdd.setNormalizedWeight(Formulas.normalizedWeight(weightedTf, l2Norm));
             this.posts.add(postToAdd);
 
         }
 
+    }
+
+    public double getIdf() {
+        return this.idf;    
+    }
+
+    public double getSumWeightedTf() {
+        return this.sumWeightedTf;    
     }
 
     /**

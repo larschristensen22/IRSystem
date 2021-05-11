@@ -48,12 +48,13 @@ public class InvertedIndex extends HashMap<String, PostingList> {
                 post = index.get(word).addPost(docNo); 
             }
 
+            double idf = index.get(word).getIdf();
             Post newPost = new Post(word);
-            doc.addPost(newPost, position);
+            doc.addPost(newPost, position, idf);
 
             //add position to the post based on the word
             post.addPosition(position);
-            //newPost.addPosition(position);
+
             position++;
         }
 
