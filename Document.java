@@ -87,8 +87,7 @@ public class Document implements Serializable {
     //create method add post
     //pass post in as parameter
     public void addPost(Post postToAdd, int position, double idf) {
-            this.postingList.addPost(postToAdd, position, idf);
-            this.l2Norm = Formulas.l2Norm(this.postingList.getSumWeightedTf());
+        this.postingList.addPost(postToAdd, position, idf);
     }
     
     public String toString() {
@@ -98,5 +97,13 @@ public class Document implements Serializable {
                 retString += postingList.getPost().get(i).toString() + " ";
         }
         return retString;
+    }
+
+    public void computeStats() {
+        this.l2Norm = Formulas.l2Norm(this.postingList.getSumWeightedTf());
+        for (int i = 0; i < this.postingList.getPost().size(); i++) {
+            double weightedTf = this.postingList.getPost().get(i).getWeightedTf();
+            this.postingList.getPost().get(i).setNormalizedWeight(Formulas.normalizedWeight(weightedTf, this.l2Norm));
+        } 
     }
 }

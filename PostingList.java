@@ -38,7 +38,7 @@ public class PostingList implements Serializable
             if (this.posts.get(i).getDocID().equals(postToAdd.getDocID())) {
 
                 double oldWeightedTf = this.posts.get(i).getWeightedTf();
-                this.sumWeightedTf -= oldWeightedTf;
+                this.sumWeightedTf -= (oldWeightedTf * oldWeightedTf);
 
                 exists = true;
 
@@ -50,11 +50,10 @@ public class PostingList implements Serializable
                 // System.out.println("TF: " + postToAdd.getTermFreq());
                 this.posts.get(i).setWeightedTf(weightedTf);
                 this.sumWeightedTf += weightedTfSquared;
-                double l2Norm = Formulas.l2Norm(this.sumWeightedTf);
+                
                 // System.out.println("SUMWEIGHTEDTF: " + sumWeightedTf);
                 // System.out.println("l2Norm: " + l2Norm);
                 // System.out.println("NW: " + Formulas.normalizedWeight(weightedTf, l2Norm));
-                this.posts.get(i).setNormalizedWeight(Formulas.normalizedWeight(weightedTf, l2Norm));
 
             } 
         }
@@ -69,11 +68,11 @@ public class PostingList implements Serializable
             // System.out.println("TF: " + postToAdd.getTermFreq());
             postToAdd.setWeightedTf(weightedTf);
             this.sumWeightedTf += weightedTfSquared;
-            double l2Norm = Formulas.l2Norm(this.sumWeightedTf);
+            
             // System.out.println("SUMWEIGHTEDTF: " + sumWeightedTf);
             // System.out.println("l2Norm: " + l2Norm);
             // System.out.println("NW: " + Formulas.normalizedWeight(weightedTf, l2Norm));
-            postToAdd.setNormalizedWeight(Formulas.normalizedWeight(weightedTf, l2Norm));
+            
             this.posts.add(postToAdd);
 
         }

@@ -94,6 +94,7 @@ public class Tokenization
      */
     public ArrayList<String> tokenizeQuery(String input)
     {
+        ArrayList<String> queryTokens = new ArrayList<String>();
         int firstQuote = input.indexOf("\"");
         String subToken = "";
 
@@ -103,7 +104,7 @@ public class Tokenization
             if (secondQuote != -1) {
                 subToken = input.substring(firstQuote + 1, secondQuote + 1);
                 input = input.substring(0, firstQuote) + input.substring(secondQuote + 2);
-                tokens.add(subToken);
+                queryTokens.add(subToken);
             }
         }
 
@@ -118,14 +119,14 @@ public class Tokenization
             token = token.trim();
             
             if (token.equals("AND") || token.equals("OR") || token.equals("NOT")) {
-                tokens.add(token);
+                queryTokens.add(token);
             } else if (!normalize.removeStopWords(token)) {
-                tokens.add(token);
+                queryTokens.add(token);
             }
 
         }
 
-        return tokens;
+        return queryTokens;
 
     }
 

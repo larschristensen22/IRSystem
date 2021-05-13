@@ -99,6 +99,10 @@ public class IRSystem {
             System.out.println("File already exists");
         }
 
+        for (int i = 0; i < docs.size(); i++) {
+            docs.get(i).computeStats();
+        }
+
         File docsWithStopWords = new File(System.getProperty("user.dir") + System.getProperty("file.separator") + "DocsWithStopWords.txt");;
         File docsNoStopWord = new File(System.getProperty("user.dir") + System.getProperty("file.separator") + "DocsRemoveStopWords.txt");;
 
