@@ -27,33 +27,30 @@ public class PostingList implements Serializable
         this.sumWeightedTf = 0.0;
     }
 
-    //new method for addPost - input parameter will be a post
-    //check whether this post exist, if yes, dont add, otherwise add at end of postinglist
-
+    /**
+     * Adds a post to the document list
+     * 
+     * @param Post postToAdd - the post to add to the doc list
+     * double idf - the idf used for the calculations in the method
+     */
     public void addPost(Post postToAdd, int position, double idf) {
 
         boolean exists = false;
 
         for (int i = 0; i < this.posts.size(); i++) {
             if (this.posts.get(i).getDocID().equals(postToAdd.getDocID())) {
-
+                //calcuates new idf
                 double oldWeightedTf = this.posts.get(i).getWeightedTf();
                 this.sumWeightedTf -= (oldWeightedTf * oldWeightedTf);
 
                 exists = true;
 
+                //calculates weight term frequency
                 this.posts.get(i).addPosition(position);
                 double weightedTf = Formulas.weightedTermFrequency(this.posts.get(i).getTermFreq(), idf);
                 double weightedTfSquared = weightedTf * weightedTf;
-                //System.out.println("WEIGHTEDTF: " + weightedTf);
-                // System.out.println("IDF: " + idf);
-                // System.out.println("TF: " + postToAdd.getTermFreq());
                 this.posts.get(i).setWeightedTf(weightedTf);
                 this.sumWeightedTf += weightedTfSquared;
-                
-                // System.out.println("SUMWEIGHTEDTF: " + sumWeightedTf);
-                // System.out.println("l2Norm: " + l2Norm);
-                // System.out.println("NW: " + Formulas.normalizedWeight(weightedTf, l2Norm));
 
             } 
         }
@@ -61,28 +58,31 @@ public class PostingList implements Serializable
         if (!exists) {
 
             postToAdd.addPosition(position);
+            //calculates weight term frequency
             double weightedTf = Formulas.weightedTermFrequency(postToAdd.getTermFreq(), idf);
             double weightedTfSquared = weightedTf * weightedTf;
-            //System.out.println("WEIGHTEDTF: " + weightedTf);
-            // System.out.println("IDF: " + idf);
-            // System.out.println("TF: " + postToAdd.getTermFreq());
             postToAdd.setWeightedTf(weightedTf);
             this.sumWeightedTf += weightedTfSquared;
-            
-            // System.out.println("SUMWEIGHTEDTF: " + sumWeightedTf);
-            // System.out.println("l2Norm: " + l2Norm);
-            // System.out.println("NW: " + Formulas.normalizedWeight(weightedTf, l2Norm));
-            
             this.posts.add(postToAdd);
 
         }
 
     }
 
+    /**
+     * Returns the IDF
+     * 
+     * @return double, the idf
+     */
     public double getIdf() {
         return this.idf;    
     }
 
+    /**
+     * Returns sum of the weighted term frequencies
+     * 
+     * @return double, the sum of weighted term frequencies
+     */
     public double getSumWeightedTf() {
         return this.sumWeightedTf;    
     }
@@ -171,7 +171,7 @@ public class PostingList implements Serializable
 
         }
         //System.out.println("LEFT: " + left + " RIGHT: " + right + " MIDPOINT: " + midPoint);
-        
+
         return null;
 
     }
@@ -226,9 +226,6 @@ public class PostingList implements Serializable
 
     /**
      * Calculates idf for each posting list
-     * 
-     * @return 
-     * @param 
      */
     public void calculateIdf() {
         int length = this.posts.size();

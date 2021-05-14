@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Formulas
+comment0.text=\r\n\ Forumlas\ to\ calculate\ cosine\ similarity\r\n\r\n\ @author\ Lars\ and\ Cam\r\n\ @version\ 3/22/21\r\n
+comment1.params=termCount\ idf
+comment1.target=double\ weightedTermFrequency(int,\ double)
+comment1.text=\r\n\ Calculates\ weighted\ term\ frequency\r\n\ \r\n\ @return\ double\ -\ weight\ term\ frequency\r\n\ @param\ int\ termCount\ -\ the\ count\ of\ terms.\r\n\ \ \ \ \ double\ idf\ -\ the\ inverse\ document\ frequency\r\n
+comment2.params=termCount
+comment2.target=double\ weightedTermFrequencyQuery(int)
+comment2.text=\r\n\ Calculates\ weighted\ term\ frequency\ for\ the\ query\r\n\ \r\n\ @return\ double\ -\ weight\ term\ frequency\r\n\ @param\ int\ termCount\ -\ the\ count\ of\ query\ terms.\r\n
+comment3.params=sumWeightedTf
+comment3.target=double\ l2Norm(double)
+comment3.text=\r\n\ Calculates\ the\ l2Norm\r\n\ \r\n\ @return\ double\ -\ l2\ Norm\r\n\ @param\ double\ sumWeightedTf\ -\ sum\ of\ all\ the\ terms\r\n
+comment4.params=weightedTf\ l2Norm
+comment4.target=double\ normalizedWeight(double,\ double)
+comment4.text=\r\n\ Calculates\ the\ normalized\ weight\r\n\ \r\n\ @return\ double\ -\ normalized\ weight\r\n\ @param\ double\ weightedTf\ -\ the\ weighted\ term\ frequency\r\n\ double\ l2Norm\ -\ the\ l2Norm\r\n
+comment5.params=docs\ tokenWeightedTf\ tokens
+comment5.target=void\ cosineSimilarity(java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
+comment5.text=\r\n\ Calculates\ the\ cosine\ similarity.\r\n\ \r\n\ @param\ ArrayList<Document>\ docs\ -\ all\ the\ documents\r\n\ ArrayList<Double>\ tokenWeightedTf\ -\ weighted\ term\ frequency\ of\ query\ token\r\n\ ArrayList<String>\ tokens\ -\ query\ tokens\r\n
+numComments=6

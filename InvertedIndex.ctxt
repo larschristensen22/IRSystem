@@ -1,11 +1,16 @@
 #BlueJ class context
 comment0.target=InvertedIndex
 comment0.text=\r\n\ InvertedIndex\ class\ to\ create\ the\ inverted\ index\ storing\ tokens\ and\ their\ posting\ lists.\r\n\r\n\ @author\ Lars\ and\ Cam\r\n\ @version\ 3/22/21\r\n
-comment1.params=tokens\ docNo
-comment1.target=void\ createIndex(java.util.ArrayList,\ java.lang.String)
+comment1.params=tokens\ docNo\ doc
+comment1.target=void\ createIndex(java.util.ArrayList,\ java.lang.String,\ Document)
 comment1.text=\r\n\ This\ method\ modifies\ the\ inverted\ index\ with\ new\ tokens\ from\ a\ new\ document\r\n\ \r\n\ @return\ InvertedIndex\ -\ a\ hash\ map\ containing\ tokens\ and\ posting\ lists\r\n\ @param\ ArrayList<String>\ tokens\ -\ the\ list\ of\ tokens\ to\ be\ added\ to\ the\ inverted\ index\r\n\ @param\ String\ docNo\ -\ the\ document\ number\r\n\ @throws\ IOException\r\n
 comment2.params=
 comment2.target=void\ writeIndexToFile()
+comment2.text=\r\n\ Write\ the\ index\ to\ an\ output\ file\r\n\ \r\n\ @throws\ IOException\r\n
 comment3.params=path
-comment3.target=InvertedIndex\ readIndexFromFile(java.lang.String)
-numComments=4
+comment3.target=void\ serializeIndex(java.lang.String)
+comment3.text=\r\n\ Serialize\ the\ index\ given\ in\ the\ path\r\n\ \r\n\ @param\ path\ will\ serialize\ the\ index\ at\ this\ filepath\r\n
+comment4.params=path
+comment4.target=InvertedIndex\ deserializeIndex(java.lang.String)
+comment4.text=\r\n\ Deserialize\ the\ index\ given\ in\ the\ path\r\n\ \r\n\ @param\ path\ the\ path\ of\ the\ index\ that\ will\ be\ deserialized\r\n\ @return\ return\ the\ index\ that\ was\ deserialized\r\n
+numComments=5

@@ -1,15 +1,16 @@
 #BlueJ class context
 comment0.target=BooleanSearch
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ BooleanSearch\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=BooleanSearch()
+comment0.text=\r\n\ BooleanSearch\ class\ to\ run\ boolean\ search\ operations\ and\ phrase\ searches.\r\n\r\n\ @author\ Lars\ and\ Cam\r\n\ @version\ IR\ HW2\r\n
+comment1.params=allDocs
+comment1.target=BooleanSearch(java.util.ArrayList)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BooleanSearch\r\n
-comment2.params=query
-comment2.target=void\ phraseSearch(java.util.ArrayList)
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment2.params=query\ indexIn
+comment2.target=void\ phraseSearch(java.util.ArrayList,\ InvertedIndex)
+comment2.text=\r\n\ Find\ the\ documents\ that\ contain\ a\ given\ phrase\r\n\r\n\ @param\ query\ the\ query\r\n\ @param\ indexIn\ the\ inverted\ index\r\n
 comment3.params=query\ indexIn
 comment3.target=void\ booleanSearch(java.util.ArrayList,\ InvertedIndex)
-comment3.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment3.text=\r\n\ Search\ a\ query\ based\ on\ boolean\ operators\ in\ the\ query\r\n\r\n\ @param\ query\ the\ query\ entered\r\n\ @param\ index\ the\ index\ that\ contains\ query\ information\r\n
 comment4.params=listOne\ listTwo\ booleanOp
-comment4.target=java.util.ArrayList\ intersect(PostingList,\ PostingList,\ int)
+comment4.target=java.util.ArrayList\ intersect(java.util.ArrayList,\ java.util.ArrayList,\ int)
+comment4.text=\r\n\ Interests\ the\ postings\ lists\ of\ two\ words\ based\ on\ certain\ criteria\r\n\r\n\ @param\ listOne\ list\ to\ intersect\r\n\ @param\ listTwo\ list\ to\ intersect\r\n\ @param\ booleanOp\ indicates\ how\ to\ intersect\ the\ lists\r\n\ @return\ the\ intersection\ of\ the\ two\ lists\r\n
 numComments=5
