@@ -1,7 +1,4 @@
 import java.io.Serializable;
-import java.lang.Math;
-import java.util.ArrayList;
-import java.util.HashMap;
 /**
  * Document class to store parsed data into objects.
  *
@@ -49,15 +46,25 @@ public class Document implements Serializable {
         return this.docID;
     }
     
+    /**
+     * Assign the l2Norm value of a Document
+     * 
+     * @param l2Norm the l2Norm value to set the instance variable
+     */
     public void setl2Norm(double l2Norm) {
         this.l2Norm = l2Norm;    
     }
     
+    /**
+     * Return the l2Norm of a Document
+     * 
+     * @return double - the l2Norm of a document
+     */
     public double getl2Norm() {
         return this.l2Norm; 
     }
     
-/**
+    /**
      * This method returns the text of a document.
      * 
      * @return String - the text of a document
@@ -66,30 +73,31 @@ public class Document implements Serializable {
         return this.text;
     }
 
+    /**
+     * Returns the posting list of a document.
+     * 
+     * @return PostingList - the posting list of a document
+     */
     public PostingList getPostingList() {
         return this.postingList;
     }
-
-    public static void createDocPostingList(InvertedIndex index, ArrayList<Document> docs) {
-        for (String token: index.keySet()) {
-            PostingList postList = index.get(token);
-            for (int i = 0; i < postList.getPost().size(); i++) {
-                for (int j = 0; j < docs.size(); j++) {
-                    if (postList.getPost().get(i).getDocID().equals(docs.get(j).getDocID())) {
-                        Post postToAdd = postList.getPost().get(i);
-                        postToAdd.setDocID(token);
-                        docs.get(j).postingList.getPost().add(postToAdd);
-                    }
-                }
-            }
-        } 
-    }
-    //create method add post
-    //pass post in as parameter
+    
+    /**
+     * Add a post object to the posting list of a document
+     * 
+     * @param postToAdd - the post to be added
+     * @param position - the position of the term in the document
+     * @param idf - the idf score of the term
+     */
     public void addPost(Post postToAdd, int position, double idf) {
         this.postingList.addPost(postToAdd, position, idf);
     }
     
+    /**
+     * Returns a formatted string of the Document and its posting list.
+     * 
+     * @return String - the string summary
+     */
     public String toString() {
         String retString = "DocID: " + this.docID + ", ";    
         System.out.println("PostingList size: " + postingList.getPost().size());
@@ -99,6 +107,9 @@ public class Document implements Serializable {
         return retString;
     }
 
+    /**
+     * Compute the l2Norm of the Document and the normalized weights for each term.
+     */
     public void computeStats() {
         this.l2Norm = Formulas.l2Norm(this.postingList.getSumWeightedTf());
         for (int i = 0; i < this.postingList.getPost().size(); i++) {

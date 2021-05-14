@@ -57,7 +57,6 @@ public class IRSystem {
         for (int i = 0; i < docs.size(); i++) {
             allDocs.add(docs.get(i).getDocID());
         }
-        System.out.println("SIZE: " + allDocs.size());
 
         //Loop through the document objects to tokenize and add tokens to the inverted index
         File tempFile = null;
@@ -88,9 +87,6 @@ public class IRSystem {
                 InvertedIndex.createIndex(newTokens, docs.get(i).getDocID(), docs.get(i));
 
             }
-            // for (int j = 0; j < 5; j++) {
-            //     System.out.println("Document: " + docs.get(j).toString());
-            // }
             index = InvertedIndex.index;
             System.out.println("Serializing...");
 
@@ -99,15 +95,20 @@ public class IRSystem {
             System.out.println("File already exists");
         }
 
+        //Loop through all Document objects and computes the necessary statistics
         for (int i = 0; i < docs.size(); i++) {
             docs.get(i).computeStats();
         }
 
+        //Files for serializing the document objects
         File docsWithStopWords = new File(System.getProperty("user.dir") + System.getProperty("file.separator") + "DocsWithStopWords.txt");;
         File docsNoStopWord = new File(System.getProperty("user.dir") + System.getProperty("file.separator") + "DocsRemoveStopWords.txt");;
 
+        //If the user does not want stop words
         if (answer.equalsIgnoreCase("no")) {
+            //Check if the file already exists
             exists = docsNoStopWord.exists();
+            //If the file does not exist, serialize it
             if (!exists) {
                 try {
                     FileOutputStream fos= new FileOutputStream(docsNoStopWord.toString());
@@ -118,13 +119,14 @@ public class IRSystem {
                 } catch (IOException ioe) {
                     ioe.printStackTrace();
                 }
+            //If the file does exist, read it from the file
             } else {
                 try {   
-                    // Reading the object from a file
+                    //Reading the object from a file
                     FileInputStream file = new FileInputStream(docsNoStopWord.toString());
                     ObjectInputStream in = new ObjectInputStream(file);
               
-                    // Method for deserialization of object
+                    //Method for deserialization of object
                     docs = (ArrayList<Document>) in.readObject();
               
                     in.close();
@@ -136,8 +138,11 @@ public class IRSystem {
                     System.out.println("ClassNotFoundException is caught");
                 }
             }
+        //If the user wants to keep stop words
         } else {
+            //Check to see if the file exists
             exists = docsWithStopWords.exists();
+            //If it does not exist, write it to a file
             if (!exists) {
                 try {
                     FileOutputStream fos= new FileOutputStream(docsWithStopWords.toString());
@@ -148,6 +153,7 @@ public class IRSystem {
                 } catch (IOException ioe) {
                     ioe.printStackTrace();
                 }
+            //If it does exist, read it from the file
             } else {
                 try {   
                     // Reading the object from a file
@@ -168,10 +174,6 @@ public class IRSystem {
             }
         }
 
-        // for (int i = 0; i < docs.size(); i++) {
-            // ArrayList<Double> weightedTf = new ArrayList<Double>();
-        // }
-        
         //If the user did not want stop words, deserialize without stop words. If they wanted stop words, use that.
         if (answer.equalsIgnoreCase("no")) {
             System.out.println("Deserializing index without stop words");
@@ -181,6 +183,7 @@ public class IRSystem {
             index = InvertedIndex.deserializeIndex(createFile.toString()); 
         }
 
+        //Check if the user requested boolean search or vector space search
         if (model.equals("b")) {
             //Run phrase search if there are quotes and boolean search if not
             BooleanSearch bs = new BooleanSearch(allDocs);
@@ -191,11 +194,13 @@ public class IRSystem {
                 System.out.println("Boolean Searching");
                 bs.booleanSearch(testTokens, index);
             } 
-        }   else {
+        } else {
+            //Find the term frequency in the query and compute the weighted term frequencies
             for (int x = 0; x < testTokens.size(); x++) {
                 int tf = Collections.frequency(testTokens, testTokens.get(x));
                 tokenWeightTf.add(Formulas.weightedTermFrequencyQuery(tf));
             }
+            //Find the cosine similarities between the query and each Document and print required output
             Formulas.cosineSimilarity(docs, tokenWeightTf, testTokens);
         }
         
