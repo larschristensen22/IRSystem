@@ -26,11 +26,9 @@ public class IRSystem {
         String answer = sc.nextLine();
         System.out.println("Boolean or Vector Space Model? (b/v)");
         String model = sc.nextLine();
-        System.out.println("Please enter your query");
-        String query = sc.nextLine();
+        // System.out.println("Please enter your query");
+        // String query = sc.nextLine();
         sc.close();
-        
-        
 
         //Creating objects for use in the IR System
         Parser parser = new Parser();
@@ -38,19 +36,42 @@ public class IRSystem {
         Tokenization tokens = new Tokenization();
         ArrayList<String> newTokens = new ArrayList<String>();
         InvertedIndex index = new InvertedIndex();
-        ArrayList<String> testTokens =  tokens.tokenizeQuery(query);
 
-        ArrayList<Double> tokenWeightTf = new ArrayList<Double>();
-        
+        //for (int z = 0; z < Parser
+        //ArrayList<String> testTokens =  tokens.tokenizeQuery(query);
+
+        ArrayList<ArrayList<Double>> tokenWeightTf = new ArrayList<ArrayList<Double>>();
+
         //Obtains a list of the files in the training data folder
         File directoryPath = new File(directory);
         File filesList[] = directoryPath.listFiles();
 
+        File trecPath = new File("QUERIES_for_training_new.txt");
+
+        parser.batchParser(trecPath);
         //Loop through the list of files to parse their contents and create Document objects
         for (File file: filesList){
             //System.out.println("filename: "+ file.toString());
             parser.trecParser(file.toString());
         }
+        ArrayList<ArrayList<String>> testTokens = new ArrayList<ArrayList<String>>();// =  tokens.tokenizeQuery(query);
+        
+        for (int z = 1; z < Parser.queries.size(); z++) {
+            // System.out.println( "Queries: " + Parser.queries.get(z));
+            if (!Parser.queries.get(z).equals("") && !Parser.queries.get(z).equals(" ")) {
+                System.out.println("QUERY NUMBER: " + Parser.docNums.get(z-1));
+                System.out.println( "Queries: " + Parser.queries.get(z));
+                
+                if (answer.equals("yes")) {
+                    testTokens.add(tokens.tokenizeQuery(Parser.queries.get(z), 0));
+                } else {
+                    testTokens.add(tokens.tokenizeQuery(Parser.queries.get(z), 1));
+                }
+                
+            }
+
+        }
+        //ArrayList<String> testTokens =  tokens.tokenizeQuery(query);
         docs = Parser.docs;
         //Storing a list of all Document IDs for use in potential NOT queries
         ArrayList<String> allDocs = new ArrayList<String>();
@@ -119,16 +140,16 @@ public class IRSystem {
                 } catch (IOException ioe) {
                     ioe.printStackTrace();
                 }
-            //If the file does exist, read it from the file
+                //If the file does exist, read it from the file
             } else {
                 try {   
                     //Reading the object from a file
                     FileInputStream file = new FileInputStream(docsNoStopWord.toString());
                     ObjectInputStream in = new ObjectInputStream(file);
-              
+
                     //Method for deserialization of object
                     docs = (ArrayList<Document>) in.readObject();
-              
+
                     in.close();
                     file.close();
                 } catch(IOException ex) {
@@ -138,7 +159,7 @@ public class IRSystem {
                     System.out.println("ClassNotFoundException is caught");
                 }
             }
-        //If the user wants to keep stop words
+            //If the user wants to keep stop words
         } else {
             //Check to see if the file exists
             exists = docsWithStopWords.exists();
@@ -153,16 +174,16 @@ public class IRSystem {
                 } catch (IOException ioe) {
                     ioe.printStackTrace();
                 }
-            //If it does exist, read it from the file
+                //If it does exist, read it from the file
             } else {
                 try {   
                     // Reading the object from a file
                     FileInputStream file = new FileInputStream(docsWithStopWords.toString());
                     ObjectInputStream in = new ObjectInputStream(file);
-              
+
                     // Method for deserialization of object
                     docs = (ArrayList<Document>) in.readObject();
-              
+
                     in.close();
                     file.close();
                 } catch(IOException ex) {
@@ -183,27 +204,43 @@ public class IRSystem {
             index = InvertedIndex.deserializeIndex(createFile.toString()); 
         }
 
+        //System.out.println("CONTINUING WITH OUTPUT");
+
         //Check if the user requested boolean search or vector space search
         if (model.equals("b")) {
+            //System.out.println("ENTERING BOOLEAN MODEL LOOP");
             //Run phrase search if there are quotes and boolean search if not
             BooleanSearch bs = new BooleanSearch(allDocs);
-            if (query.charAt(0) == '"' && query.charAt(query.length() - 1) == '"') {
-                System.out.println("Phrase Searching");
-                bs.phraseSearch(testTokens, index);
-            } else {
-                System.out.println("Boolean Searching");
-                bs.booleanSearch(testTokens, index);
-            } 
+            //if (query.charAt(0) == '"' && query.charAt(query.length() - 1) == '"') {
+            System.out.println("Phrase Searching");
+            // bs.phraseSearch(testTokens, index);
+            // } else {
+            System.out.println("Boolean Searching");
+            for (int i = 0; i < testTokens.size(); i++) {
+                //System.out.println("QUERY RESULTS FOR QUERY " + (i+1) + " - " + testTokens.get(i) + " :");
+                bs.booleanSearch(testTokens.get(i), index, Parser.docNums, i);
+            }
+            // } 
         } else {
             //Find the term frequency in the query and compute the weighted term frequencies
+            //System.out.println("ENTERING ELSE LOOP");
+            
             for (int x = 0; x < testTokens.size(); x++) {
-                int tf = Collections.frequency(testTokens, testTokens.get(x));
-                tokenWeightTf.add(Formulas.weightedTermFrequencyQuery(tf));
+                tokenWeightTf.add(new ArrayList<Double>());
+                for (int y = 0; y < testTokens.get(x).size(); y++) {
+                    int tf = Collections.frequency(testTokens.get(x), testTokens.get(x).get(y));
+                    tokenWeightTf.get(x).add(Formulas.weightedTermFrequencyQuery(tf));
+                }
+            }
+
+            for (int i = 0; i < testTokens.size(); i++) {
+                //System.out.println("QUERY RESULTS FOR QUERY" + i + " - " + testTokens.get(i) + " :");
+                Formulas.cosineSimilarity(docs, tokenWeightTf.get(i), testTokens.get(i), Parser.docNums, i);
             }
             //Find the cosine similarities between the query and each Document and print required output
-            Formulas.cosineSimilarity(docs, tokenWeightTf, testTokens);
+            //Formulas.cosineSimilarity(docs, tokenWeightTf, testTokens);
         }
-        
+
     }
 }
 

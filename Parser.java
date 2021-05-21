@@ -4,6 +4,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Scanner;
+import java.util.regex.*;
 
 /**
  * This class is used to parse the input files into a specific format
@@ -16,14 +18,65 @@ public class Parser {
 
     private Document doc;
     public static ArrayList<Document> docs;
+    public static ArrayList<String> queries;
+    public static ArrayList<String> docNums;
 
     /**
      * Constructor for objects of class Parser.
      */
     public Parser() {
         docs = new ArrayList<Document>();
+        queries = new ArrayList<String>();
+        docNums = new ArrayList<String>();
     }
 
+    /**
+     * This method creates the format in which the files will be parsed into
+     * 
+     * @return ArrayList<Document> a list of newly parsed documents
+     * @param String directory the directory to the file that will be parsed
+     */
+    public void batchParser(File trecQueries) throws FileNotFoundException, IOException {
+
+        // parseQueryFile(trecQueries);
+        Scanner sc = new Scanner(trecQueries);
+        String query = "";
+        while (sc.hasNextLine()) {
+            String line = sc.nextLine();
+            //System.out.println("LINE: " + line);
+            String regex = "[0-9]+";
+
+            Pattern p = Pattern.compile(regex);
+            Matcher m = p.matcher(line);
+            //System.out.println("MATCHES: " + m.matches());
+            if (line.equals("<DOCNO>")) {
+                //sc.nextLine();
+                //System.out.println("IN IF STATEMENT");
+                queries.add(query); 
+                query = "";
+            } else if (line.equals("</DOCNO>")) {
+                //sc.nextLine();
+            } else if (m.matches()) {
+                //System.out.println("MATCH: " + line);
+                docNums.add(line);
+                sc.nextLine();
+            } else if(!line.equals("")) {
+                // System.out.println("Adding: " + line);
+                if (line.charAt(line.length() - 1) == ' ') {
+                    query += line;
+                } else {
+                    query += line + " ";   
+                }
+                //System.out.println("CREATING QUERY: " + query);
+                //queries.add(line);    
+                //sc.nextLine();
+            }
+        }
+        //System.out.println("FINAL QUERY: " + query);
+        queries.add(query);
+        sc.close();
+       
+    }
     /**
      * This method creates the format in which the files will be parsed into
      * 
@@ -52,7 +105,6 @@ public class Parser {
         String author = "";
         boolean textTag = false;
         boolean descTag = false;
-    
 
         //loop through new lines to parse each line
         for (int i = 0; i < words.length; i++) {

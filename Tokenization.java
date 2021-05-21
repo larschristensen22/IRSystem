@@ -92,7 +92,7 @@ public class Tokenization
      * @param input the document to tokenize.
      * @return ArrayList<String> list that new tokens are added to.
      */
-    public ArrayList<String> tokenizeQuery(String input)
+    public ArrayList<String> tokenizeQuery(String input, int stopWords)
     {
         ArrayList<String> queryTokens = new ArrayList<String>();
         int firstQuote = input.indexOf("\"");
@@ -120,7 +120,11 @@ public class Tokenization
             
             if (token.equals("AND") || token.equals("OR") || token.equals("NOT")) {
                 queryTokens.add(token);
-            } else if (!normalize.removeStopWords(token)) {
+            } else if (stopWords == 1) {
+                if (!normalize.removeStopWords(token)) {
+                    queryTokens.add(token);
+                }
+            } else {
                 queryTokens.add(token);
             }
 

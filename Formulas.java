@@ -59,7 +59,7 @@ public class Formulas {
              * ArrayList<Double> tokenWeightedTf - weighted term frequency of query token
              * ArrayList<String> tokens - query tokens
      */
-    public static void cosineSimilarity(ArrayList<Document> docs, ArrayList<Double> tokenWeightedTf, ArrayList<String> tokens) {
+    public static void cosineSimilarity(ArrayList<Document> docs, ArrayList<Double> tokenWeightedTf, ArrayList<String> tokens, ArrayList<String> queryDocs, int queryNum) {
 
         double sum;
         //hashmap for storing score
@@ -97,8 +97,11 @@ public class Formulas {
                 }
             }
 
+            if (max != 0.0) {
+                System.out.println(queryDocs.get(queryNum) + " 1" + " " + maxDoc + " " + rank + " " + max + " LarsAndCam");
+            }
             //print document ranks
-            System.out.println("0 1 " + " " + maxDoc + " " + rank + " " + max + " LarsAndCam");
+            
             rank++;
             cosineScores.remove(maxDoc);
             count++;

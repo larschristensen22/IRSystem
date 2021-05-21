@@ -122,14 +122,17 @@ public class BooleanSearch {
      * @param query the query entered
      * @param index the index that contains query information
      */
-    public void booleanSearch(ArrayList<String> query, InvertedIndex indexIn) {
+    public void booleanSearch(ArrayList<String> query, InvertedIndex indexIn, ArrayList<String> docNums, int currentQuery) {
         int booleanOp = 0;
+        int queryCount = 0;
         
         //lists that will be intersected
         ArrayList<PostingList> postings1 = new ArrayList<PostingList>();
         ArrayList<PostingList> postings2 = new ArrayList<PostingList>();
         ArrayList<String> docId1 = new ArrayList<String>();
         ArrayList<String> docId2 = new ArrayList<String>();
+        ArrayList<PostingList> longPostings = new ArrayList<PostingList>();
+        ArrayList<ArrayList<String>> longDocId = new ArrayList<ArrayList<String>>();
 
         //check the query to see which boolean operator is used
         if (query.contains("AND")) {
@@ -145,12 +148,16 @@ public class BooleanSearch {
             booleanOp = 2;
         } else {
             booleanOp = 1;
-            postings1.add(indexIn.get(query.get(0).toLowerCase()));
-            postings2.add(indexIn.get(query.get(1).toLowerCase()));
+            for (int i = 0; i < query.size(); i++) {
+                longPostings.add(indexIn.get(query.get(i).toLowerCase()));
+                //System.out.println("ADDING POSTING LIST");
+            }
+            // postings1.add(indexIn.get(query.get(0).toLowerCase()));
+            // postings2.add(indexIn.get(query.get(1).toLowerCase()));
         }
 
         //determine whether or not the query has NOT operator in it
-        if (!query.contains("NOT")) {
+        if (!query.contains("NOT") && longPostings.size() == 0) {
             for (int i = 0; i < postings1.size(); i++) {
                 for (int j = 0; j < postings1.get(i).getPost().size(); j++) {
                     docId1.add(postings1.get(i).getPost().get(j).getDocID());
@@ -161,6 +168,17 @@ public class BooleanSearch {
                     docId2.add(postings2.get(i).getPost().get(j).getDocID());
                 }
             }
+        } else if (longPostings.size() > 0) {
+            for (int i = 0; i < longPostings.size(); i++) {
+                longDocId.add(new ArrayList<String>());
+                //System.out.println("TESTING: " + longPostings.get(i));
+                if (longPostings.get(i) != null) {
+                    for (int j = 0; j < longPostings.get(i).getPost().size(); j++) {
+                        longDocId.get(i).add(longPostings.get(i).getPost().get(j).getDocID());
+                    }
+                }
+                
+            }
         } else {
             for (int i = 0; i < postings1.size(); i++) {
                 for (int j = 0; j < postings1.get(i).getPost().size(); j++) {
@@ -170,13 +188,27 @@ public class BooleanSearch {
             docId2 = allDocs;
         }
         
+        ArrayList<String> result = new ArrayList<String>();
         //intersect the lists based on the operators
-        ArrayList<String> result = BooleanSearch.intersect(docId1, docId2, booleanOp);
-        for (int i = 0; i < result.size(); i++) {
-            //print out results of the intersection
-            System.out.println("0 1 " + result.get(i) + " " + (i + 1) + " 1.0 " + "LarsAndCam");
+        if (longDocId.size() > 0) {
+            for (int i = 0; i < longDocId.size(); i++) {
+                for(int j = 0; j < longDocId.get(i).size(); j++) {
+                    if (!result.contains(longDocId.get(i).get(j))) {
+                        result.add(longDocId.get(i).get(j));
+                    }
+                }
+            }
+            for (int i = 0; i < result.size(); i++) {
+                //print out results of the intersection
+                System.out.println(docNums.get(currentQuery) + " 1" + result.get(i) + " " + (i + 1) + " 1.0 " + "LarsAndCam");
+            }
+        } else {
+            result = BooleanSearch.intersect(docId1, docId2, booleanOp);
+            for (int i = 0; i < result.size(); i++) {
+                //print out results of the intersection
+                System.out.println(docNums.get(currentQuery) + " 1" + result.get(i) + " " + (i + 1) + " 1.0 " + "LarsAndCam");
+            }
         }
-
     }
 
     /**
